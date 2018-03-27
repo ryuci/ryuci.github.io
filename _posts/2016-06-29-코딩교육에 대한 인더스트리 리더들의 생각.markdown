@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "코딩교육에 대한 인더스트리 리더들의 생각"
+date:   2016-06-29 01:22:59 +0900
+author: 정모아빠
+categories: 코딩교육
+tags:	코딩교육
+cover:  "/assets/apple-desk-working-technology.jpeg"
+custom_js:
+- tofigure
+---
+
+코딩 교육의 의의에 대해 인더스트리 리더들은 어떻게 생각하고 있을까요?
+
+
+미국에서 코딩 교육 캠페인을 주도하고 있는 비영리 단체 중의 하나인 [code.org](http://code.org)에도 걸려있는 동영상입니다. 마이크로 소프트 창업자 빌 게이츠, 페이스북 창업자 마크 저커버그 등이 생각하는 코딩 교육에 대해 들어보세요. 안타깝게도 이 영상을 촬영할 당시 스티브 잡스는 이미 고인이 되어 얼굴을 볼 수가 없습니다. 분명히 멋지고 영감 넘치는 말을 해주었을텐데요.
+<br/>
+
+> <iframe width="630" height="354" src="https://www.youtube.com/embed/SESuctdE9vM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<br/>
+
+다음은 스크래치를 개발한 MIT의 밋첼 레스닉이 TED에서 프로그래밍을 통한 교육에 대해 강연하는 모습입니다. 제가 주변의 권유로 코딩 학원을 시작하려고 할 때 교육 철학과 목표를 명확히 표현하고자 한참 애를 썼었는데요, 무언가 머리와 가슴 속에는 분명히 있는데 그것을 말과 글로 표현하는 데 어려움이 있었더랬습니다. 그런데 이 분의 동영상을 보고 바로 내가 생각하는 것이 이것이다라고 무릎을 쳤었더랬습니다. 그 표현이 바로 Code to Learn입니다. Code to Learn의 의미가 무엇인지 이 동영상을 보시면 보다 분명히 이해하실 수 있을 것이라 생각합니다. (재생시 자막 아이콘을 누르시면 한국어 자막도 나옵니다.)
+<br/>
+
+> <iframe width="630" height="354" src="https://www.youtube.com/embed/Ok6LbV6bqaE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>

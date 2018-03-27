@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html>
+  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script>  
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Jekyll Installation on macOS</title>
+  <meta name="description" content="Whenever installing open source based software, I frequently lose confidence whether I’m on the right track in the course of doing it. It’s mainly because I’...">
+  
+  <meta name="author" content="Choong-il Ryu">
+  <meta name="copyright" content="&copy; Choong-il Ryu 2018">
+  
+
+  <!-- External libraries -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/monokai-sublime.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css">
+
+  <!-- Favicon and other icons (made with http://www.favicon-generator.org/) -->
+  <link rel="shortcut icon" href="/assets/icons/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/assets/icons/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/icons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/icons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/icons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/icons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/icons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/icons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/icons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/assets/icons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/assets/icons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+  <link rel="manifest" href="/assets/icons/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/assets/icons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  
+  <!-- Facebook OGP cards -->
+  <meta property="og:description" content="Whenever installing open source based software, I frequently lose confidence whether I’m on the right track in the course of doing it. It’s mainly because I’..." />
+  <meta property="og:url" content="http://ryuci.github.io" />
+  <meta property="og:site_name" content="정모 아빠의 Code to Learn" />
+  <meta property="og:title" content="Jekyll Installation on macOS" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="http://ryuci.github.io/assets/instacode.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="612" />
+  <meta property="og:image:height" content="605" />
+  
+
+  
+  <!-- Twitter: card tags -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Jekyll Installation on macOS">
+  <meta name="twitter:description" content="Whenever installing open source based software, I frequently lose confidence whether I’m on the right track in the course of doing it. It’s mainly because I’...">
+  <meta name="twitter:image" content="http://ryuci.github.io/assets/instacode.png">
+  <meta name="twitter:url" content="http://ryuci.github.io">
+  
+
+  
+
+  <!-- Site styles -->
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://ryuci.github.io/jekyll/2018/03/12/jekyll-installation-on-macos.html">
+  <link rel="alternate" type="application/rss+xml" title="정모 아빠의 Code to Learn" href="http://ryuci.github.io/feed.xml" />
+</head>
+
+
+  <body>
+
+    <header class="navigation" role="banner">
+  <div class="navigation-wrapper">
+    <a href="/" class="logo">
+      
+      <img src="/assets/logo2.png" alt="정모 아빠의 Code to Learn">
+      
+    </a>
+    <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <nav role="navigation">
+      <ul id="js-navigation-menu" class="navigation-menu show">
+        
+          
+          <li class="nav-link"><a href="/posts/">포스팅</a>
+          
+        
+          
+          <li class="nav-link"><a href="/coding_edu/">코딩교육이란?</a>
+          
+        
+          
+          <li class="nav-link"><a href="/class/">수업 소개</a>
+          
+        
+          
+          <li class="nav-link"><a href="/intro/">정모아빠 소개</a>
+          
+        
+          
+          <li class="nav-link"><a href="/contacts/">연락처</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+    <div class="page-content">
+        <div class="post">
+
+<div class="post-header-container has-cover" style="background-image: url(/assets/instacode.png);">
+  <div class="scrim has-cover">
+    <header class="post-header">
+      <h1 class="title">Jekyll Installation on macOS</h1>
+      <p class="info">by <strong>Choong-il Ryu</strong></p>
+    </header>
+  </div>
+</div>
+
+<div class="wrapper">
+
+
+
+<section class="post-meta">
+  <div class="post-date">March 12, 2018</div>
+  <div class="post-categories">
+  in 
+    
+    <a href="/category/Jekyll">Jekyll</a>
+    
+  
+  </div>
+</section>
+
+<article class="post-content">
+  <p>Whenever installing open source based software, I frequently lose confidence whether I’m on the right track in the course of doing it. It’s mainly because I’m not sure if the instructions on the net is suitable for my setting, if I fully understand them, and if I follow them correctly. If I miss something, things go wrong and I have trouble in reverting back, easily get lost. Therefore it’s natural and safe to have my first post on Jekyll platform to be about how to install it.</p>
+
+<p>Jekyll is based on ruby and the installation process heavily uses ruby companion tools. macOS is coming with factory installed ruby, which I was not aware of until now, but it’s not suitable version to install Jekyll. So, we need to start from there.</p>
+
+<h2 id="ruby-version-on-macos-10126-sierra">Ruby Version on macOS 10.12.6 Sierra</h2>
+
+<p>In my setting, I have ruby 2.0.0p648 and gem 2.0.14.1 as follows.</p>
+
+<figure class="highlight"><pre><code class="language-shell" data-lang="shell">~ <span class="nv">$ </span>ruby -v
+ruby 2.0.0p648 <span class="o">(</span>2015-12-16 revision 53162<span class="o">)</span> <span class="o">[</span>universal.x86_64-darwin16]
+~ <span class="nv">$ </span>gem -v
+2.0.14.1</code></pre></figure>
+
+<p><br /></p>
+
+<p>Also, I have following ruby based components already installed. You don’t need this info to install Jekyll, it’s just for my record.</p>
+
+<figure class="highlight"><pre><code class="language-shell" data-lang="shell">~ <span class="nv">$ </span>gem list
+
+<span class="k">***</span> LOCAL GEMS <span class="k">***</span>
+
+bigdecimal <span class="o">(</span>1.2.0<span class="o">)</span>
+bundler <span class="o">(</span>1.16.1<span class="o">)</span>
+CFPropertyList <span class="o">(</span>2.2.8<span class="o">)</span>
+io-console <span class="o">(</span>0.4.2<span class="o">)</span>
+json <span class="o">(</span>1.7.7<span class="o">)</span>
+libxml-ruby <span class="o">(</span>2.6.0<span class="o">)</span>
+minitest <span class="o">(</span>4.3.2<span class="o">)</span>
+nokogiri <span class="o">(</span>1.5.6<span class="o">)</span>
+psych <span class="o">(</span>2.0.0<span class="o">)</span>
+rake <span class="o">(</span>0.9.6<span class="o">)</span>
+rdoc <span class="o">(</span>4.0.0<span class="o">)</span>
+ruby <span class="o">(</span>0.1.0<span class="o">)</span>
+sqlite3 <span class="o">(</span>1.3.7<span class="o">)</span>
+<span class="nb">test</span>-unit <span class="o">(</span>2.0.0.0<span class="o">)</span></code></pre></figure>
+
+<p><br /></p>
+
+<h2 id="install-jekyll-first-trial">Install Jekyll, First Trial</h2>
+
+<p>When I tried to install Jekyll in the setting above I got following error.</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="o">~</span> <span class="nx">$</span> <span class="nx">gem</span> <span class="nx">install</span> <span class="nx">jekyll</span>
+<span class="nl">ERROR</span><span class="p">:</span>  <span class="nx">While</span> <span class="nx">executing</span> <span class="nx">gem</span> <span class="p">...</span> <span class="p">(</span><span class="nx">Gem</span><span class="err">::</span><span class="nx">FilePermissionError</span><span class="p">)</span>
+    <span class="nx">You</span> <span class="nx">don</span><span class="err">'</span><span class="nx">t</span> <span class="nx">have</span> <span class="nx">write</span> <span class="nx">permissions</span> <span class="k">for</span> <span class="nx">the</span> <span class="o">/</span><span class="nx">Library</span><span class="o">/</span><span class="nx">Ruby</span><span class="o">/</span><span class="nx">Gems</span><span class="o">/</span><span class="mf">2.0</span><span class="p">.</span><span class="mi">0</span> <span class="nx">directory</span><span class="p">.</span></code></pre></figure>
+
+<p><br /></p>
+
+<p>Since it says I have no permission for <code class="highlighter-rouge">/Library/Ruby/Gems/2.0.0</code>, I tried <code class="highlighter-rouge">sudo</code>.
+Now, I realized I needed ruby version equal to or higher than 2.1.</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="o">~</span> <span class="nx">$</span> <span class="nx">sudo</span> <span class="nx">gem</span> <span class="nx">install</span> <span class="nx">jekyll</span>
+<span class="nl">Password</span><span class="p">:</span>
+<span class="nl">ERROR</span><span class="p">:</span>  <span class="nb">Error</span> <span class="nx">installing</span> <span class="nx">jekyll</span><span class="err">:</span>
+	<span class="nx">public_suffix</span> <span class="nx">requires</span> <span class="nx">Ruby</span> <span class="nx">version</span> <span class="o">&gt;=</span> <span class="mf">2.1</span><span class="p">.</span></code></pre></figure>
+
+<p><br /></p>
+
+<h2 id="upgrade-ruby">Upgrade Ruby</h2>
+
+<p>According to internet, there are many ways to install ruby on macOS with some of them obsolete. I chose to use <a href="https://github.com/rbenv/rbenv">rbenv</a> to install ruby and, in turn, I need <a href="https://brew.sh/index_ko">Homebrew</a> to install <a href="https://github.com/rbenv/rbenv">rbenv</a>. Just check current brew version for the record.</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="o">~</span> <span class="nx">$</span> <span class="nx">brew</span> <span class="o">--</span><span class="nx">version</span>
+<span class="nx">Homebrew</span> <span class="mf">1.5</span><span class="p">.</span><span class="mi">10</span>
+<span class="nx">Homebrew</span><span class="o">/</span><span class="nx">homebrew</span><span class="o">-</span><span class="nx">core</span> <span class="p">(</span><span class="nx">git</span> <span class="nx">revision</span> <span class="mi">537</span><span class="nx">a8</span><span class="p">;</span> <span class="nx">last</span> <span class="nx">commit</span> <span class="mi">2018</span><span class="o">-</span><span class="mi">03</span><span class="o">-</span><span class="mi">11</span><span class="p">)</span></code></pre></figure>
+
+<p><br /></p>
+
+<p>Install <a href="https://github.com/rbenv/rbenv">rbenv</a> using brew. Great… I have another error, about Xcode this time.</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="o">~</span> <span class="nx">$</span> <span class="nx">brew</span> <span class="nx">install</span> <span class="nx">rbenv</span>
+<span class="nx">Updating</span> <span class="nx">Homebrew</span><span class="p">...</span>
+<span class="o">==&gt;</span> <span class="nx">Auto</span><span class="o">-</span><span class="nx">updated</span> <span class="nx">Homebrew</span><span class="o">!</span>
+<span class="nx">Updated</span> <span class="mi">1</span> <span class="nx">tap</span> <span class="p">(</span><span class="nx">homebrew</span><span class="o">/</span><span class="nx">core</span><span class="p">).</span>
+<span class="o">==&gt;</span> <span class="nx">New</span> <span class="nx">Formulae</span>
+<span class="nx">arm</span><span class="o">-</span><span class="nx">linux</span><span class="o">-</span><span class="nx">gnueabihf</span><span class="o">-</span><span class="nx">binutils</span>             <span class="nx">libbitcoin</span><span class="o">-</span><span class="nx">network</span>
+<span class="nx">draco</span>
+<span class="o">==&gt;</span> <span class="nx">Updated</span> <span class="nx">Formulae</span>
+<span class="nx">anjuta</span>                     <span class="nx">libbitcoin</span><span class="o">-</span><span class="nx">blockchain</span>      <span class="nx">peco</span>
+<span class="nx">asdf</span>                       <span class="nx">libbitcoin</span><span class="o">-</span><span class="nx">explorer</span>        <span class="nx">pipenv</span>
+<span class="nx">automake</span>                   <span class="nx">libbitcoin</span><span class="o">-</span><span class="nx">node</span>            <span class="nx">rtv</span>
+<span class="nx">coffeescript</span>               <span class="nx">libbitcoin</span><span class="o">-</span><span class="nx">server</span>          <span class="nx">vala</span>
+<span class="nx">darksky</span><span class="o">-</span><span class="nx">weather</span>            <span class="nx">libbladerf</span>                 <span class="nx">znc</span>
+<span class="nx">dehydrated</span>                 <span class="nx">nim</span>
+<span class="nx">gdl</span>                        <span class="nx">nopoll</span>
+
+<span class="nl">Error</span><span class="p">:</span> <span class="nx">Xcode</span> <span class="nx">alone</span> <span class="nx">is</span> <span class="nx">not</span> <span class="nx">sufficient</span> <span class="nx">on</span> <span class="nx">Sierra</span><span class="p">.</span>
+<span class="nx">Install</span> <span class="nx">the</span> <span class="nx">Command</span> <span class="nx">Line</span> <span class="nx">Tools</span><span class="err">:</span>
+  <span class="nx">xcode</span><span class="o">-</span><span class="nx">select</span></code></pre></figure>
+
+<p><br /></p>
+
+<p>Try to install xcode-select. Looks good.</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="o">~</span> <span class="nx">$</span> <span class="nx">xcode</span><span class="o">-</span><span class="nx">select</span> <span class="o">--</span><span class="nx">install</span>
+<span class="nx">xcode</span><span class="o">-</span><span class="nx">select</span><span class="err">:</span> <span class="nx">note</span><span class="err">:</span> <span class="nx">install</span> <span class="nx">requested</span> <span class="k">for</span> <span class="nx">command</span> <span class="nx">line</span> <span class="nx">developer</span> <span class="nx">tools</span></code></pre></figure>
+
+<p><br /></p>
+
+<p>Try again to install <a href="https://github.com/rbenv/rbenv">rbenv</a>.
+This time I come across <code class="highlighter-rouge">Error: The 'brew link' step did not complete successfully</code></p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="o">~</span> <span class="nx">$</span> <span class="nx">brew</span> <span class="nx">install</span> <span class="nx">rbenv</span>
+<span class="o">==&gt;</span> <span class="nx">Installing</span> <span class="nx">dependencies</span> <span class="k">for</span> <span class="nx">rbenv</span><span class="err">:</span> <span class="nx">autoconf</span><span class="p">,</span> <span class="nx">pkg</span><span class="o">-</span><span class="nx">config</span><span class="p">,</span> <span class="nx">openssl</span><span class="p">,</span> <span class="nx">ruby</span><span class="o">-</span><span class="nx">build</span>
+<span class="o">==&gt;</span> <span class="nx">Installing</span> <span class="nx">rbenv</span> <span class="nx">dependency</span><span class="err">:</span> <span class="nx">autoconf</span>
+<span class="o">==&gt;</span> <span class="nx">Downloading</span> <span class="nx">https</span><span class="err">:</span><span class="c1">//homebrew.bintray.com/bottles/autoconf-2.69.sierra.bottle</span>
+<span class="err">########################################################################</span> <span class="mf">100.0</span><span class="o">%</span>
+<span class="o">==&gt;</span> <span class="nx">Pouring</span> <span class="nx">autoconf</span><span class="o">-</span><span class="mf">2.69</span><span class="p">.</span><span class="nx">sierra</span><span class="p">.</span><span class="nx">bottle</span><span class="p">.</span><span class="mi">4</span><span class="p">.</span><span class="nx">tar</span><span class="p">.</span><span class="nx">gz</span>
+<span class="nl">Error</span><span class="p">:</span> <span class="nx">The</span> <span class="err">`</span><span class="nx">brew</span> <span class="nx">link</span><span class="err">`</span> <span class="nx">step</span> <span class="nx">did</span> <span class="nx">not</span> <span class="nx">complete</span> <span class="nx">successfully</span>
+<span class="nx">The</span> <span class="nx">formula</span> <span class="nx">built</span><span class="p">,</span> <span class="nx">but</span> <span class="nx">is</span> <span class="nx">not</span> <span class="nx">symlinked</span> <span class="nx">into</span> <span class="o">/</span><span class="nx">usr</span><span class="o">/</span><span class="nx">local</span>
+<span class="nx">Could</span> <span class="nx">not</span> <span class="nx">symlink</span> <span class="nx">share</span><span class="o">/</span><span class="nx">info</span><span class="o">/</span><span class="nx">autoconf</span><span class="p">.</span><span class="nx">info</span>
+<span class="sr">/usr/</span><span class="nx">local</span><span class="o">/</span><span class="nx">share</span><span class="o">/</span><span class="nx">info</span> <span class="nx">is</span> <span class="nx">not</span> <span class="nx">writable</span><span class="p">.</span>
+
+<span class="nx">You</span> <span class="nx">can</span> <span class="k">try</span> <span class="nx">again</span> <span class="nx">using</span><span class="err">:</span>
+  <span class="nx">brew</span> <span class="nx">link</span> <span class="nx">autoconf</span>
+<span class="o">==&gt;</span> <span class="nx">Installation</span> <span class="nx">continues</span><span class="p">.</span></code></pre></figure>
+
+<p><br /></p>
+
+<p>As the error message suggested, I ran <code class="highlighter-rouge">brew link autoconf</code>.
+Oh, I don’t have write permission on <code class="highlighter-rouge">/usr/local/share/info</code>. I changed the permission and tried again to success.</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="o">~</span> <span class="nx">$</span> <span class="nx">brew</span> <span class="nx">link</span> <span class="nx">autoconf</span>
+<span class="nx">Linking</span> <span class="o">/</span><span class="nx">usr</span><span class="o">/</span><span class="nx">local</span><span class="o">/</span><span class="nx">Cellar</span><span class="o">/</span><span class="nx">autoconf</span><span class="o">/</span><span class="mf">2.69</span><span class="p">...</span>
+<span class="nl">Error</span><span class="p">:</span> <span class="nx">Could</span> <span class="nx">not</span> <span class="nx">symlink</span> <span class="nx">share</span><span class="o">/</span><span class="nx">info</span><span class="o">/</span><span class="nx">autoconf</span><span class="p">.</span><span class="nx">info</span>
+<span class="sr">/usr/</span><span class="nx">local</span><span class="o">/</span><span class="nx">share</span><span class="o">/</span><span class="nx">info</span> <span class="nx">is</span> <span class="nx">not</span> <span class="nx">writable</span><span class="p">.</span></code></pre></figure>
+
+<p><br /></p>
+
+<p>Now I am ready to install ruby. (Not Jekyll!)
+Using following command, I can see numbers of available ruby versions.</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="o">~</span> <span class="nx">$</span> <span class="nx">rbenv</span> <span class="nx">install</span> <span class="o">-</span><span class="nx">l</span></code></pre></figure>
+
+<p><br /></p>
+
+<p>As of today, the latest stable version looks 2.5.0. Get it.</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="o">~</span> <span class="nx">$</span> <span class="nx">rbenv</span> <span class="nx">install</span> <span class="mf">2.5</span><span class="p">.</span><span class="mi">0</span>
+<span class="nx">ruby</span><span class="o">-</span><span class="nx">build</span><span class="err">:</span> <span class="nx">use</span> <span class="nx">openssl</span> <span class="nx">from</span> <span class="nx">homebrew</span>
+<span class="nx">Downloading</span> <span class="nx">ruby</span><span class="o">-</span><span class="mf">2.5</span><span class="p">.</span><span class="mi">0</span><span class="p">.</span><span class="nx">tar</span><span class="p">.</span><span class="nx">bz2</span><span class="p">...</span>
+<span class="o">-&gt;</span> <span class="nx">https</span><span class="err">:</span><span class="c1">//cache.ruby-lang.org/pub/ruby/2.5/ruby-2.5.0.tar.bz2</span>
+<span class="nx">Installing</span> <span class="nx">ruby</span><span class="o">-</span><span class="mf">2.5</span><span class="p">.</span><span class="mi">0</span><span class="p">...</span>
+<span class="nx">Installed</span> <span class="nx">ruby</span><span class="o">-</span><span class="mf">2.5</span><span class="p">.</span><span class="mi">0</span> <span class="nx">to</span> <span class="o">/</span><span class="nx">Users</span><span class="o">/</span><span class="nx">ryuci</span><span class="o">/</span><span class="p">.</span><span class="nx">rbenv</span><span class="o">/</span><span class="nx">versions</span><span class="o">/</span><span class="mf">2.5</span><span class="p">.</span><span class="mi">0</span></code></pre></figure>
+
+<p><br /></p>
+
+<h2 id="make-macos-aware-of-ruby-25">Make macOS Aware of Ruby 2.5</h2>
+
+<p>Now I have two versions of ruby, the factory installed 2.0 and the upgraded 2.5.
+When I run <code class="highlighter-rouge">ruby -v</code> in the terminal, I can see 2.0 running.</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="o">~</span> <span class="nx">$</span> <span class="nx">ruby</span> <span class="o">-</span><span class="nx">v</span>
+<span class="nx">ruby</span> <span class="mf">2.0</span><span class="p">.</span><span class="mi">0</span><span class="nx">p648</span> <span class="p">(</span><span class="mi">2015</span><span class="o">-</span><span class="mi">12</span><span class="o">-</span><span class="mi">16</span> <span class="nx">revision</span> <span class="mi">53162</span><span class="p">)</span> <span class="p">[</span><span class="nx">universal</span><span class="p">.</span><span class="nx">x86_64</span><span class="o">-</span><span class="nx">darwin16</span><span class="p">]</span></code></pre></figure>
+
+<p><br /></p>
+
+<p>To make 2.5 to run, I need to dig in <a href="https://github.com/rbenv/rbenv">rbenv</a> configuration.<br />
+As shown below, I have hidden folder <code class="highlighter-rouge">.rbenv</code> under my home folder. Note that there is no <code class="highlighter-rouge">version</code> file in it yet while I got <code class="highlighter-rouge">versions</code> folder.</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="o">~</span> <span class="nx">$</span> <span class="nx">ls</span> <span class="o">-</span><span class="nx">al</span> <span class="p">.</span><span class="nx">rbenv</span>
+<span class="nx">total</span> <span class="mi">0</span>
+<span class="nx">drwxr</span><span class="o">-</span><span class="nx">xr</span><span class="o">-</span><span class="nx">x</span>   <span class="mi">4</span> <span class="nx">ryuci</span>  <span class="nx">staff</span>   <span class="mi">136</span>  <span class="mi">3</span> <span class="mi">12</span> <span class="mi">13</span><span class="err">:</span><span class="mi">22</span> <span class="p">.</span>
+<span class="nx">drwxr</span><span class="o">-</span><span class="nx">xr</span><span class="o">-</span><span class="nx">x</span><span class="o">+</span> <span class="mi">66</span> <span class="nx">ryuci</span>  <span class="nx">staff</span>  <span class="mi">2244</span>  <span class="mi">3</span> <span class="mi">12</span> <span class="mi">13</span><span class="err">:</span><span class="mi">19</span> <span class="p">..</span>
+<span class="nx">drwxr</span><span class="o">-</span><span class="nx">xr</span><span class="o">-</span><span class="nx">x</span>   <span class="mi">9</span> <span class="nx">ryuci</span>  <span class="nx">staff</span>   <span class="mi">306</span>  <span class="mi">3</span> <span class="mi">12</span> <span class="mi">13</span><span class="err">:</span><span class="mi">22</span> <span class="nx">shims</span>
+<span class="nx">drwxr</span><span class="o">-</span><span class="nx">xr</span><span class="o">-</span><span class="nx">x</span>   <span class="mi">3</span> <span class="nx">ryuci</span>  <span class="nx">staff</span>   <span class="mi">102</span>  <span class="mi">3</span> <span class="mi">12</span> <span class="mi">13</span><span class="err">:</span><span class="mi">19</span> <span class="nx">versions</span></code></pre></figure>
+
+<p><br /></p>
+
+<p>Run <code class="highlighter-rouge">rbenv global 2.5.0</code> and check <code class="highlighter-rouge">.rbenv/</code> to find <code class="highlighter-rouge">version</code> file, which tells ruby version number I want to use.
+There are three way to let macOS aware of ruby version, <code class="highlighter-rouge">global, local, shell</code>. For more info, read <a href="https://github.com/rbenv/rbenv#command-reference">this</a>.</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="o">~</span> <span class="nx">$</span> <span class="nx">rbenv</span> <span class="nx">global</span> <span class="mf">2.5</span><span class="p">.</span><span class="mi">0</span>
+<span class="o">~</span> <span class="nx">$</span> <span class="nx">ls</span> <span class="p">.</span><span class="nx">rbenv</span><span class="o">/</span>
+<span class="nx">shims</span>		<span class="nx">version</span>		<span class="nx">versions</span>
+<span class="o">~</span> <span class="nx">$</span> <span class="nx">cat</span> <span class="p">.</span><span class="nx">rbenv</span><span class="o">/</span><span class="nx">version</span>
+<span class="mf">2.5</span><span class="p">.</span><span class="mi">0</span></code></pre></figure>
+
+<p><br /></p>
+
+<p>Unfortunately we am not there yet. In <code class="highlighter-rouge">.rbenv/shims</code>, we have a collection of scripts to run ruby.
+This folder should be in <code class="highlighter-rouge">PATH</code> environment variable so that macOS know where to search for ruby 2.5.</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="o">~</span> <span class="nx">$</span> <span class="nx">ls</span> <span class="p">.</span><span class="nx">rbenv</span><span class="o">/</span><span class="nx">shims</span>
+<span class="nx">erb</span>	<span class="nx">gem</span>	<span class="nx">irb</span>	<span class="nx">rake</span>	<span class="nx">rdoc</span>	<span class="nx">ri</span>	<span class="nx">ruby</span></code></pre></figure>
+
+<p><br /></p>
+
+<p>Add following line in your bash config file, which is <code class="highlighter-rouge">~/.bash_profile</code> in my case, and restart the terminal.</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kr">export</span> <span class="nx">PATH</span><span class="o">=</span><span class="s2">"~/.rbenv/shims:$PATH"</span></code></pre></figure>
+
+<p><br /></p>
+
+<p>Run ruby, then you will see it’s running version 2.5.</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="o">~</span> <span class="nx">$</span> <span class="nx">ruby</span> <span class="o">-</span><span class="nx">v</span>
+<span class="nx">ruby</span> <span class="mf">2.5</span><span class="p">.</span><span class="mi">0</span><span class="nx">p0</span> <span class="p">(</span><span class="mi">2017</span><span class="o">-</span><span class="mi">12</span><span class="o">-</span><span class="mi">25</span> <span class="nx">revision</span> <span class="mi">61468</span><span class="p">)</span> <span class="p">[</span><span class="nx">x86_64</span><span class="o">-</span><span class="nx">darwin16</span><span class="p">]</span></code></pre></figure>
+
+<p><br /></p>
+
+<h2 id="install-jekyll-second-trial">Install Jekyll, Second Trial</h2>
+
+<p>At last, we are ready to install Jekyll.</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="o">~</span> <span class="nx">$</span> <span class="nx">gem</span> <span class="nx">install</span> <span class="nx">jekyll</span>
+<span class="nl">Fetching</span><span class="p">:</span> <span class="nx">public_suffix</span><span class="o">-</span><span class="mf">3.0</span><span class="p">.</span><span class="mi">2</span><span class="p">.</span><span class="nx">gem</span> <span class="p">(</span><span class="mi">100</span><span class="o">%</span><span class="p">)</span>
+<span class="nx">Successfully</span> <span class="nx">installed</span> <span class="nx">public_suffix</span><span class="o">-</span><span class="mf">3.0</span><span class="p">.</span><span class="mi">2</span>
+<span class="p">...</span>
+<span class="nx">Done</span> <span class="nx">installing</span> <span class="nx">documentation</span> <span class="k">for</span> <span class="nx">public_suffix</span><span class="p">,</span> <span class="nx">addressable</span><span class="p">,</span> <span class="nx">colorator</span><span class="p">,</span> <span class="nx">http_parser</span><span class="p">.</span><span class="nx">rb</span><span class="p">,</span> <span class="nx">eventmachine</span><span class="p">,</span> <span class="nx">em</span><span class="o">-</span><span class="nx">websocket</span><span class="p">,</span> <span class="nx">concurrent</span><span class="o">-</span><span class="nx">ruby</span><span class="p">,</span> <span class="nx">i18n</span><span class="p">,</span> <span class="nx">rb</span><span class="o">-</span><span class="nx">fsevent</span><span class="p">,</span> <span class="nx">ffi</span><span class="p">,</span> <span class="nx">rb</span><span class="o">-</span><span class="nx">inotify</span><span class="p">,</span> <span class="nx">sass</span><span class="o">-</span><span class="nx">listen</span><span class="p">,</span> <span class="nx">sass</span><span class="p">,</span> <span class="nx">jekyll</span><span class="o">-</span><span class="nx">sass</span><span class="o">-</span><span class="nx">converter</span><span class="p">,</span> <span class="nx">ruby_dep</span><span class="p">,</span> <span class="nx">listen</span><span class="p">,</span> <span class="nx">jekyll</span><span class="o">-</span><span class="nx">watch</span><span class="p">,</span> <span class="nx">kramdown</span><span class="p">,</span> <span class="nx">liquid</span><span class="p">,</span> <span class="nx">mercenary</span><span class="p">,</span> <span class="nx">forwardable</span><span class="o">-</span><span class="nx">extended</span><span class="p">,</span> <span class="nx">pathutil</span><span class="p">,</span> <span class="nx">rouge</span><span class="p">,</span> <span class="nx">safe_yaml</span><span class="p">,</span> <span class="nx">jekyll</span> <span class="nx">after</span> <span class="mi">57</span> <span class="nx">seconds</span>
+<span class="mi">25</span> <span class="nx">gems</span> <span class="nx">installed</span></code></pre></figure>
+
+<p><br /></p>
+
+<p>Oh, we need to install bundler too.</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="o">~</span> <span class="nx">$</span> <span class="nx">gem</span> <span class="nx">install</span> <span class="nx">bundler</span>
+<span class="nl">Fetching</span><span class="p">:</span> <span class="nx">bundler</span><span class="o">-</span><span class="mf">1.16</span><span class="p">.</span><span class="mi">1</span><span class="p">.</span><span class="nx">gem</span> <span class="p">(</span><span class="mi">100</span><span class="o">%</span><span class="p">)</span>
+<span class="nx">Successfully</span> <span class="nx">installed</span> <span class="nx">bundler</span><span class="o">-</span><span class="mf">1.16</span><span class="p">.</span><span class="mi">1</span>
+<span class="nx">Parsing</span> <span class="nx">documentation</span> <span class="k">for</span> <span class="nx">bundler</span><span class="o">-</span><span class="mf">1.16</span><span class="p">.</span><span class="mi">1</span>
+<span class="nx">Installing</span> <span class="nx">ri</span> <span class="nx">documentation</span> <span class="k">for</span> <span class="nx">bundler</span><span class="o">-</span><span class="mf">1.16</span><span class="p">.</span><span class="mi">1</span>
+<span class="nx">Done</span> <span class="nx">installing</span> <span class="nx">documentation</span> <span class="k">for</span> <span class="nx">bundler</span> <span class="nx">after</span> <span class="mi">3</span> <span class="nx">seconds</span>
+<span class="mi">1</span> <span class="nx">gem</span> <span class="nx">installed</span></code></pre></figure>
+
+<p><br /></p>
+
+<h2 id="make-your-blog-folder">Make Your Blog Folder</h2>
+
+<p>Run following commands and open http://localhost:4000 from your browser, then you can see Jekyll blog is running.</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="o">~</span> <span class="nx">$</span> <span class="nx">jekyll</span> <span class="k">new</span> <span class="nx">my</span><span class="o">-</span><span class="nx">awesome</span><span class="o">-</span><span class="nx">site</span>
+<span class="o">~</span> <span class="nx">$</span> <span class="nx">cd</span> <span class="nx">my</span><span class="o">-</span><span class="nx">awesome</span><span class="o">-</span><span class="nx">site</span>
+<span class="nx">my</span><span class="o">-</span><span class="nx">awesome</span><span class="o">-</span><span class="nx">site</span> <span class="nx">$</span> <span class="nx">bundle</span> <span class="nx">exec</span> <span class="nx">jekyll</span> <span class="nx">serve</span></code></pre></figure>
+
+<p><br /></p>
+
+<p>However, you still have it loaded to GitHub and probably want to change its theme. So, let’s continue.</p>
+
+<h2 id="make-github-repository">Make GitHub Repository</h2>
+
+<p>If you are sure you don’t need to change Jekyll’s default theme, you just have to make GitHub repository, and run following commands in <code class="highlighter-rouge">my-awesome-site</code> folder. Otherwise, just go to next section.</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">my</span><span class="o">-</span><span class="nx">awesome</span><span class="o">-</span><span class="nx">site</span> <span class="nx">$</span> <span class="nx">git</span> <span class="nx">init</span>
+<span class="nx">my</span><span class="o">-</span><span class="nx">awesome</span><span class="o">-</span><span class="nx">site</span> <span class="nx">$</span> <span class="nx">git</span> <span class="nx">commit</span> <span class="o">-</span><span class="nx">m</span> <span class="s2">"first commit"</span>
+<span class="nx">my</span><span class="o">-</span><span class="nx">awesome</span><span class="o">-</span><span class="nx">site</span> <span class="nx">$</span> <span class="nx">git</span> <span class="nx">remote</span> <span class="nx">add</span> <span class="nx">origin</span> <span class="nx">https</span><span class="err">:</span><span class="c1">//github.com/{Your GitHub ID}/{Your GitHub ID}.github.io.git</span>
+<span class="nx">my</span><span class="o">-</span><span class="nx">awesome</span><span class="o">-</span><span class="nx">site</span> <span class="nx">$</span> <span class="nx">git</span> <span class="nx">push</span> <span class="o">-</span><span class="nx">u</span> <span class="nx">origin</span> <span class="nx">master</span></code></pre></figure>
+
+<p><br /></p>
+
+<h2 id="change-the-theme-to-centrarium">Change the Theme to Centrarium</h2>
+
+<p>If you want to change the theme as I do, it may be easier to do as follows. I will use <a href="https://github.com/bencentra/centrarium">Centrarium</a> theme.</p>
+
+<ol>
+  <li>Forget <code class="highlighter-rouge">my-awesome-site</code> folder.</li>
+  <li>Make another folder, which is <code class="highlighter-rouge">ryuci.github.io</code> in my case.</li>
+  <li>Download <a href="https://github.com/bencentra/centrarium">Centrarium files</a> to the folder.</li>
+  <li>Tweak it according to your need. <a href="/jekyll/2018/03/15/tweaking-centrarium-theme.html">Tweaking Centrarium Theme</a> might be of help.</li>
+  <li>Run following commands.</li>
+</ol>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="o">~</span> <span class="nx">$</span> <span class="nx">cd</span> <span class="nx">ryuci</span><span class="p">.</span><span class="nx">github</span><span class="p">.</span><span class="nx">io</span>
+<span class="nx">ryuci</span><span class="p">.</span><span class="nx">github</span><span class="p">.</span><span class="nx">io</span> <span class="nx">$</span> <span class="nx">bundle</span> <span class="nx">install</span>
+<span class="err">#</span> <span class="o">=&gt;</span> <span class="nx">This</span> <span class="nx">will</span> <span class="nx">install</span> <span class="nx">Jekyll</span><span class="o">-</span><span class="nx">archives</span><span class="p">,</span> <span class="nx">jekyll</span><span class="o">-</span><span class="nx">sitemap</span><span class="p">,</span> <span class="nx">and</span> <span class="nx">jekyll</span><span class="o">-</span><span class="nx">paginate</span><span class="p">.</span>
+<span class="nx">ryuci</span><span class="p">.</span><span class="nx">github</span><span class="p">.</span><span class="nx">io</span> <span class="nx">$</span> <span class="nx">rm</span> <span class="p">.</span><span class="nx">ruby</span><span class="o">-</span><span class="nx">version</span>
+<span class="err">#</span> <span class="o">=&gt;</span> <span class="nx">Because</span> <span class="nx">I</span> <span class="nx">already</span> <span class="nx">ran</span> <span class="s1">'rbenv global 2.5.0'</span><span class="p">,</span> <span class="nx">and</span> <span class="nx">don</span><span class="s1">'t need '</span><span class="p">.</span><span class="nx">ruby</span><span class="o">-</span><span class="nx">version</span><span class="err">'</span><span class="p">.</span>
+<span class="nx">ryuci</span><span class="p">.</span><span class="nx">github</span><span class="p">.</span><span class="nx">io</span> <span class="nx">$</span> <span class="nx">git</span> <span class="nx">init</span>
+<span class="nx">ryuci</span><span class="p">.</span><span class="nx">github</span><span class="p">.</span><span class="nx">io</span> <span class="nx">$</span> <span class="nx">git</span> <span class="nx">commit</span> <span class="o">-</span><span class="nx">m</span> <span class="s2">"first commit"</span>
+<span class="nx">ryuci</span><span class="p">.</span><span class="nx">github</span><span class="p">.</span><span class="nx">io</span> <span class="nx">$</span> <span class="nx">git</span> <span class="nx">remote</span> <span class="nx">add</span> <span class="nx">origin</span> <span class="nx">https</span><span class="err">:</span><span class="c1">//github.com/ryuci/ryuci.github.io.git</span>
+<span class="err">#</span> <span class="o">=&gt;</span> <span class="nx">Repository</span> <span class="nx">link</span> <span class="nx">should</span> <span class="nx">be</span> <span class="nx">yours</span><span class="p">.</span>
+<span class="nx">ryuci</span><span class="p">.</span><span class="nx">github</span><span class="p">.</span><span class="nx">io</span> <span class="nx">$</span> <span class="nx">git</span> <span class="nx">push</span> <span class="o">-</span><span class="nx">u</span> <span class="nx">origin</span> <span class="nx">master</span></code></pre></figure>
+
+<p><br /></p>
+
+<h2 id="activate-your-blog">Activate Your Blog</h2>
+
+<h3 id="using-local-folder">Using Local Folder</h3>
+
+<p>Run following commands and open http://localhost:4000 from your browser.</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="o">~</span> <span class="nx">$</span> <span class="nx">cd</span> <span class="nx">ryuci</span><span class="p">.</span><span class="nx">github</span><span class="p">.</span><span class="nx">io</span>
+<span class="nx">ryuci</span><span class="p">.</span><span class="nx">github</span><span class="p">.</span><span class="nx">io</span> <span class="nx">$</span> <span class="nx">bundle</span> <span class="nx">exec</span> <span class="nx">jekyll</span> <span class="nx">serve</span></code></pre></figure>
+
+<p><br /></p>
+
+<h3 id="using-github">Using GitHub</h3>
+
+<p>Open http://ryuci.github.io from your browser.</p>
+
+<p>That’s all, folks!</p>
+
+
+</article>
+
+
+
+<section class="tags">
+  <strong>Tags:</strong> <a href="/tag/jekyll">jekyll</a>,&nbsp;<a href="/tag/macos">macos</a>,&nbsp;<a href="/tag/centrarium">centrarium</a>
+</section>
+
+
+
+<section class="rss">
+  <p class="rss-subscribe text"><strong>Subscribe <a href="/feed.xml">via RSS</a></strong></p>
+</section>
+
+<section class="share">
+  <span>Share: </span>
+  
+    
+    
+      <a href="//twitter.com/share?text=Jekyll+Installation+on+macOS&url=http%3A%2F%2Fryuci.github.io%2Fjekyll%2F2018%2F03%2F12%2Fjekyll-installation-on-macos.html&via="
+        onclick="window.open(this.href, 'twitter-share', 'width=550,height=255');return false;">
+        <i class="fa fa-twitter-square fa-lg"></i>
+      </a>
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+      <a href="//www.facebook.com/sharer.php?t=Jekyll+Installation+on+macOS&u=http%3A%2F%2Fryuci.github.io%2Fjekyll%2F2018%2F03%2F12%2Fjekyll-installation-on-macos.html"
+        onclick="window.open(this.href, 'facebook-share', 'width=550,height=255');return false;">
+        <i class="fa fa-facebook-square fa-lg"></i>
+      </a>
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+      <a href="//www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fryuci.github.io%2Fjekyll%2F2018%2F03%2F12%2Fjekyll-installation-on-macos.html"
+        onclick="window.open(this.href, 'linkedin-share', 'width=550,height=255');return false;">
+        <i class="fa fa-linkedin-square fa-lg"></i>
+      </a>
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      <a href="//plus.google.com/share?title=Jekyll+Installation+on+macOS&url=http%3A%2F%2Fryuci.github.io%2Fjekyll%2F2018%2F03%2F12%2Fjekyll-installation-on-macos.html"
+        onclick="window.open(this.href, 'google-plus-share', 'width=550,height=255');return false;">
+        <i class="fa fa-google-plus-square fa-lg"></i>
+      </a>
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+      <a href="//www.pinterest.com/pin/create/button/?description=Jekyll+Installation+on+macOS&url=http%3A%2F%2Fryuci.github.io%2Fjekyll%2F2018%2F03%2F12%2Fjekyll-installation-on-macos.html&media=http://ryuci.github.io/assets/instacode.png"
+        onclick="window.open(this.href, 'pinterest-share', 'width=550,height=255');return false;">
+        <i class="fa fa-pinterest-square fa-lg"></i>
+      </a>
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+      <a href="//www.reddit.com/submit" onclick="window.location = '//www.reddit.com/submit?url=' + encodeURIComponent('http://ryuci.github.io/jekyll/2018/03/12/jekyll-installation-on-macos.html') + '&title=Jekyll Installation on macOS'; return false">
+        <i class="fa fa-reddit-square fa-lg"></i>
+      </a>
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+</section>
+
+	<section class="post-navigation">
+		<span class="prev-post">
+			
+				<a href="/%EC%BD%94%EB%94%A9%EA%B5%90%EC%9C%A1/2016/07/27/%EB%8F%84%EB%8C%80%EC%B2%B4-%EC%96%BC%EB%A7%88%EB%82%98-%EC%98%A4%EB%9E%98-%EC%BD%94%EB%94%A9%EC%9D%84-%EB%B0%B0%EC%9B%8C%EC%95%BC-%ED%95%98%EB%82%98%EC%9A%94.html">
+					<span class="fa-stack fa-lg">
+						<i class="fa fa-square fa-stack-2x"></i>
+						<i class="fa fa-angle-double-left fa-stack-1x fa-inverse"></i>
+					</span>
+					<span class="page-number">도대체 얼마나 오래 코딩을 배워야 하나요?</span>
+				</a>
+			
+		</span>
+		<span class="next-post">
+			
+				<a href="/mathematics/2018/03/12/solution-to-invitation-to-discrete-mathematics.html">
+					<span class="page-number">Solution to 'Invitation to Discrete Mathematics'</span>
+					<span class="fa-stack fa-lg">
+						<i class="fa fa-square fa-stack-2x"></i>
+						<i class="fa fa-angle-double-right fa-stack-1x fa-inverse"></i>
+					</span>
+				</a>
+			
+		</span>
+	</section>
+
+
+
+
+</div>
+</div>
+
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h3 class="footer-heading">정모 아빠의 Code to Learn</h3>
+
+    <div class="site-navigation">
+
+      <p><strong>Site Map</strong></p>
+      <ul class="pages">
+        
+        
+          <li class="nav-link"><a href="/posts/">포스팅</a>
+        
+        
+        
+          <li class="nav-link"><a href="/coding_edu/">코딩교육이란?</a>
+        
+        
+        
+          <li class="nav-link"><a href="/class/">수업 소개</a>
+        
+        
+        
+          <li class="nav-link"><a href="/intro/">정모아빠 소개</a>
+        
+        
+        
+          <li class="nav-link"><a href="/contacts/">연락처</a>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      </ul>
+    </div>
+
+    <div class="site-contact">
+
+      <p><strong>Contact</strong></p>
+      <ul class="social-media-list">
+        <li>
+          <a href="mailto:jeju.codetolearn@gmail.com">
+            <i class="fa fa-envelope-o"></i>
+            <span class="username">jeju.codetolearn@gmail.com</span>
+          </a>
+        </li>
+
+        
+          
+        
+          
+          <li>
+            <a href="https://ko-kr.facebook.com/people/Choong-il-Ryu/100006785620652" title="Friend me on Facebook">
+              <i class="fa fa-facebook"></i>
+              <span class="username">ryuci0225</span>
+            </a>
+          </li>
+          
+        
+          
+          <li>
+            <a href="https://github.com/ryuci" title="Fork me on GitHub">
+              <i class="fa fa-github"></i>
+              <span class="username">ryuci</span>
+            </a>
+          </li>
+          
+        
+          
+          <li>
+            <a href="https://www.linkedin.com/in/choong-il-ryu-82157161" title="Connect with me on LinkedIn">
+              <i class="fa fa-linkedin"></i>
+              <span class="username">Choong-il Ryu</span>
+            </a>
+          </li>
+          
+        
+          
+        
+          
+        
+          
+          <li>
+            <a href="https://instagram.com/jeju.codetolearn" title="Follow me on Instagram">
+              <i class="fa fa-instagram"></i>
+              <span class="username">jeju.codetolearn</span>
+            </a>
+          </li>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+
+      </ul>
+    </div>
+
+    <div class="site-signature">
+      <p class="rss-subscribe text"><strong>Subscribe <a href="/feed.xml">via RSS</a></strong></p>
+      <p class="text">Do not just learn to code, but code to learn how the world is working!
+</p>
+    </div>
+
+  </div>
+
+</footer>
+
+<!-- Scripts -->
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/highlight.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+  // Default syntax highlighting
+  hljs.initHighlightingOnLoad();
+
+  // Header
+  var menuToggle = $('#js-mobile-menu').unbind();
+  $('#js-navigation-menu').removeClass("show");
+  menuToggle.on('click', function(e) {
+    e.preventDefault();
+    $('#js-navigation-menu').slideToggle(function(){
+      if($('#js-navigation-menu').is(':hidden')) {
+        $('#js-navigation-menu').removeAttr('style');
+      }
+    });
+  });
+});
+
+</script>
+
+
+
+
+
+
+  </body>
+
+</html>
