@@ -14,8 +14,8 @@ Built with these awesome libraries:
 * [Lightbox][lightbox]
 
 How to teak Centrarium:
-* [Tweaking Centrarium Theme](/_posts/2018-03-15-tweaking-centrarium-theme.markdown)
-* [Using Math Expressions in Your Jekyll Blog](/_posts/2018-03-12-using-math-expressions-in-your-jekyll-blog.markdown)
+* [Tweaking Centrarium Theme](http://codetolearn.kr/_posts/2018-03-15-tweaking-centrarium-theme.markdown)
+* [Using Math Expressions in Your Jekyll Blog](http://codetolearn.kr/_posts/2018-03-12-using-math-expressions-in-your-jekyll-blog.markdown)
 * [Original Centrarium Readme](http://bencentra.github.io/centrarium/README.md)
 
 Demo
