@@ -1,0 +1,25 @@
+---
+layout: page
+title:  "정모아빠의 Code to Learn에 오신 것을 환영합니다"
+author: 정모아빠
+date:   2018-03-28 10:22:59 +0900
+categories: 코딩교육
+tags:	코딩교육
+cover:  "/assets/apple-desk-working-technology.jpeg"
+custom_js:
+- tofigure
+---
+
+본 웹사이트는 블로그용 템플릿를 이용하여 만든 것이라, 방문자들께 코딩교실을 한 눈에 소개하기에는 적당하지 않네요.
+하지만 제가 이런저런 코딩 이야기를 포스팅하기에는 적합한 형태라서 그대로 이용하고 있습니다. 양해 부탁드립니다.
+찾으시는 메뉴는 아래에 따로 나열해 두었습니다.
+
+감사합니다.
+
+정모아빠 드림.
+
+* [포스팅](/posts)
+* [코딩교육이란?](/coding_edu)
+* [수업 소개](/class)
+* [정모아빠 소개](/intro)
+* [연락처](/contacts)
