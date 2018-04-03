@@ -6,55 +6,9 @@
 </description>
     <link>http://ryuci.github.io/</link>
     <atom:link href="http://ryuci.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 03 Apr 2018 22:43:44 +0900</pubDate>
-    <lastBuildDate>Tue, 03 Apr 2018 22:43:44 +0900</lastBuildDate>
+    <pubDate>Tue, 03 Apr 2018 22:59:09 +0900</pubDate>
+    <lastBuildDate>Tue, 03 Apr 2018 22:59:09 +0900</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
-    
-      <item>
-        <title>맥북프로 배터리 교환</title>
-        <description>&lt;p&gt;제가 사용하는 컴퓨터는 맥북프로 레티나 15 인치 2013 early 버전입니다. 만 5 년 동안 사용중이지요. 모든 배터리에는 수명이 있는데, 맥북프로 역시 마찬가지입니다.&lt;/p&gt;
-
-&lt;p&gt;맥북이나 아이맥 등 macOS를 사용하는 기종은 배터리의 수명이 다하면 &lt;code class=&quot;highlighter-rouge&quot;&gt;배터리 수리 서비스&lt;/code&gt;라는 문구가 뜨게 되는데, 이는 배터리의
-충전능력이 저하되어 배터리를 새로 바꾸어야 함을 의미합니다. 하지만 이 문구를 표시하는 기능이 늘 정확한 것은 아니라고 하니,
-무조건 화들짝 놀라서 AS 센터에 갈 필요는 없습니다. 문구를 무시하고 그냥 충전기에 연결해서
-계속 사용해도 될 뿐 아니라, 완전 충전부터 방전까지의 시간이 자신의 사용 패턴에 적합하다면 그냥 더 사용해도 됩니다. 즉, 새 배터리였을 때 10 시간 버텼는데, 지금 5 시간밖에 못 버팀에도 불구하고 그 정도면 충분하다면 굳이 배터리 교환을 안하고 더 사용해도 된다는 뜻입니다.&lt;/p&gt;
-
-&lt;p&gt;좀더 정확히 판단을 하고 싶다면 macOS의 &lt;code class=&quot;highlighter-rouge&quot;&gt;시스템 리포트&lt;/code&gt; 중 &lt;code class=&quot;highlighter-rouge&quot;&gt;전원&lt;/code&gt; 부분의 &lt;code class=&quot;highlighter-rouge&quot;&gt;최대 충전 용량&lt;/code&gt;을 살펴보면 됩니다. 아래는 제 맥북의 현재 상태인데 최대 충전 용량이 6316 mAH를 나타내고 있습니다. 원래 맥북프로 레티나 15 인치의 배터리는 최대 충전 용량이 약 8500 mAH 내외입니다. 8500 이라는 값에 비해 6316 은 충전 능력이 74 % 도로 떨어졌다는 뜻이 됩니다. 그런데 &lt;code class=&quot;highlighter-rouge&quot;&gt;충전 잔량&lt;/code&gt;이라는 애는 6316 보다 낮은 6153 입니다. 100% 충전 표시가 나왔음에도 실제 충전은 6316 보다 덜 됐네요. 아무튼 이 정도 성능 저하가 OK 라면 그냥 쓰면 되고 아니면 배터리를 교체하면 되겠지요.&lt;/p&gt;
-
-&lt;p&gt;더불어 &lt;code class=&quot;highlighter-rouge&quot;&gt;사이클 수&lt;/code&gt;라는 부분도 유심히 보십시오. 저는 이 값이 801 인데, 지난 5 년 간 배터리 완전 충전을 801 회 했다는 뜻입니다. 애플에서는 충전 1000 회를 해도 80% 배터리 성능을 유지할 수 있도록 제품을 만들고 있다고 하는데, 사용 상황에 따라 다소 차이가 있는 것을 감안하면, 저의 경우 약 800 회에 75% 이니 납득할 만한 수준입니다. 이 부분을 유심히 보시라는 이유가, 인터넷 자료를 보다 보면 사이클 수 4~500 회면 배터리를 교체해야 한다는 사설 수리 업체의 잘못된 정보가 있어서 입니다. 애플에서 1000 회를 기준으로 하고 있고, 제 사용 기록을 보아도 4~500 회에 교체를 해야한다는 정보는 너무 과장인 듯 싶습니다. 참고로 아이폰은 500 회가 기준이라고 합니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/mbp_power.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;아무튼, 배터리를 교체하기로 결정하셨다면 방법은 세 가지가 있습니다.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;애플로 간다 - 믿음직하긴 하지만 아주 비싸고, 굳이 그럴 필요가 없는 행동입니다.&lt;/li&gt;
-  &lt;li&gt;사설 수리 업체로 간다 - 교체가 무슨 대단한 일도 아니기에 꼭 애플에 갈 필요도 없고, 가격 면에서 합리적인 선택입니다.&lt;/li&gt;
-  &lt;li&gt;직접 배터리를 구입해서 직접 교체한다 - 가장 경제적이며 재미도 있습니다. 기계를 무서워하지 않는 분은 충분히 시도해 볼 만합니다. 다만 괴상하게 생긴 드라이버가 있어야 합니다.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;저는 3 번입니다.&lt;/p&gt;
-
-&lt;p&gt;먼저 구입처와 가격. 국내에서 구입은 꿈도 꾸지 마시고^^, 직구를 해야하니 일단 미국 아마존인데, 어짜피 배터리는 결국 중국에서 오니 알리바바를 이용하는 것이 더 저렴합니다. 단, 배송은 어마어마 느립니다. 중간에 물건 잃어버릴 염려도 있구요. 안전한 배송과 트래킹을 원하시면 배대지를 이용한 아마존, 싼 게 최고면 알리바바를 선택하시면 됩니다. (전에 이베이 통해서 중국 판매자에게 물건을 사본 적이 있는데 배송 중 분실하면 같은 물건을 다시 보내 주더군요. 그래서 겁은 덜 먹고 있는 중. 게다가 어떤 물건은 분실된 것이 확실해서 다시 받았는데, 분실된 물건이 돌고 돌아 뒤늦게 도착해서 두 개를 받은 적도 있어요.)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/mbp_battery.png&quot; alt=&quot;&quot; /&gt;[]&lt;/p&gt;
-
-&lt;p&gt;물건을 받았으니 이제 맥북 뚜겅을 열어 봅니다.&lt;/p&gt;
-
-&lt;p&gt;https://www.ifixit.com/Guide/MacBook+Pro+15-Inch+Retina+Display+Early+2013+Battery+Replacement/90275&lt;/p&gt;
-</description>
-        <pubDate>Sat, 31 Mar 2018 17:49:00 +0900</pubDate>
-        <link>http://ryuci.github.io/%EC%BD%94%EB%94%A9%EA%B5%90%EC%9C%A1/2018/03/31/%EB%A7%A5%EB%B6%81%ED%94%84%EB%A1%9C-%EB%B0%B0%ED%84%B0%EB%A6%AC-%EA%B5%90%ED%99%98.html</link>
-        <guid isPermaLink="true">http://ryuci.github.io/%EC%BD%94%EB%94%A9%EA%B5%90%EC%9C%A1/2018/03/31/%EB%A7%A5%EB%B6%81%ED%94%84%EB%A1%9C-%EB%B0%B0%ED%84%B0%EB%A6%AC-%EA%B5%90%ED%99%98.html</guid>
-        
-        <category>맥북,</category>
-        
-        <category>macOS</category>
-        
-        
-        <category>코딩교육</category>
-        
-      </item>
     
       <item>
         <title>정모아빠의 Code to Learn에 오신 것을 환영합니다</title>
@@ -142,8 +96,8 @@
 &lt;p&gt;P.S. 제가 피지컬 컴퓨팅을 폄하한다는 오해가 있으실까봐 덧붙입니다. 제 학부 전공은 전자공학이고 대학원 전공은 디지털 신호처리 알고리듬이며 회사에서 오랫동안 임베디드 시스템 소프트웨어를 개발했습니다. 즉, 어른 장난감으로 무언가를 만들자고 하면 장난 아니게 할 수 있다는 말씀이지요.^^ 그럼에도 불구하고 아직은 아닙니다. 저한테 코딩과 CS를 제대로 충분히 배우고, 기본기가 탄탄히 갖춰진 학생들의 숫자가 어느 정도 되면 그 학생들과 어른 장난감을 다루어서 무언가 멋진 것을 만들고 싶다는 꿈은 계속 가지고 있습니다. 다들 중간에 코딩 교실을 그만 두어도 정모는 남아 있을테니 정모랑 무언가를 해 볼 기회가 꼭 생겼으면 좋겠네요~&lt;/p&gt;
 </description>
         <pubDate>Tue, 27 Mar 2018 17:49:00 +0900</pubDate>
-        <link>http://ryuci.github.io/%EC%BD%94%EB%94%A9%EA%B5%90%EC%9C%A1/2018/03/27/%ED%94%BC%EC%A7%80%EC%BB%AC-%EC%BB%B4%ED%93%A8%ED%8C%85%EC%97%90-%EB%8C%80%ED%95%9C-%EC%A0%95%EB%AA%A8%EC%95%84%EB%B9%A0%EC%9D%98-%EC%83%9D%EA%B0%81.html</link>
-        <guid isPermaLink="true">http://ryuci.github.io/%EC%BD%94%EB%94%A9%EA%B5%90%EC%9C%A1/2018/03/27/%ED%94%BC%EC%A7%80%EC%BB%AC-%EC%BB%B4%ED%93%A8%ED%8C%85%EC%97%90-%EB%8C%80%ED%95%9C-%EC%A0%95%EB%AA%A8%EC%95%84%EB%B9%A0%EC%9D%98-%EC%83%9D%EA%B0%81.html</guid>
+        <link>http://ryuci.github.io/%EC%BD%94%EB%94%A9%EA%B5%90%EC%9C%A1/2018/03/27/%ED%94%BC%EC%A7%80%EC%BB%AC-%EC%BB%B4%ED%93%A8%ED%83%81.html</link>
+        <guid isPermaLink="true">http://ryuci.github.io/%EC%BD%94%EB%94%A9%EA%B5%90%EC%9C%A1/2018/03/27/%ED%94%BC%EC%A7%80%EC%BB%AC-%EC%BB%B4%ED%93%A8%ED%83%81.html</guid>
         
         <category>코딩교육</category>
         
@@ -354,30 +308,6 @@ vendor/&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
         
         
         <category>Jekyll</category>
-        
-      </item>
-    
-      <item>
-        <title>Solution to 'Set Theory'</title>
-        <description>&lt;h2 id=&quot;exercise-11&quot;&gt;Exercise 1.1&lt;/h2&gt;
-&lt;h3 id=&quot;question-1&quot;&gt;Question 1&lt;/h3&gt;
-
-&lt;p&gt;If &lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt; is odd, let &lt;script type=&quot;math/tex&quot;&gt;n = 2m + 1&lt;/script&gt; where &lt;script type=&quot;math/tex&quot;&gt;n, m \in \mathbb{Z}&lt;/script&gt;.&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;(left) = \lfloor\frac{(n+1)^2}{2}\rfloor
-= \lfloor\frac{(2m+2)^2}{2}\rfloor
-= \lfloor{2(m+1)^2}\rfloor
-= 2(m+1)^2
-= 2m^2+4m+2.&lt;/script&gt;
-</description>
-        <pubDate>Wed, 14 Mar 2018 11:59:59 +0900</pubDate>
-        <link>http://ryuci.github.io/mathematics/2018/03/14/solution-to-set-theory.html</link>
-        <guid isPermaLink="true">http://ryuci.github.io/mathematics/2018/03/14/solution-to-set-theory.html</guid>
-        
-        <category>set_theory</category>
-        
-        
-        <category>Mathematics</category>
         
       </item>
     
@@ -1107,162 +1037,135 @@ This folder should be in &lt;code class=&quot;highlighter-rouge&quot;&gt;PATH&lt
       </item>
     
       <item>
-        <title>Typography</title>
-        <description>&lt;p&gt;The purpose of this HTML is to help determine what default settings are with Bitters and to make sure that all possible HTML Elements are included in this HTML so as to not miss any possible Elements when designing a site.&lt;/p&gt;
+        <title>도대체 얼마나 오래 코딩을 배워야 하나요?</title>
+        <description>&lt;p&gt;많은 학부모님들께서 궁금해하시는 사항이기도 하고 저도 늘 고민하고 있는 문제입니다. 제가 고민하는 이유는 다음과 같습니다.
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
 
-&lt;hr&gt;
+&lt;blockquote&gt;
+  &lt;ol&gt;
+    &lt;li&gt;코딩 공부에 끝이 없다는 것을 학부모님에게 이해시키기가 쉽지 않다. (오해 사기 딱 좋다!)&lt;/li&gt;
+    &lt;li&gt;훌륭한 소프트웨어 개발자의 잠재력을 가진 학생들은 실제로 매우 빨리 배우며, 어느 수준 이상이 되면 혼자서 컴퓨터, 책, 인터넷 자료와 싸우며 공부할 수 있다. 그리고 그렇게 공부해야만 한다. (사실, 이런 학생들은 코딩 학원 다닐 필요 없다. 빌 게이츠, 스티브 잡스, 마크 저커버그가 코딩 학원을 다녔을까?)&lt;/li&gt;
+    &lt;li&gt;전문 소프트웨어 개발자들 간에도 실력 차이가 열 배 이상 (다른 산업의 전문가 집단 사이에서는 쉽게 볼 수 없는 비율임이 여러 연구에서 검증됨) 나는 것과 마찬가지로 코딩을 배우는 학생들의 수학 능력 차이도 열 배 이상 차이가 날 수 있다. 이에 따라 획일적으로 특정 커리큘럼이 끝났다고 하산시킬 수는 없다.&lt;/li&gt;
+    &lt;li&gt;코딩 교육의 궁극적 목표는 (computational thinking 에 기반한) 문제 해결 능력인데 세상에 문제는 끝없이 많고 그 복잡성도 각기 다 다르다. 과연 어느 정도 복잡도의 문제 해결 능력을 습득해야만 하산시킬 수 있을까?&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
 
-&lt;h1 id=&quot;headings&quot;&gt;Headings&lt;/h1&gt;
+&lt;p&gt;&lt;br /&gt;
+위와 같은 고민에 의거하여, 정모 아빠의 코딩 교실에는 딱부러진 일정이 없습니다. 지금까지 수업을 진행해본 경험에 근거해 보아도 딱부러진 일정이 없는 것이 맞는 것 같습니다. 예를 들어, 제 나름대로 커리큘럼과 이정표를 준비해서 그것에 따라 수업을 진행해 보았지만 학생들의 개별 수준과 당일 학생들이 보여준 호기심 정도에 따라 진도가 차이가 납니다. 진도가 빨라지는 경우는 없고 대부분 진도가 느려집니다. 진도가 느려지는 이유는 다음과 같이 정리됩니다.
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
 
-&lt;h1&gt;h1. Heading&lt;/h1&gt;
-&lt;h2&gt;h2. Heading&lt;/h2&gt;
-&lt;h3&gt;h3. Heading&lt;/h3&gt;
-&lt;h4&gt;h4. Heading&lt;/h4&gt;
-&lt;h5&gt;h5. Heading&lt;/h5&gt;
-&lt;h6&gt;h6. Heading&lt;/h6&gt;
+&lt;blockquote&gt;
+  &lt;ol&gt;
+    &lt;li&gt;다른 수업과 달리 준비한 내용을 무조건 주입시킬 수 없다. - 학생들이 따라 오든 말든 무조건 선생님이 할 말을 하고 마치는 방식은 코딩 수업에는 통하지 않습니다. 코딩은 무언가 동작하는 코드를 성공적으로 만듦으로써 완료되는 것인데, 따라 오지 못하는 학생은 동작하는 코드를 완성할 수 없고, 그럴 경우 학생이 이해하여 완성할 때까지 지도가 필요합니다. 또한 무조건적인 주입은 제가 코딩교실을 시작한 동기와 목표에 부합하지도 않습니다.&lt;/li&gt;
+    &lt;li&gt;학생들이 정말로 컴퓨터 과학의 이모저모에 대해 호기심이 많다 - 수업을 진행하다 보면 특정 주제에 대해 학생들의 끊임없는 질문이 이어지는 경우가 많습니다. 컴퓨터는 정말 멋진 물건이라는 것과 코딩을 통해 무언가 기가 막힌 일을 할 수 있다는 것을 학생들이 본능적으로 아는 것 같습니다. 따라서 질문이 많아질 수 밖에 없는가 봅니다.&lt;/li&gt;
+    &lt;li&gt;수업 중에 코딩만 가르치지 않는다. - 홈페이지에 밝혔듯이 코딩 기능을 가르치기 위한 수업이 아니기 때문입니다. 컴퓨터 과학, 수학, 문제 해결 등등을 코딩을 도구 삼아 가르치는 것 뿐입니다. 그래서 수업의 진행도 코딩을 하는 것, 컴퓨터 과학의 다양한 주제를 배우는 것, 컴퓨터 과학과 수학이 우리 생활에 미치는 영향을 생각하고 토론하는 것 등이 순환식으로 혼재되어 이루어집니다. 코딩 교실의 내용이 특정한 책과 언어를 끝내는 것이라고 오해하시는 학부모님들의 생각과는 많이 다른 부분입니다.&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
 
-&lt;hr&gt;
+&lt;p&gt;&lt;br /&gt;
+하지만 이렇게 딱부러진 일정이 없이 간다고 하더라도 구체적인 이정표는 어느 정도 있어야 하고, 특히 고학년 학생의 경우에는 더욱 더 그러하기에 아래와 같은 정도로만 정리할까 합니다.
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;paragraph&quot;&gt;Paragraph&lt;/h1&gt;
+&lt;blockquote&gt;
+  &lt;ol&gt;
+    &lt;li&gt;저학년의 경우 고학년 수준이 될 때까지 계속 스크래치 + CS Unplugged + 수학 + 타이핑을 중심으로 진행한다.&lt;/li&gt;
+    &lt;li&gt;고학년의 경우 스크래치 + CS Unplugged + 수학 + 타이핑을 학생의 수준에 따라 약 3~6 개월 정도 학습하고, 이후로는 Python + 스크래치 고급 프로젝트 + CS Unplugged + 수학을 계속 공부한다. 이 과정에서 Python 프로젝트의 난이도를 점차 올려간다.&lt;/li&gt;
+    &lt;li&gt;고학년의 경우 다른 코딩 기술 학습의 일환으로 C/C++과 HTML5+CSS+Java Script를 부가적으로 기초 수준에서 공부한다.&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;Lorem ipsum dolor sit amet, &lt;a href=&quot;#&quot; title=&quot;test link&quot;&gt;test link&lt;/a&gt; adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;
+고급 프로그래밍 언어로서 Python을 선택한 이유는 코딩 기술을 체계적으로 가르치기에 적합하고, 실제로 재미있는 프로젝트를 만들기도 다른 언어에 비해 매우 쉬우며, 전문 개발자 사용자층이 엄청나게 두터워서 장래에 학생이 사용할 가능성이 아주 높은 언어이기 때문입니다.
+&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;Lorem ipsum dolor sit amet, &lt;em&gt;emphasis&lt;/em&gt; consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.&lt;/p&gt;
+&lt;p&gt;그럼 과연 언제 코딩 교실을 그만 두어야 할까요? 이에 대해서는 요즘 주로 사용하는 소프트웨어 개발 프로세스 중의 하나인 애자일 방법론의 예를 들어 설명하겠습니다. (아래 그림을 참고하세요.)&lt;/p&gt;
 
-&lt;hr&gt;
+&lt;p&gt;애자일 방법론은, 간단히 말해서, 실제 기능을 하는 소프트웨어(Sprint 1 - 쉬운 말로 버전이라고 생각하셔도 됩니다.)를 소규모로 만들어 출시한 후, 이후에는 여기에 조금씩 살을 더 붙여가면서 단계적으로 좀 더 많은 기능을 하는 소프트웨어들(Sprint 2, 3, …)을 지속적이고 연속적으로 출시하는 방식을 말합니다. 소프트웨어 사용자들은 Sprint 1 부터 가져다가 사용을 시작하되, 본인이 원하는 충분한 기능을 포함한 Sprint 2 가 나오면 더 이상 후속 소프트웨어를 채용하지 않을 수 있습니다. 또 다른 사용자는 Sprint 3 의 보다 많은 기능이 필요하기 때문에 Sprint 2 를 거쳐서 Sprint 3 까지 채용한 후, Spring 4 이후도 계속 채용할 것인가 여부를 결정할 수 있습니다.&lt;/p&gt;
 
-&lt;h1 id=&quot;list_types&quot;&gt;List Types&lt;/h1&gt;
+&lt;p&gt;따라서 코딩 교실을 그만 두는 시점은 마치 소프트웨어 사용자들이 몇 번 Sprint 까지의 소프트웨어를 채용할 것인가를 결정하는 것과 유사합니다. 정모 아빠의 코딩 교실은 끝없이 Sprint 를 지속할 것이고, 최종 사용자인 학생과 학부모님께서 “자, 이만하면 되었다.” 라는 생각이 드실 때 하차하시면 됩니다.&lt;/p&gt;
 
-&lt;p&gt;Lists are unstyled by defualt. To restore the original styling, add the &lt;code&gt;.default&lt;/code&gt; class&lt;/p&gt;
+&lt;p&gt;물론, 간혹 정모 아빠가 먼저 나서서 “너는 이 정도면 혼자서 공부할 수 있거나 다른 더 좋은 사부님을 찾아나서야 할 때이다.” 라고 이야기하는 상황도 나올 수 있겠지요. ^^&lt;/p&gt;
 
-&lt;h3&gt;Definition List&lt;/h3&gt;
-&lt;dl&gt;
-  &lt;dt&gt;Definition List Title&lt;/dt&gt;
-  &lt;dd&gt;This is a definition list division.&lt;/dd&gt;
-&lt;/dl&gt;
+&lt;p&gt;감사합니다.
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
 
-&lt;h3&gt;Ordered List&lt;/h3&gt;
-&lt;ol&gt;
-  &lt;li&gt;List Item 1&lt;/li&gt;
-  &lt;li&gt;List Item 2&lt;/li&gt;
-  &lt;li&gt;List Item 3&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3&gt;Unordered List&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;List Item 1&lt;/li&gt;
-  &lt;li&gt;List Item 2&lt;/li&gt;
-  &lt;li&gt;List Item 3&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;Ordered List with &lt;code&gt;.default&lt;/code&gt; class&lt;/h3&gt;
-&lt;ol class=&quot;default&quot;&gt;
-  &lt;li&gt;List Item 1&lt;/li&gt;
-  &lt;li&gt;List Item 2&lt;/li&gt;
-  &lt;li&gt;List Item 3&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3&gt;Unordered List with &lt;code&gt;.default&lt;/code&gt; class&lt;/h3&gt;
-&lt;ul class=&quot;default&quot;&gt;
-  &lt;li&gt;List Item 1&lt;/li&gt;
-  &lt;li&gt;List Item 2&lt;/li&gt;
-  &lt;li&gt;List Item 3&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr&gt;
-
-&lt;h1 id=&quot;form_elements&quot;&gt;Fieldsets and Form Elements&lt;/h1&gt;
-
-&lt;fieldset&gt;
-  &lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus.&lt;/p&gt;
-
-  &lt;form&gt;
-    &lt;h2&gt;Form Element&lt;/h2&gt;
-
-    &lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui.&lt;/p&gt;
-
-    &lt;p&gt;&lt;label for=&quot;text_field&quot;&gt;Text Field:&lt;/label&gt;
-      &lt;input type=&quot;text&quot; id=&quot;text_field&quot; /&gt;&lt;/p&gt;
-
-    &lt;p&gt;&lt;label for=&quot;text_area&quot;&gt;Text Area:&lt;/label&gt;
-      &lt;textarea id=&quot;text_area&quot;&gt;&lt;/textarea&gt;&lt;/p&gt;
-
-    &lt;p&gt;&lt;label for=&quot;select_element&quot;&gt;Select Element:&lt;/label&gt;
-      &lt;select name=&quot;select_element&quot;&gt;
-        &lt;optgroup label=&quot;Option Group 1&quot;&gt;
-          &lt;option value=&quot;1&quot;&gt;Option 1&lt;/option&gt;
-          &lt;option value=&quot;2&quot;&gt;Option 2&lt;/option&gt;
-          &lt;option value=&quot;3&quot;&gt;Option 3&lt;/option&gt;
-        &lt;/optgroup&gt;
-        &lt;optgroup label=&quot;Option Group 2&quot;&gt;
-          &lt;option value=&quot;1&quot;&gt;Option 1&lt;/option&gt;
-          &lt;option value=&quot;2&quot;&gt;Option 2&lt;/option&gt;
-          &lt;option value=&quot;3&quot;&gt;Option 3&lt;/option&gt;
-        &lt;/optgroup&gt;
-    &lt;/select&gt;&lt;/p&gt;
-
-    &lt;p&gt;&lt;label for=&quot;radio_buttons&quot;&gt;Radio Buttons:&lt;/label&gt;
-      &lt;label&gt;
-        &lt;input type=&quot;radio&quot; class=&quot;radio&quot; name=&quot;radio_button&quot; value=&quot;radio_1&quot; /&gt; Radio 1
-      &lt;/label&gt;
-      &lt;label&gt;
-        &lt;input type=&quot;radio&quot; class=&quot;radio&quot; name=&quot;radio_button&quot; value=&quot;radio_2&quot; /&gt; Radio 2
-      &lt;/label&gt;
-      &lt;label&gt;
-        &lt;input type=&quot;radio&quot; class=&quot;radio&quot; name=&quot;radio_button&quot; value=&quot;radio_3&quot; /&gt; Radio 3
-      &lt;/label&gt;
-    &lt;/p&gt;
-
-    &lt;p&gt;&lt;label for=&quot;checkboxes&quot;&gt;Checkboxes:&lt;/label&gt;
-      &lt;label&gt;
-        &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot; name=&quot;checkboxes&quot; value=&quot;check_1&quot; /&gt; Checkbox 1
-      &lt;/label&gt;
-      &lt;label&gt;
-        &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot; name=&quot;checkboxes&quot; value=&quot;check_2&quot; /&gt; Checkbox 2
-      &lt;/label&gt;
-      &lt;label&gt;
-        &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot; name=&quot;checkboxes&quot; value=&quot;check_3&quot; /&gt; Checkbox 3
-      &lt;/label&gt;
-    &lt;/p&gt;
-
-    &lt;p&gt;&lt;label for=&quot;password&quot;&gt;Password:&lt;/label&gt;
-      &lt;input type=&quot;password&quot; class=&quot;password&quot; name=&quot;password&quot; /&gt;
-    &lt;/p&gt;
-
-    &lt;p&gt;&lt;label for=&quot;file&quot;&gt;File Input:&lt;/label&gt;
-      &lt;input type=&quot;file&quot; class=&quot;file&quot; name=&quot;file&quot; /&gt;
-    &lt;/p&gt;
-
-
-    &lt;p&gt;&lt;input type=&quot;submit&quot; value=&quot;Submit&quot; /&gt;&lt;/p&gt;
-  &lt;/form&gt;
-&lt;/fieldset&gt;
-
-&lt;hr&gt;
-
-&lt;h1 id=&quot;tables&quot;&gt;Tables&lt;/h1&gt;
-
-&lt;table cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt;
-  &lt;tr&gt;
-    &lt;th&gt;Table Header 1&lt;/th&gt;&lt;th&gt;Table Header 2&lt;/th&gt;&lt;th&gt;Table Header 3&lt;/th&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td&gt;Division 1&lt;/td&gt;&lt;td&gt;Division 2&lt;/td&gt;&lt;td&gt;Division 3&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr class=&quot;even&quot;&gt;
-    &lt;td&gt;Division 1&lt;/td&gt;&lt;td&gt;Division 2&lt;/td&gt;&lt;td&gt;Division 3&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td&gt;Division 1&lt;/td&gt;&lt;td&gt;Division 2&lt;/td&gt;&lt;td&gt;Division 3&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-
+&lt;p&gt;&lt;img src=&quot;/assets/agile-methodolody_695x260.jpg&quot; alt=&quot;&quot; title=&quot;출처: 위키피디아&quot; /&gt;&lt;/p&gt;
 </description>
-        <pubDate>Fri, 06 Jan 2017 08:49:16 +0900</pubDate>
-        <link>http://ryuci.github.io/typography/</link>
-        <guid isPermaLink="true">http://ryuci.github.io/typography/</guid>
+        <pubDate>Wed, 27 Jul 2016 01:22:59 +0900</pubDate>
+        <link>http://ryuci.github.io/%EC%BD%94%EB%94%A9%EA%B5%90%EC%9C%A1/2016/07/27/%EB%8F%84%EB%8C%80%EC%B2%B4-%EC%96%BC%EB%A7%88%EB%82%98-%EC%98%A4%EB%9E%98-%EC%BD%94%EB%94%A9%EC%9D%84-%EB%B0%B0%EC%9B%8C%EC%95%BC-%ED%95%98%EB%82%98%EC%9A%94.html</link>
+        <guid isPermaLink="true">http://ryuci.github.io/%EC%BD%94%EB%94%A9%EA%B5%90%EC%9C%A1/2016/07/27/%EB%8F%84%EB%8C%80%EC%B2%B4-%EC%96%BC%EB%A7%88%EB%82%98-%EC%98%A4%EB%9E%98-%EC%BD%94%EB%94%A9%EC%9D%84-%EB%B0%B0%EC%9B%8C%EC%95%BC-%ED%95%98%EB%82%98%EC%9A%94.html</guid>
         
+        <category>코딩교육</category>
+        
+        
+        <category>코딩교육</category>
+        
+      </item>
+    
+      <item>
+        <title>영화의 한 장면 같은신가요?</title>
+        <description>&lt;blockquote&gt;
+  &lt;iframe width=&quot;630&quot; height=&quot;354&quot; src=&quot;https://www.youtube.com/embed/vg0A9Ve7SxE&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+  &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;위에 있는 동영상을 잠시 살펴보시기 바랍니다. 마치 공상과학 영화의 한 장면 같죠? 네 맞습니다. 실제로 이 동영상은 연출된 상황이 맞습니다. 하지만 현실과 완전히 동떨어진 이야기는 절대로 아닙니다. 여러분이 고급 자동차의 대명사로 생각하시는 롤스로이스라는 회사는 사실 항공기 엔진과 선박 엔진을 주력으로 생산하는 회사입니다. 따라서 항공 운송업과 해상 운송업에 밀접한 관련을 맺고 있는 회사입니다. 동영상의 배경이 되는 것은 전세계 물동량의 90% 이상을 차지하는 선박 운송에 대한 것입니다. 얼마전 우리나라의 조선업 및 해운 산업이 휘청거린다는 뉴스는 들으셨을 것으로 압니다. 그러한 조선업 및 해운 산업을 살리기 위해서 우리나라가 심혈을 기울여 행하고 있는 조치 중의 하나가 바로 우리나라 해운 회사를 국제 해운 연맹에 가입시키는 일이었습니다. 그만큼 해운 산업이라는 것의 덩치가 크고 세계 경제에서 큰 부분을 차지하기 때문입니다.&lt;/p&gt;
+
+&lt;p&gt;그러한 산업에서 롤스로이스 같은 회사는 완전한 무인 선박 운영 시스템을 연구하고 있습니다. 비단 롤스로이스만이 아니겠지요. 세계 유수의 회사가 수 개월이 걸리는 국제 무역선에 사람을 태워서 운영하는 시스템을 벗어나서 완전한 무인 시스템을 추구하고 있습니다. 동영상에서 보듯이 원격으로 모니터링을 하고 각종 문제에 대한 결정을 내리는 몇몇 인력을 제외하고는 완전히 소프트웨어와 인공지능에 의해서 운영되는 시스템입니다.&lt;/p&gt;
+
+&lt;p&gt;앞으로의 세상이 바로 이렇습니다. 인공지능 시스템 소프트웨어를 개발하는 다수의 인력, 그리고 이러한 소프트웨어를 사용하여 무인 시스템을 모니터링하는 극소수의 인력, 이러한 시스템을 구축하여 사업을 운영하는 소수의 경영진. 이러한 미래 기업의 운영 체제를 보면 미래의 직업군이 보이기 마련입니다. 여기서 언급한 회사 경영의 세 가지 축을 바라보기만 하여도 미래에는 소프트웨어에 대한 이해 없이 사업을 운영하거나 직장 생활을 한다는 것이 많이 어려울 수 있다는 것을 미루어 짐작할 수 있습니다.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 29 Jun 2016 01:22:59 +0900</pubDate>
+        <link>http://ryuci.github.io/%EC%BD%94%EB%94%A9%EA%B5%90%EC%9C%A1/2016/06/29/%EA%B0%80%EA%B9%8C%EC%9A%B4-%EB%AF%B8%EB%9E%98.html</link>
+        <guid isPermaLink="true">http://ryuci.github.io/%EC%BD%94%EB%94%A9%EA%B5%90%EC%9C%A1/2016/06/29/%EA%B0%80%EA%B9%8C%EC%9A%B4-%EB%AF%B8%EB%9E%98.html</guid>
+        
+        <category>코딩교육</category>
+        
+        
+        <category>코딩교육</category>
+        
+      </item>
+    
+      <item>
+        <title>코딩이 뭐예요?</title>
+        <description>&lt;p&gt;오늘 정모엄마의 전화 통화를 옆에서 우연히 듣게 되었는데요, 내용인즉슨 아는 국제학교 엄마에게 제가 코딩 교육을 시작했다는 것을 홍보하는 내용이었습니다. 그러니 당연히 상대방 엄마는 코딩이 뭐냐, 무엇을 배우는 거냐, 괜히 컴퓨터 가르쳐서 게임만 하는 것 아니냐 등등의 질문을 하셨을텐데요, 정모엄마의 대답이 제가 듣기에는 거의 “버버버” 수준이었습니다. ^^ 사실 코딩이 뭔지 저희 와이프도 뭐 알겠습니까?&lt;/p&gt;
+
+&lt;p&gt;또 다른 여담인데요, 저희 부모님은 제가 대학 졸업 후 평생 해온 일이 무슨 일이었는지 아직도 모르십니다. 뭔가 대단한 것 하는 것 같기는 하고, 돈도 많이 받는 것 같고, 회사도 좋은 데 같아서 친구들에게 아들 잘 나가는 것 자랑 좀 해야겠는데, 아들한테 설명을 들어도 당췌~ 무슨 일 하는건지 알 수가 없다고 하십니다.&lt;/p&gt;
+
+&lt;p&gt;이렇듯, 세상은 이미 소프트웨어로 돌아가고 있고, 소프트웨어에 문제가 생기거나 정지하면 우리의 생활이 마비되어 버리는 시대인데도 (심지어 우리의 생명을 잃을 수도 있습니다.) 많은 사람들이 소프트웨어가 무엇인지, 그것을 만드는 코딩이라는 활동이 무엇인지, 소프트웨어 엔지니어 (혹은 프로그래머)라는 직업이 있는지조차 모르고 계십니다.&lt;/p&gt;
+
+&lt;p&gt;그나마 요즘은 설명하기가 좀 수월해졌는데, 모두들 고성능 컴퓨터 한 대씩 주머니에 넣고 다니시며 여러가지 소프트웨어를 애지중지 사용하시기 때문입니다. 그 컴퓨터는 바로 여러가지 멋진 소프트웨어로 가득찬 스마트폰이죠!&lt;/p&gt;
+
+&lt;p&gt;코딩 교육이란? 페이지에서 언급했지만 (느슨한 의미의) 코딩(coding)이란 바로 소프트웨어를 만드는 활동을 의미합니다. 소프트웨어(software)란 컴퓨터에게 어떤 작업을 하도록 하는 명령어를 모아 놓은 꾸러미를 의미합니다. 이런 소프트웨어를 사용 용도에 따라 여러가지 이름으로 분류해 놓았는데, 그 중에서 우리 일반 사용자들이 이런 저런 작업을 하기 위해 직접 사용하는 소프트웨어를 애플리케이션(application) 소프트웨어라고 부릅니다. 스마트폰에서 앱(app)이라고 부르는 것이 바로 이 애플리케이션의 줄임말입니다.&lt;/p&gt;
+
+&lt;p&gt;여러분이 애플의 앱스토어나 구글의 구글 플레이에서 다운로드하시는 앱들이 모두 소프트웨어이고, 그것을 만드는 작업이 코딩이며, 그것을 만드는 사람을 (느슨하게 표현하여) 소프트웨어 엔지니어(software engineer) 혹은 프로그래머(programmer)라고 부릅니다. 요즘은 이들을 그냥 개발자(developer)라고도 많이 부릅니다.&lt;/p&gt;
+
+&lt;p&gt;아래 사진을 한 번 보시죠.&lt;/p&gt;
+
+&lt;p class=&quot;tofigure&quot;&gt;&lt;img src=&quot;/assets/2560px-Coding_Shots_Annual_Plan_high_res-5.jpg&quot; alt=&quot;&quot; title=&quot;출처: 위키피디아&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;어떤 사람이 컴퓨터 앞에서 무언가를 하고 있습니다. 컴퓨터 화면에는 뭔가 작은 글자들이 빼곡하고 촘촘하게 잔뜩 써 있습니다. 이 사람은 지금 코딩을 하고 있는 중입니다. 화면에 있는 글자들은 모두 컴퓨터에게 어떤 일을 하라고 지시하는 명령어들입니다. 이런 명령어들은 그 숫자가 아주 많습니다. 또한 명령어를 조합하는 방법도 무궁무진합니다. 이러한 조합을 통해 멋진 기능을 하는 소프트웨어를 만들어냅니다. (사진의 사람은 여러분이 잘 아시는 인터넷 백과사전인 &lt;a href=&quot;https://www.wikipedia.org&quot;&gt;위키피디아&lt;/a&gt;를 만드는 사람들 중의 한 사람으로 Trevor Pascal이라는 소프트웨어 엔지니어입니다. 레알!)&lt;/p&gt;
+
+&lt;p&gt;우리가 지금 사용하는 스마트폰 앱 하나를 열어서 안을 자세히 들여다보면 그 안에는 사진의 사람과 같은 소프트웨어 엔지니어들이 만들어 넣은 명령어들로 빼곡하게 채워져 있는 것을 알 수 있습니다. (물론 여러분의 스마트폰을 자세히 들여다보신다고 해서 육안으로 보이지는 않습니다.^^)&lt;/p&gt;
+
+&lt;p&gt;지금까지 설명드린 바를 통해 코딩이 무엇인지 감을 잡으셨을 것으로 압니다.&lt;/p&gt;
+
+&lt;p&gt;그러면 도대체 우리 아이들이 왜 이 코딩이란 것을 배워야 하는지 (사실 정모 아빠는 배워야 한다~라고 단정적으로 말하고 싶지 않습니다. 사실 안 배워도 됩니다. 세상을 사는 방법은 여러가지이고 세상은 다양한 능력/감성/경험을 가진 사람들로 채워져야 하니까요.) 풀어나가기 전에 소프트웨어란 것의 중요성에 대해 다음 포스팅에서 말씀드리겠습니다.&lt;/p&gt;
+
+&lt;p class=&quot;tofigure&quot;&gt;&lt;img src=&quot;/assets/agile-methodolody_695x260.jpg&quot; alt=&quot;&quot; title=&quot;출처: 위키피디아&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 29 Jun 2016 01:22:59 +0900</pubDate>
+        <link>http://ryuci.github.io/%EC%BD%94%EB%94%A9%EA%B5%90%EC%9C%A1/2016/06/29/%EC%BD%94%EB%94%A9%EC%9D%B4-%EB%AD%90%EC%98%88%EC%9A%94.html</link>
+        <guid isPermaLink="true">http://ryuci.github.io/%EC%BD%94%EB%94%A9%EA%B5%90%EC%9C%A1/2016/06/29/%EC%BD%94%EB%94%A9%EC%9D%B4-%EB%AD%90%EC%98%88%EC%9A%94.html</guid>
+        
+        <category>코딩교육</category>
+        
+        
+        <category>코딩교육</category>
         
       </item>
     
