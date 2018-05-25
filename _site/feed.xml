@@ -6,9 +6,38 @@
 </description>
     <link>http://ryuci.github.io/</link>
     <atom:link href="http://ryuci.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 26 May 2018 03:18:55 +0900</pubDate>
-    <lastBuildDate>Sat, 26 May 2018 03:18:55 +0900</lastBuildDate>
+    <pubDate>Sat, 26 May 2018 03:51:13 +0900</pubDate>
+    <lastBuildDate>Sat, 26 May 2018 03:51:13 +0900</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>정모아빠의 Code to Learn에 오신 것을 환영합니다</title>
+        <description>&lt;p&gt;본 웹사이트는 블로그용 템플릿를 이용하여 만든 것이라, 방문자들께 코딩교실을 한 눈에 소개하기에는 적당하지 않네요.
+하지만 제가 이런저런 코딩 이야기를 포스팅하기에는 적합한 형태라서 그대로 이용하고 있습니다. 양해 부탁드립니다.
+찾으시는 메뉴는 아래에 따로 나열해 두었습니다.&lt;/p&gt;
+
+&lt;p&gt;감사합니다.&lt;/p&gt;
+
+&lt;p&gt;정모아빠 드림.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/posts&quot;&gt;포스팅&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/coding_edu&quot;&gt;코딩교육이란?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/class&quot;&gt;수업 소개&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/intro&quot;&gt;정모아빠 소개&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/contacts&quot;&gt;연락처&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 26 May 2018 03:22:59 +0900</pubDate>
+        <link>http://ryuci.github.io/%EC%BD%94%EB%94%A9%EA%B5%90%EC%9C%A1/2018/05/26/%EB%8C%80%EB%AC%B8.html</link>
+        <guid isPermaLink="true">http://ryuci.github.io/%EC%BD%94%EB%94%A9%EA%B5%90%EC%9C%A1/2018/05/26/%EB%8C%80%EB%AC%B8.html</guid>
+        
+        <category>코딩교육</category>
+        
+        
+        <category>코딩교육</category>
+        
+      </item>
     
       <item>
         <title>도대체 얼마나 오래 코딩을 배워야 하나요? #2</title>
@@ -221,35 +250,6 @@
         <category>맥북</category>
         
         <category>macOS</category>
-        
-        
-        <category>코딩교육</category>
-        
-      </item>
-    
-      <item>
-        <title>정모아빠의 Code to Learn에 오신 것을 환영합니다</title>
-        <description>&lt;p&gt;본 웹사이트는 블로그용 템플릿를 이용하여 만든 것이라, 방문자들께 코딩교실을 한 눈에 소개하기에는 적당하지 않네요.
-하지만 제가 이런저런 코딩 이야기를 포스팅하기에는 적합한 형태라서 그대로 이용하고 있습니다. 양해 부탁드립니다.
-찾으시는 메뉴는 아래에 따로 나열해 두었습니다.&lt;/p&gt;
-
-&lt;p&gt;감사합니다.&lt;/p&gt;
-
-&lt;p&gt;정모아빠 드림.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;/posts&quot;&gt;포스팅&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/coding_edu&quot;&gt;코딩교육이란?&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/class&quot;&gt;수업 소개&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/intro&quot;&gt;정모아빠 소개&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/contacts&quot;&gt;연락처&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 28 Mar 2018 10:22:59 +0900</pubDate>
-        <link>http://ryuci.github.io/%EC%BD%94%EB%94%A9%EA%B5%90%EC%9C%A1/2018/03/28/%EB%8C%80%EB%AC%B8.html</link>
-        <guid isPermaLink="true">http://ryuci.github.io/%EC%BD%94%EB%94%A9%EA%B5%90%EC%9C%A1/2018/03/28/%EB%8C%80%EB%AC%B8.html</guid>
-        
-        <category>코딩교육</category>
         
         
         <category>코딩교육</category>
