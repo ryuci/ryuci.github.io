@@ -1,0 +1,1270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>정모 아빠의 Code to Learn</title>
+    <description>Do not just learn to code, but code to learn how the world is working!
+</description>
+    <link>http://ryuci.github.io/</link>
+    <atom:link href="http://ryuci.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 26 May 2018 14:59:55 +0900</pubDate>
+    <lastBuildDate>Sat, 26 May 2018 14:59:55 +0900</lastBuildDate>
+    <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>정모아빠의 Code to Learn에 오신 것을 환영합니다</title>
+        <description>&lt;p&gt;본 웹사이트는 블로그용 템플릿를 이용하여 만든 것이라, 방문자들께 코딩교실을 한 눈에 소개하기에는 적당하지 않네요.
+하지만 제가 이런저런 코딩 이야기를 포스팅하기에는 적합한 형태라서 그대로 이용하고 있습니다. 양해 부탁드립니다.
+찾으시는 메뉴는 아래에 따로 나열해 두었습니다.&lt;/p&gt;
+
+&lt;p&gt;감사합니다.&lt;/p&gt;
+
+&lt;p&gt;정모아빠 드림.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/posts&quot;&gt;포스팅&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/coding_edu&quot;&gt;코딩교육이란?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/class&quot;&gt;수업 소개&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/intro&quot;&gt;정모아빠 소개&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/contacts&quot;&gt;연락처&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 26 May 2018 03:22:59 +0900</pubDate>
+        <link>http://ryuci.github.io/%EC%BD%94%EB%94%A9%EA%B5%90%EC%9C%A1/2018/05/26/%EB%8C%80%EB%AC%B8.html</link>
+        <guid isPermaLink="true">http://ryuci.github.io/%EC%BD%94%EB%94%A9%EA%B5%90%EC%9C%A1/2018/05/26/%EB%8C%80%EB%AC%B8.html</guid>
+        
+        <category>코딩교육</category>
+        
+        
+        <category>코딩교육</category>
+        
+      </item>
+    
+      <item>
+        <title>도대체 얼마나 오래 코딩을 배워야 하나요? #2</title>
+        <description>&lt;p&gt;2 년 전, 코딩교실을 시작할 즈음에 &lt;a href=&quot;/%EC%BD%94%EB%94%A9%EA%B5%90%EC%9C%A1/2016/07/27/coding-how-long.html&quot;&gt;도대체 얼마나 오래 코딩을 배워야 하나요?&lt;/a&gt;라는 글을 올린 적이 있습니다. 오늘은 그 두번째 글로서, 그동안의 경험을 바탕으로 딱 두 개의 차트를 작성하여 보여 드리고자 합니다.&lt;/p&gt;
+
+&lt;p&gt;차트라는 것이 그로부터 통찰을 얼마나 이끌어 낼 수 있느냐가 관건인데, 이를 위해서는 데이터가 수집되는 과정에서 전제된 다양한 가정을 명확히 이해해야 하고, 해당 데이터 값에 영향을 미치는 주요 변수를 망라해야 합니다. 현재 학생들의 성취도에 관련해서는 그에 영향을 미치는 변수가 꽤나 많아서, 이 자리에서 논의하다가는 자칫 오역의 소지가 많아서 다루지 않기로 했습니다. 당분간 학생의 성취도는 제가 평소에 보내드리는 수업일지를 통해 가늠해 주시기 바랍니다. 나중에라도 성취도를 오해의 소지없이 정량화할 수 있는 데이터가 얻어진다면 세번째 포스트를 올리도록 하겠습니다.&lt;/p&gt;
+
+&lt;p&gt;제가 2 년 전 말씀드렸다시피 정모 아빠의 코딩 교실에는 딱부러진 일정이 없는데, 그 이유를 다시 적어보면 아래와 같습니다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;ol&gt;
+    &lt;li&gt;다른 수업과 달리 준비한 내용을 무조건 주입시킬 수 없다. - 학생들이 따라 오든 말든 무조건 선생님이 할 말을 하고 마치는 방식은 코딩 수업에는 통하지 않습니다. 코딩은 무언가 동작하는 코드를 성공적으로 만듦으로써 완료되는 것인데, 따라 오지 못하는 학생은 동작하는 코드를 완성할 수 없고, 그럴 경우 학생이 이해하여 완성할 때까지 지도가 필요합니다. 또한 무조건적인 주입은 제가 코딩교실을 시작한 동기와 목표에 부합하지도 않습니다.&lt;/li&gt;
+    &lt;li&gt;학생들이 정말로 컴퓨터 과학의 이모저모에 대해 호기심이 많다 - 수업을 진행하다 보면 특정 주제에 대해 학생들의 끊임없는 질문이 이어지는 경우가 많습니다. 컴퓨터는 정말 멋진 물건이라는 것과 코딩을 통해 무언가 기가 막힌 일을 할 수 있다는 것을 학생들이 본능적으로 아는 것 같습니다. 따라서 질문이 많아질 수 밖에 없는가 봅니다.&lt;/li&gt;
+    &lt;li&gt;수업 중에 코딩만 가르치지 않는다. - 홈페이지에 밝혔듯이 코딩 기능을 가르치기 위한 수업이 아니기 때문입니다. 컴퓨터 과학, 수학, 문제 해결 등등을 코딩을 도구 삼아 가르치는 것 뿐입니다. 그래서 수업의 진행도 코딩을 하는 것, 컴퓨터 과학의 다양한 주제를 배우는 것, 컴퓨터 과학과 수학이 우리 생활에 미치는 영향을 생각하고 토론하는 것 등이 순환식으로 혼재되어 이루어집니다. 코딩 교실의 내용이 특정한 책과 언어를 끝내는 것이라고 오해하시는 학부모님들의 생각과는 많이 다른 부분입니다.&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;section&quot;&gt;글의 목적&lt;/h1&gt;
+
+&lt;p&gt;오늘 보여드릴 내용은 이렇게 딱부러진 일정 없이 수업을 진행해 오면서 소위 수업 진도가 어디까지 진행되었는가에 대한 것으로 다음 경우에 해당하시는 학부모님들께 조금이나마 가이드라인을 드리고자 하는 용도입니다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;ol&gt;
+    &lt;li&gt;다른 공부가 바빠서 코딩 공부를 어느 정도에서 마무리할 계획이 있으신 경우&lt;/li&gt;
+    &lt;li&gt;계속 코딩 공부를 시키시기는 할텐데 도대체 지금 어느 정도 배운 것인지 궁금하신 경우&lt;/li&gt;
+    &lt;li&gt;코딩 공부를 시적한지 얼마 안 되었기에 앞으로의 갈 길이 궁금하신 경우&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;section-1&quot;&gt;유의 사항&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;ol&gt;
+    &lt;li&gt;지금부터 보실 설명은 대부분 일반론이라는 것에 유의해 주시기 바랍니다.&lt;/li&gt;
+    &lt;li&gt;학생 중에 코딩에 소질이 많고 집에서도 스스로 코딩 연습을 꽤 하는 학생들도 있는데 이러한 학생들의 경우 아래의 일반론이 적용되지 않습니다.&lt;/li&gt;
+    &lt;li&gt;주변지식을 많이 알고 있어서 하나를 가르치면 둘을 아닌 고학년의 경우와 그 주변지식도 함께 가르쳐야 하는 저학년의 경우는 분리해서 생각해야 합니다. 오늘은 저학년과 고학년을 분리해서 설명하지는 않을텐데 아마 다른 글에서 이 부분을 다룰 기회가 있을 것 같습니다.&lt;/li&gt;
+    &lt;li&gt;모든 데이터는 현재 수업을 듣는 학생 중, 50 회 이상의 수업을 들은 학생만을 대상으로 추출된 값입니다. 그보다 적은 수업 횟수의 학생 데이터로는 무언가를 말하기가 이릅니다.&lt;/li&gt;
+    &lt;li&gt;각 차트의 X 축은 학생 번호를 나타냅니다.&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;section-2&quot;&gt;수업기간, 실수업 횟수 및 수업&lt;/h1&gt;
+
+&lt;p&gt;학생들이 얼마의 기간 동안 얼마나 수업을 들었는지에 대한 차트입니다.&lt;/p&gt;
+
+&lt;p&gt;이 차트는 다른 차트들을 해석할 때 늘 염두해 두어야 하는데 그 이유는 다음과 같습니다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;ol&gt;
+    &lt;li&gt;코딩교실에서 배운 내용을 집에서 활용해 보고 스스로 여러가지 코딩을 시도해 보지 &lt;strong&gt;않는&lt;/strong&gt; 학생의 경우, 코딩교실에서 배우고 실습하는 내용이 공부의 전부이기에 코딩교실에서 투입된 절대적 공부시간을 파악하는 것이 중요하다.&lt;/li&gt;
+    &lt;li&gt;코딩교실에서 같은 공부시간을 투입했더라도, 얼마의 기간 동안에 투입된 시간인지도 의미가 있다. 예를 들어 같은 분량의 공부를 밀도 있게 하는 경우와 띄엄띄엄 가끔씩 하는 경우에는 공부한 내용을 기억하는 데에 차이가 있을 수 밖에 없다. (이 역시 집에서 스스로 코딩을 해보는 학생은 예외)&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/Screen Shot 2018-05-26 at 2.35.13 PM.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;위에서 보듯이 연간 수업률은 최고 77%에서 최저 52%에 분포되어 있습니다. 77%는 학기 중의 단기 방학 때 다른 곳에 가지 않고 거의 제주도에만 있는 우리 불쌍한 정모의 수업률입니다.^^ 단기 방학 중 휴강을 포함한 일반적인 수업률은 67% 내외인 것 같습니다. 50%대는 개인적인 결석이 많은 경우와 일요일 수업의 경우입니다. 일주일 단기 방학 때, 주중 수업의 경우 1 회만 휴강하면 되지만 일요일 수업은 보통 앞뒤로 2 회 휴강을 하기 때문에 수업률이 많이 떨어집니다.&lt;/p&gt;
+
+&lt;h1 id=&quot;section-3&quot;&gt;수업진도&lt;/h1&gt;
+
+&lt;p&gt;여기에서 말하는 수업진도의 정의는 ‘일반적으로 말하는 진도’, 즉 동일한 공부량을 기준으로 한 진도가 아닙니다. 77%의 수업률을 가진 학생에게 가르치는 분량을 52%의 수업률을 가진 학생에게 가르칠 경우, ‘일반적으로 말하는 진도’가 너무 늘어져서 주어진 시간 안에서 학생에게 다양한 수준의 코딩 경험을 시켜줄 수가 없습니다. 그래서 제가 말하는 수업진도는 수업률을 고려한 진도를 의미합니다. 예를 들어 20 가지의 주제가 준비되어 있다고 가정할 때, 수업률이 높은 학생은 20 개의 주제를 모두 다루고 나서 진도가 끝났다고 선언하지만 수업률이 낮은 학생은 이 중 일부 주제를 건너 뛰고서 진도가 끝났다고 선언한다는 뜻입니다. 이와 같이 수업률이 떨어지게 되면 주제의 다양성 면에서 손실을 보게 되고 &lt;a href=&quot;https://ko.wikipedia.org/wiki/망각_곡선&quot;&gt;망각곡선&lt;/a&gt; 효과에 의해 학습효과도 감소될 수 있으므로 가급적 결석을 하지 않는 것이 좋겠습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/Screen Shot 2018-05-26 at 2.35.25 PM.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;제가 생각하고 있는 수업과정은 &lt;strong&gt;스크래치 -&amp;gt; 고급프로그래밍언어(JS or Python) 기본 -&amp;gt; 고급프로그래밍언어(JS or Python) 응용&lt;/strong&gt;의 순서입니다. 각 학생마다 3 개의 막대가 있는 이유입니다. 아직 고급프로그래밍언어 응용에 진입한 학생은 없기에 세번째 막대는 모두 0의 값을 가지고 있습니다. 현재 고급프로그래밍언어 기본의 진도가 가장 많이 나간 학생들은 진도 70의 NLCS 8,9 학년 학생들입니다. 이 학생들은 조만간 대망의 고급프로그래밍언어 응응에 들어갈 것 같습니다.&lt;/p&gt;
+
+&lt;p&gt;스크래치 진도 90 이상의 학생들은 스크래치에 대해서는 배울 것은 다 배웠다는, 정확히 말하면 스크래치에 대해 제가 가르칠 것은 다 가르쳤다는 것을 의미합니다. 이제부터는 학생의 몫인데 수업을 진행하면서 학생이 잊은 부분이 있거나 심화학습에 도움이 되는 경우에는 스크래치를 더 가르치는 경우가 있을 것입니다.&lt;/p&gt;
+
+&lt;p&gt;JS or Python 기본진도 50의 그룹은 자바스크립트를 25 회 정도 배운 그룹입니다.&lt;/p&gt;
+
+&lt;p&gt;JS or Python 기본진도 10의 그룹은 얼마전 자바스크립트를 시작한 금요일 클래스 그룹입니다.&lt;/p&gt;
+
+&lt;p&gt;JS or Python 기본진도 1의 그룹은 이제 막 자바스크립트를 들어간 G2 학생들 그룹입니다. 사실 이 그룹은 좀 실험적인 그룹인데, 어린 나이에도 불구하고 스크래치를 꽤 오래 배웠고, 이제부터는 결국 학생의 몫이기에 이보다 더 오래 스크래치를 붙잡고 있는 것은 실익이 적다고 판단, 고급프로그래밍언어를 이른 나이에 시도해보는 그룹입니다. 아직은 어린 학생들이기에 다른 클래스의 학생들보다는 어려움이 있을 것으로 예상되지만 그동안 스크래치에서 배운 코딩과 컴퓨터과학 이론을 잘 기억해낸다면 재미있는 결과가 나올 수도 있는 그룹입니다.&lt;/p&gt;
+
+&lt;h1 id=&quot;section-4&quot;&gt;맺음말&lt;/h1&gt;
+
+&lt;p&gt;이상으로 지금까지 학생들을 가르친 경험을 바탕으로 두 가지 차트를 살펴 보았습니다. 별 것 아닐 수도 있는 차트이지만 학부모님들의 궁금증을 조금이라도 풀어 드리고 앞으로 있을 더 다양한 분석을 위한 작은 시작이라고 생각해 주시면 고맙겠습니다.&lt;/p&gt;
+
+&lt;p&gt;감사합니다.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 26 May 2018 00:41:00 +0900</pubDate>
+        <link>http://ryuci.github.io/%EC%BD%94%EB%94%A9%EA%B5%90%EC%9C%A1/2018/05/26/%EB%8F%84%EB%8C%80%EC%B2%B4-%EC%96%BC%EB%A7%88%EB%82%98-%EC%98%A4%EB%9E%98-%EC%BD%94%EB%94%A9%EC%9D%84-%EB%B0%B0%EC%9B%8C%EC%95%BC-%ED%95%98%EB%82%98%EC%9A%94-Ver.2.html</link>
+        <guid isPermaLink="true">http://ryuci.github.io/%EC%BD%94%EB%94%A9%EA%B5%90%EC%9C%A1/2018/05/26/%EB%8F%84%EB%8C%80%EC%B2%B4-%EC%96%BC%EB%A7%88%EB%82%98-%EC%98%A4%EB%9E%98-%EC%BD%94%EB%94%A9%EC%9D%84-%EB%B0%B0%EC%9B%8C%EC%95%BC-%ED%95%98%EB%82%98%EC%9A%94-Ver.2.html</guid>
+        
+        <category>코딩교육</category>
+        
+        
+        <category>코딩교육</category>
+        
+      </item>
+    
+      <item>
+        <title>맥북프로 배터리 셀프 교환</title>
+        <description>&lt;p&gt;제가 사용하는 컴퓨터는 맥북프로 레티나 15 인치 2013 early 버전입니다. 만 5 년 동안 사용중이지요. 모든 배터리에는 수명이 있는데, 맥북프로 역시 마찬가지입니다.&lt;/p&gt;
+
+&lt;p&gt;맥북이나 아이맥 등 macOS를 사용하는 기종은 배터리의 수명이 다하면 성능이 많이 떨어졌을 경우 &lt;code class=&quot;highlighter-rouge&quot;&gt;배터리 수리 서비스&lt;/code&gt;라는 문구가 뜨게 되는데, 이는 배터리의
+충전능력이 저하되어 배터리를 새로 바꾸어야 함을 의미합니다. 하지만 이 문구를 표시하는 기능이 늘 정확한 것은 아니라고 하니,
+무조건 화들짝 놀라서 AS 센터에 갈 필요는 없습니다. 문구를 무시하고 그냥 충전기에 연결해서
+계속 사용해도 될 뿐 아니라, 완전 충전부터 방전까지의 시간이 자신의 사용 패턴에 적합하다면 그냥 더 사용해도 됩니다. 즉, 새 배터리였을 때 10 시간 버텼는데, 지금 5 시간밖에 못 버팀에도 불구하고 그 정도면 충분하다면 굳이 배터리 교환을 안하고 더 사용해도 된다는 뜻입니다.&lt;/p&gt;
+
+&lt;p&gt;좀더 정확히 판단을 하고 싶다면 macOS의 &lt;code class=&quot;highlighter-rouge&quot;&gt;시스템 리포트&lt;/code&gt; 중 &lt;code class=&quot;highlighter-rouge&quot;&gt;전원&lt;/code&gt; 부분의 &lt;code class=&quot;highlighter-rouge&quot;&gt;최대 충전 용량&lt;/code&gt;을 살펴보면 됩니다. 아래는 제 맥북의 현재 상태인데 최대 충전 용량이 5731 mAH를 나타내고 있습니다. 원래 맥북프로 레티나 15 인치의 배터리는 최대 충전 용량이 약 8500 mAH 내외입니다. 8500 이라는 값에 비교하였을 때 5731 은 배터리의 충전 용량이 정상치의 64 % 정도 밖에 되지 않는다는 뜻입니다. 이 정도 성능 저하가 OK 라면 그냥 쓰면 되고 아니면 배터리를 교체하면 되겠지요.&lt;/p&gt;
+
+&lt;p class=&quot;tofigure&quot;&gt;&lt;img src=&quot;/assets/mbp_battery_bad.png&quot; alt=&quot;&quot; title=&quot;macOS의 화면 왼쪽 위, 사과모양의 아이콘 클릭하고 '이 맥에 관하여' 선택, '시스템 리포트' 버튼을 누른 후 '전원'이라고 적힌 부분을 누르면 나오는 정보입니다.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;더불어 &lt;code class=&quot;highlighter-rouge&quot;&gt;사이클 수&lt;/code&gt;라는 부분도 유심히 보십시오. 저는 이 값이 811 인데, 지난 5 년 간 배터리 완전 충전을 811 회 했다는 뜻입니다. 애플에서는 충전 1000 회를 해도 80% 배터리 성능을 유지할 수 있도록 제품을 만들고 있다고 하는데, 사용 상황에 따라 다소 차이가 있습니다. 저의 경우 약 811 회에 64% 이니 애플에서 제시한 표준보다는 결과가 나쁘다고 할 수 있습니다. 아무튼, 이 부분을 유심히 보시라는 이유가, 인터넷 자료를 보다 보면 사이클 수 4~500 회면 배터리를 교체해야 한다는 사설 수리 업체의 잘못된 정보가 있어서 입니다. 애플에서 1000 회를 기준으로 하고 있고, 제 사용 기록을 보아도 4~500 회에 교체를 해야한다는 정보는 너무 과장인 듯 싶습니다. 참고로 아이폰은 500 회가 기준이라고 합니다. (혹시 사설업체에서 아이폰의 정보를 맥북 정보로 잘못 기재한 것이 아닐런지도 모르겠습니다.)&lt;/p&gt;
+
+&lt;p&gt;여러 모로 판단한 후 배터리를 교체하기로 결정하셨다면 방법은 세 가지가 있습니다.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;애플로 간다 - 믿음직하긴 하지만 아주 비싸고, 굳이 그럴 필요가 없는 행동입니다.&lt;/li&gt;
+  &lt;li&gt;사설 수리 업체로 간다 - 교체가 무슨 대단한 일도 아니기에 꼭 애플에 갈 필요도 없고, 가격 면에서 합리적인 선택입니다.&lt;/li&gt;
+  &lt;li&gt;직접 배터리를 구입해서 직접 교체한다 - 가장 경제적이며 재미도 있습니다. 기계를 무서워하지 않는 분은 충분히 시도해 볼 만합니다. 다만 괴상하게 생긴 드라이버가 있어야 합니다. 보통 배터리를 사면 괴상한 드라이버를 함께 줍니다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;저는 3 번입니다.&lt;/p&gt;
+
+&lt;p&gt;먼저 구입처와 가격. 국내에서 구입은 꿈도 꾸지 마시고^^, 직구를 해야하니 일단 미국 아마존인데, 어짜피 배터리는 결국 중국에서 오니 알리바바를 이용하는 것이 더 저렴합니다. 단, 배송은 어마어마 느립니다. 중간에 물건 잃어버릴 염려도 있구요. 안전한 배송과 트래킹을 원하시면 배대지를 이용한 아마존, 싼 게 최고면 알리바바를 선택하시면 됩니다. (전에 이베이를 통해서 중국 판매자에게 물건을 사본 적이 있는데 배송 중 분실하면 같은 물건을 다시 보내 주더군요. 그래서 별로 걱정하지 않고 주문했습니다. 게다가 어떤 물건은 분실된 것이 확실해서 다시 받았는데, 분실된 물건이 돌고 돌아 뒤늦게 도착해서 결국 두 개를 받은 적도 있어요.)&lt;/p&gt;
+
+&lt;p&gt;알리바바에서 다음과 같은 제품을 주문했습니다. 가격 참 착하지요?&lt;/p&gt;
+
+&lt;p class=&quot;tofigure&quot;&gt;&lt;img src=&quot;/assets/mbp_battery_alibaba.png&quot; alt=&quot;&quot; title=&quot;알리바바에서 맥북 기종과 생산년도를 가지고 검색하면 원하는 배터리를 찾을 수 있습니다&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;​&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;주문은 3 월 31 일, 예상 배송일은 6 월 초라고(네, 두 달 맞습니다.) 떴습니다만, 실제는 4 월 16 일에 배송되었습니다.&lt;/p&gt;
+
+&lt;p&gt;물건을 받았으니 이제 사진을 통해 배터리 교체 과정을 설명하겠습니다. 사진의 캡션을 참고하세요.&lt;/p&gt;
+
+&lt;p class=&quot;tofigure&quot;&gt;&lt;img src=&quot;/assets/20180418_082147.jpg&quot; alt=&quot;&quot; title=&quot;1. 맥북 뒷면의 나사 10 개를 풀고 뚜껑을 엽니다.&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;tofigure&quot;&gt;&lt;img src=&quot;/assets/20180418_082222.jpg&quot; alt=&quot;&quot; title=&quot;2. 새 배터리입니다.&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;tofigure&quot;&gt;&lt;img src=&quot;/assets/20180418_082353.jpg&quot; alt=&quot;&quot; title=&quot;3. 새 배터리의 뒷면을 보면 강력 양면테이프가 있습니다. 즉, 현재의 맥북 배터리도 이런 양면테이프로 접착이 되어있다는 뜻입니다. 배터리 교체를 위해서는 이 접착제를 제거하는 것이 관건입니다.&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;tofigure&quot;&gt;&lt;img src=&quot;/assets/20180418_082546.jpg&quot; alt=&quot;&quot; title=&quot;4. 기존 배터리의 전원 커넥터를 분리합니다. 스티커를 들어내면 커넥터가 있는데 지면에서 공중 방향으로 잡아 빼면 됩니다. 먼지가 엄청 많이 유입되어 있는데 이참에 청소도 합니다.&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;tofigure&quot;&gt;&lt;img src=&quot;/assets/20180418_083202.jpg&quot; alt=&quot;&quot; title=&quot;5. 스티커를 완전 제거하고 나사를 풀어줍니다.&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;tofigure&quot;&gt;&lt;img src=&quot;/assets/20180418_203719.jpg&quot; alt=&quot;&quot; title=&quot;6. 비장의 준비물! 무언가 가늘고 실 같은 끊어지지 않는 강력한 것이 필요합니다. 기타줄, 피아노줄, 낚시줄 추천합니다. 저는 집에 있는 기타줄을 선택했습니다. 배터리의 스티커가 있는 부분에 줄을 집어넣고 양손으로 줄을 단단히 잡고 슬근슬근 톱질하면 금방 배터리가 분리됩니다. 6 번의 작업이 필요합니다.&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;tofigure&quot;&gt;&lt;img src=&quot;/assets/20180418_205836.jpg&quot; alt=&quot;&quot; title=&quot;7. 이렇게 분리됩니다. 인터넷에 보면 나일론 실을 사용해서 작업을 하는 동영상이 있는데 정말 죽을 힘을 다해 오랫동안 톱질을 하더군요. 금속성의 아주 가는 줄을 사용하면 금방 끝나는데 말이죠. 기타줄 강추!&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;tofigure&quot;&gt;&lt;img src=&quot;/assets/20180418_210330.jpg&quot; alt=&quot;&quot; title=&quot;8. 새 배터리의 테이프 보호지를 제거하고 살포시 맥북에 넣어줍니다. 조립은 분해의 역순!&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;작업이 끝나고 맥북을 다시 켠 후, &lt;code class=&quot;highlighter-rouge&quot;&gt;시스템 리포트&lt;/code&gt; 중 &lt;code class=&quot;highlighter-rouge&quot;&gt;전원&lt;/code&gt; 부분의 &lt;code class=&quot;highlighter-rouge&quot;&gt;최대 충전 용량&lt;/code&gt;을 확인합니다. 값이 8770 으로 정상치가 되었음을 알 수 있습니다. &lt;code class=&quot;highlighter-rouge&quot;&gt;사이클 수&lt;/code&gt;도 0 으로 바뀌었습니다.&lt;/p&gt;
+
+&lt;p class=&quot;tofigure&quot;&gt;&lt;img src=&quot;/assets/mbp_battery_good.png&quot; alt=&quot;&quot; title=&quot;이제 맥북을 새로 샀을 때의 배터리 상태가 되었습니다.&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 18 Apr 2018 20:43:00 +0900</pubDate>
+        <link>http://ryuci.github.io/%EC%BD%94%EB%94%A9%EA%B5%90%EC%9C%A1/2018/04/18/replace-mbp-battery.html</link>
+        <guid isPermaLink="true">http://ryuci.github.io/%EC%BD%94%EB%94%A9%EA%B5%90%EC%9C%A1/2018/04/18/replace-mbp-battery.html</guid>
+        
+        <category>맥북</category>
+        
+        <category>macOS</category>
+        
+        
+        <category>코딩교육</category>
+        
+      </item>
+    
+      <item>
+        <title>피지컬 컴퓨팅에 대한 정모아빠의 생각</title>
+        <description>&lt;p&gt;코딩교육은 주로 컴퓨터 앞에 학생이 앉아서 키보드나 마우스로 컴퓨터에 명령을 내리고, 그 결과를 살펴보는 방식으로 진행됩니다. 그런데 때로는 통상적인 의미의 컴퓨터를 사용하는 대신에, 작은 로봇이나 드론 같은 장난감 혹은 겉보기에는 컴퓨터 같지 않지만 사실은 컴퓨터인 작은 보드(board)를 가지고 코딩을 하는 경우가 있는데 이를 피지컬 컴퓨팅(physical computing)이라고 합니다.&lt;/p&gt;
+
+&lt;p&gt;피지컬 컴퓨팅을 통해 코딩교육을 하는 장점은 무엇보다도 아이들의 흥미를 유발하기에 적합하고, 코딩이라는 것이 얼마나 우리의 일상에 가까이 다가와 있다는 것을 체험시킬 수 있다는 점입니다. 컴퓨터 앞에서 &lt;strong&gt;추상적인 사고와 모델링을 통한 코딩&lt;/strong&gt;을 하기 보다는 실제로 무언가가 소리내고, 반짝이고, 움직이는 것을 보는 것이 더 즐거울 수 밖에는 없고, “아~ 이런 것도 안에는 컴퓨터가 들었고 코드가 돌아가면서 작동하게 되는 것이구나.” 라는 것을 알게 됩니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;아래 사진은 &lt;a href=&quot;https://ozobot.com&quot;&gt;오조봇&lt;/a&gt;이라는 아이입니다. 요즘 코딩교육을 앞세워서 상품화되어 나오는 로봇들은 대개 이런 형태와 기능을 가지고 있습니다. 기본적으로 구동부, 센서, 컴퓨터로 이루어져 있습니다. 종이에 색연필 등으로 미로를 그리면 그 미로를 인식하고 따라 간다거나 하는 고유의 기능을 가지고 있고 대개 스크래치와 유사한 블록 코딩 도구를 이용해서 간단한 프로그래밍을 할 수 있도록 되어 있습니다.&lt;/p&gt;
+
+&lt;p class=&quot;tofigure&quot;&gt;&lt;img src=&quot;/assets/ozobot.png&quot; alt=&quot;&quot; title=&quot;오조봇&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+아이들이 혹하게 생겼지요? ^^&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;조금 더 복잡한 로봇은 아래 사진의 &lt;a href=&quot;https://www.lego.com/ko-kr/mindstorms&quot;&gt;레고 마인드스톰&lt;/a&gt;과 같은 것입니다.&lt;/p&gt;
+
+&lt;p class=&quot;tofigure&quot;&gt;&lt;img src=&quot;/assets/LEGO-Mindstorms-EV3.jpg&quot; alt=&quot;&quot; title=&quot;레고 마인드스톰&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://ozobot.com&quot;&gt;오조봇&lt;/a&gt;과 마찬가지로 구동부, 센서, 컴퓨터로 이루어져 있고 스크래치와 유사한 블록 코딩 도구를 지원한다는 점은 같지만, 다양한 조립과 응용이 가능하고 컴퓨터에 해당하는 부품을 해킹하면 파이썬과 같은 고급 프로그래밍 언어도 사용할 수 있어서, 상상력이 한계일 뿐, 할 수 있는 일이 꽤 많습니다. 다만 350 달러에 육박하는 가격이 부담입니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://ozobot.com&quot;&gt;오조봇&lt;/a&gt;이나 &lt;a href=&quot;https://www.lego.com/ko-kr/mindstorms&quot;&gt;레고 마인드스톰&lt;/a&gt; 같은 흡사 장난감과 같이 보이는 피지컬 컴퓨팅 환경 외에 진정한 피지컬 컴퓨팅이라 할 수 있는 것으로는 작은 컴퓨터 보드와 다양한 센서부품을 제공하는 &lt;a href=&quot;https://www.arduino.cc&quot;&gt;아두이노&lt;/a&gt;나 &lt;a href=&quot;https://www.raspberrypi.org&quot;&gt;라즈베리파이&lt;/a&gt;와 같은 제품이 있습니다. 이것들은 기본적으로 C 언어라는 고급언어를 이용하여 코딩을 하게 되어 있고, 실제 컴퓨터에서 코딩을 하는 것과 마찬가지로 그 응용과 개발에 한계가 없다고 생각해도 무방할 정도입니다. 소위 임베디드 시스템이라고 하는 우리 주변에 있는 컴퓨터가 들어 있는 모든 제품들, 예를 들어 스마트폰, 프린터, 디지털 TV, 인터넷 공유기, 자동차의 전자제어장치, 비행기의 항법장치, 미사일의 유도장치, 인공위성의 통신장비 등등은 컴퓨터의 성능이 강력하고 코드의 규모와 복잡도가 클뿐이지 기본적인 원리 및 코딩 환경은 아두이노 등과 다를 바 없습니다. 물론 아두이노 등은 어린이들이 쉽게 접근할 수 있도록 스크래치와 같은 블록 코딩 도구를 사용하여 코딩을 할 수도 있습니다.&lt;/p&gt;
+
+&lt;p&gt;많은 사람들이 아두이노 등을 이용하여 기발한 제품을 만들어내고 있습니다. 아두이노를 이용한 취미로 시작하여 시제품을 만들다가 상용화되는 케이스도 많을 것이라 판단됩니다. 아래 사진은 손이나 팔의 제스쳐를 이용하여 휠체어를 조정하는 &lt;a href=&quot;https://www.hackster.io/next-tech-lab/gest-chair-7d6698&quot;&gt;gest-chair&lt;/a&gt;라는 아두이노 프로젝트입니다.&lt;/p&gt;
+
+&lt;p class=&quot;tofigure&quot;&gt;&lt;img src=&quot;/assets/gest_chair.png&quot; alt=&quot;&quot; title=&quot;아두이노를 이용한 제스트체어 프로젝트&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;모터가 달린 휠체어일지라도 조정간을 제대로 제어할 수 없는 사람들에게 큰 도움이 되겠지요.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;이제 정리를 해보겠습니다. 설명의 편의를 위해 &lt;a href=&quot;https://ozobot.com&quot;&gt;오조봇&lt;/a&gt;이나 &lt;a href=&quot;https://www.lego.com/ko-kr/mindstorms&quot;&gt;레고 마인드스톰&lt;/a&gt;은 &lt;code class=&quot;highlighter-rouge&quot;&gt;아이들 장난감&lt;/code&gt;이라고 부르고 &lt;a href=&quot;https://www.arduino.cc&quot;&gt;아두이노&lt;/a&gt;와 &lt;a href=&quot;https://www.raspberrypi.org&quot;&gt;라즈베리파이&lt;/a&gt;는 &lt;code class=&quot;highlighter-rouge&quot;&gt;어른 장난감&lt;/code&gt;이라고 부르겠습니다.^^ (사실 &lt;a href=&quot;https://www.lego.com/ko-kr/mindstorms&quot;&gt;레고 마인드스톰&lt;/a&gt;은 파이썬을 이용하여 코딩을 하면 어른 장난감으로 분류될 수도 있습니다.)&lt;/p&gt;
+
+&lt;p&gt;아이들 장난감을 이용한 코딩교육의 단점은 제가 중요시하는 &lt;strong&gt;추상적인 사고와 모델링을 통한 코딩&lt;/strong&gt;에 한계가 있다는 점입니다. 실제로 적용할 수 있는 코딩 응용이 매우 제한적이어서 아이들을 현혹^^하기에는 용이하나 깊이 있는 코딩교육으로 이끌고 들어가기에는 적합하지 않습니다. 정모가 다니는 국제학교에서도 방과후 활동으로 아이들 장난감을 이용한 코딩이나 로봇교육이 있기는 한데, 그 정도로는 아이들에게 코딩의 세계에 발을 들이게는 할 수 있으나 앞으로 나아가게 하기에는 무리가 아닌가 싶습니다.&lt;/p&gt;
+
+&lt;p&gt;반면에 어른 장난감은 기본 환경이 컴퓨터와 동일하기 때문에 &lt;strong&gt;추상적인 사고와 모델링을 통한 코딩&lt;/strong&gt;이 가능은 합니다. 하지만 여기에도 두 가지 문제가 있습니다.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;어린이를 위해 시중에 나와있는 어른 장난감 예제 코드들이 아이들 장난감의 코드 수준을 벗어나지 못한다.&lt;/li&gt;
+  &lt;li&gt;컴퓨터 앞에서 코딩을 제대로 배우고 나서 어른 장난감을 만지는 것이 바른 순서이다. 역은 성립하지 않는다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;정모아빠의 코딩교실에서 지향하는 목표는 꾸준한 훈련을 통해서만 이룰 수 있습니다. 그 훈련은 대부분 컴퓨터 앞에서, 친구들과 선생님과의 대화를 통해, 자신의 뇌를 열심히 굴려서 재미없을 수도 있는 &lt;strong&gt;추상화의 탑 쌓기와 모델링의 확장&lt;/strong&gt;을 통해서만 이루어질 수 있는 내용입니다. 물론 서론에서 언급한 바와 마찬가지로 피지컬 컴퓨팅의 장점은 확실히 있고 그 의의도 큽니다. 다만 &lt;strong&gt;컴퓨터 앞에서의 코딩 교육이 주가 되고 피지컬 컴퓨팅을 이용한 코딩 교육은 보조적&lt;/strong&gt;일 수 밖에 없다는 것을 말씀드리는 것 뿐입니다.&lt;/p&gt;
+
+&lt;p&gt;때문에 정모아빠의 코딩교실에서는 피지컬 컴퓨팅을 정규 수업 시간에 가르치지 않습니다. 코딩 교실을 시작한지 지금 4 학기차인데, 그간의 경험에 의하면 더 중요한 본질을 가르치기에도 시간이 모자랍니다. 그래도 완전히 버리기에는 아쉬워서 피지컬 컴퓨팅은 여름방학 특강으로만 다루고 있습니다. (물론 방학이면 학생들이 다들 육지로, 해외로 가기 때문에 들을 수 있는 학생도 제한적이지만요.ㅠㅠ)&lt;/p&gt;
+
+&lt;p&gt;사실 정모 아빠의 학부 전공은 전자공학이고 대학원 전공은 디지털 신호처리 알고리듬이며 회사에서 오랫동안 임베디드 시스템 소프트웨어를 개발했습니다. 즉, 어른 장난감으로 무언가를 만들자고 하면 장난 아니게 할 수 있다는 말씀이지요.^^ 그럼에도 불구하고 아직은 아닙니다. 코딩과 CS를 제대로 충분히 배우고, 기본기가 탄탄히 갖춰진 학생들의 숫자가 어느 정도 되면 그 학생들과 어른 장난감을 다루어서 무언가 멋진 것을 만들고 싶다는 꿈은 가지고 있습니다만, 언제쯤 현실이 될지는 예단하기가 힘듭니다. 다른 학생들이 혹 그 전에 코딩 교실을 그만 두어도 정모는 남아 있을테니 정모랑 무언가를 해 볼 기회가 꼭 생기기를 기대합니다.&lt;/p&gt;
+
+&lt;p&gt;감사합니다.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 27 Mar 2018 17:49:00 +0900</pubDate>
+        <link>http://ryuci.github.io/%EC%BD%94%EB%94%A9%EA%B5%90%EC%9C%A1/2018/03/27/physical-computing.html</link>
+        <guid isPermaLink="true">http://ryuci.github.io/%EC%BD%94%EB%94%A9%EA%B5%90%EC%9C%A1/2018/03/27/physical-computing.html</guid>
+        
+        <category>코딩교육</category>
+        
+        <category>피지컬컴퓨팅</category>
+        
+        
+        <category>코딩교육</category>
+        
+      </item>
+    
+      <item>
+        <title>Engineer's Ego</title>
+        <description>&lt;p&gt;다른 업종에서도 비슷한 말이 있을테지만 소프트웨어 개발자들 사이에는 &lt;code class=&quot;highlighter-rouge&quot;&gt;engineer's ego&lt;/code&gt; 란 말이 있습니다.&lt;/p&gt;
+
+&lt;p&gt;실무에서는 다양한 개발자들이 작성한 코드들을 하나로 합쳐서 전체 소프트웨어를 구성하는데, 이때 원하는 대로 동작이 되지 않을 경우 어느 코드에서 문제가 발생했는지를 찾아내는 데에 많은 노력이 들어가곤 합니다. 원인을 찾다보면 누가 만든 코드에 문제가 있는지를 논할 수 밖에 없는데, 이때가 바로 engineer’s ego가 마각을 드러내는 순간입니다. “나는 똑똑하다. 따라서 내가 만든 코드는 잘못되었을 리가 없다. 오히려 네가 만든 코드에 문제가 있을 것이다.” 라며 협업해야 할 팀원들끼리 서로 감정적으로 싸우는 결과를 초래합니다.&lt;/p&gt;
+
+&lt;p&gt;이렇게 에고가 강한 엔지니어들이 출현하는 이유는 대략 다음과 같습니다.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;그동안의 성공의 경험으로 인해 철저한 자만에 빠져있거나,&lt;/li&gt;
+  &lt;li&gt;문제를 객관적으로 파악하는 능력/지식이 부족하거나,&lt;/li&gt;
+  &lt;li&gt;내재적으로 실패를 부끄러워하거나 두려워하는 심리를 가지고 있거나,&lt;/li&gt;
+  &lt;li&gt;외재적으로 조직에서 실패를 용인하지 않는 분위기&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;저의 현업 시절 가장 중요한 임무 중의 하나가 바로 엔지니어들 스스로 에고를 제어하는 능력을 키우고 상대방의 입장을 살피며, 객관적인 데이터를 가지고 문제를 파악하도록 돕는 일이었습니다.&lt;/p&gt;
+
+&lt;p&gt;어른들도 이러할진대, 아이들은 두 말 할 나위 없겠지요.&lt;/p&gt;
+
+&lt;p&gt;수업 시간에 많이 마주치게 되는 상황은 다음과 같습니다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;타이핑 연습을 할 때 - “제가 제대로 쳤는데 글자가 이상하게 나와요.” (이후에 컴퓨터에 대한 짜증이나 화를 동반)&lt;/li&gt;
+  &lt;li&gt;코딩을 할 때 - “분명히 선생님이 하라는 대로 했는데 이상하게 나와요.” (여기에서는 화를 내는 경우보다는 짜증과 좌절감을 표출하는 경우가 많음. 때때로 자기 머리를 때리거나 볼을 때리는 자해(?)행동 수반.)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;이 경우 제가 학생에게 내리는 해결책은 일단 컴퓨터나 선생님이 잘못했을 것이라는 생각은 접어두고 &lt;strong&gt;내가 무엇을 잘못 했을까를 먼저 생각하게 하는 것&lt;/strong&gt;입니다. 물론 많은 경우 죽어도 자기는 제대로 했다고 주장하기는 합니다. 하지만 문제점을 외부에서 찾기보다는 먼저 스스로에게서 찾아보고, 열심히 생각하고 따져보았음에도 불구하고 스스로에게 문제가 없을 때 비로소 외부를 점검하는 훈련을 지속하고 있습니다. 이러한 훈련이 부족할 경우에는 문제에 봉착했을 때 감정이 이성을 억압하여 문제를 명확히 볼 수 없게 됩니다. 따라서 해결책도 찾아내기 힘들어지게 되지요.&lt;/p&gt;
+
+&lt;p&gt;제 경험으로 볼 때 이러한 훈련의 성과는 두 가지로 요약됩니다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;시간적으로 보았을 때 말귀 잘 알아듣는 고학년일수록 일찍 결실을 보고, 저학년일수록 시간이 더 걸립니다.&lt;/li&gt;
+  &lt;li&gt;성공 비율로 보았을 때 저학년은 거의 100% 훈련에 성공하는 반면, 고학년은 꽤 오랫동안 훈련을 해도 자아의 껍질이 이미 꽤 두껍게 형성되어 성공하지 못하는 경우도 있습니다. (즉, 시간이 더 필요하다는 뜻)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;얼마전 G2 클래스 수업 중에 아주 흐뭇한 광경이 있었습니다. 수업 중에 한 번에 코드가 제대로 동작하지 않는 경우는 비일비재한데, 어린 G2 학생임에도 불구하고 “컴퓨터가 잘못 됐을 리는 없을테니 내가 어딘가 잘못 했을거야” 라고 혼잣말을 하면서 문제를 바로 찾아서 고쳐내는 모습이었습니다. 옆에서 다른 친구는 “그래그래 컴퓨터는 잘못이 없어, 사람이 시키는대로 하니까.”, 또 다른 친구는, “컴퓨터야 잘했어~” 라고 하더군요.&lt;/p&gt;
+
+&lt;p&gt;문제의 원인을 감정과 자아에 치우침 없이 객관적으로 살피고 해결책을 찾아내는 것. 그것이 코딩수업을 통해 배우게 되는 진짜 지식이라고 생각하고 있습니다.&lt;/p&gt;
+
+&lt;p&gt;감사합니다.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 22 Mar 2018 13:43:00 +0900</pubDate>
+        <link>http://ryuci.github.io/%EC%BD%94%EB%94%A9%EA%B5%90%EC%9C%A1/2018/03/22/Engineer's-Ego.html</link>
+        <guid isPermaLink="true">http://ryuci.github.io/%EC%BD%94%EB%94%A9%EA%B5%90%EC%9C%A1/2018/03/22/Engineer's-Ego.html</guid>
+        
+        <category>코딩교육</category>
+        
+        
+        <category>코딩교육</category>
+        
+      </item>
+    
+      <item>
+        <title>Tweaking Centrarium Theme</title>
+        <description>&lt;h2 id=&quot;basic-site-setting&quot;&gt;Basic Site Setting&lt;/h2&gt;
+
+&lt;p&gt;Change site setting in &lt;code class=&quot;highlighter-rouge&quot;&gt;/_config.yml&lt;/code&gt; per your setting.&lt;/p&gt;
+
+&lt;p&gt;Centrarium’s defalut &lt;code class=&quot;highlighter-rouge&quot;&gt;base_url&lt;/code&gt; was &lt;code class=&quot;highlighter-rouge&quot;&gt;/centrarium&lt;/code&gt;, which makes me to use &lt;code class=&quot;highlighter-rouge&quot;&gt;http://localhost/centrarium:4000&lt;/code&gt;
+instead of &lt;code class=&quot;highlighter-rouge&quot;&gt;http://localhost:4000&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;http://ryuci.github.io/centrarium&lt;/code&gt; instead of &lt;code class=&quot;highlighter-rouge&quot;&gt;http://ryuci.github.io&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;I don’t like it and changed &lt;code class=&quot;highlighter-rouge&quot;&gt;base_url&lt;/code&gt; to blank.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;정모&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;아빠의&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Code&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Learn&lt;/span&gt;
+&lt;span class=&quot;nl&quot;&gt;subtitle&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Do not just learn to code, but code to learn how the world is working!&quot;&lt;/span&gt;
+&lt;span class=&quot;nl&quot;&gt;email&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;ryuci0225&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;@&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;gmail&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;com&lt;/span&gt;
+&lt;span class=&quot;nl&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Choong&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;il&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Ryu&lt;/span&gt;
+&lt;span class=&quot;nl&quot;&gt;description&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;Do&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;just&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;learn&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;code&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;but&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;code&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;learn&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;how&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;world&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;working&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;baseurl&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&quot;&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;#&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;subpath&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;of&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;your&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;g&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;blog&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;http://ryuci.github.io&quot;&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;#&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;base&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;hostname&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;protocol&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;your&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;site&lt;/span&gt;
+&lt;span class=&quot;nl&quot;&gt;cover&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;/assets/pexels-photo-59628-966x300.jpg&quot;&lt;/span&gt;
+&lt;span class=&quot;nl&quot;&gt;logo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;/assets/logo2.png&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;activate-commenting&quot;&gt;Activate Commenting&lt;/h1&gt;
+
+&lt;p&gt;If you want your post to get comments, enable &lt;a href=&quot;https://disqus.com&quot;&gt;Disqus&lt;/a&gt; feature as follows in &lt;code class=&quot;highlighter-rouge&quot;&gt;/_config.yml&lt;/code&gt;. &lt;code class=&quot;highlighter-rouge&quot;&gt;ryuci0225&lt;/code&gt; is my Discus username and you should change it to yours.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;# Disqus comments
+disqus_shortname: ryuci0225&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Then, go to &lt;a href=&quot;https://disqus.com&quot;&gt;Disqus&lt;/a&gt; site, and login &lt;a href=&quot;https://disqus.com/admin/create/&quot;&gt;Create a new site&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;TBD&lt;/p&gt;
+
+&lt;h2 id=&quot;working-with-draft&quot;&gt;Working with Draft&lt;/h2&gt;
+
+&lt;p&gt;Read &lt;a href=&quot;https://jekyllrb.com/docs/drafts/&quot;&gt;Working with Draft&lt;/a&gt;.
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;add-image-caption&quot;&gt;Add Image Caption&lt;/h2&gt;
+
+&lt;p&gt;figure crashes to highlight so change figure to figure2 in css and JS
+Read &lt;a href=&quot;https://flinhong.com/2016/09/22/figure-caption-for-images-on-jekyll-sites/&quot;&gt;Figure caption for images on Jekyll sites - single line with Markdown&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;add-google-map&quot;&gt;Add Google Map&lt;/h2&gt;
+
+&lt;p&gt;Read &lt;a href=&quot;https://ayastreb.me/jekyll-maps/&quot;&gt;Jekyll Maps&lt;/a&gt;.
+Note that this plugin does not support by gitpage, it won’t build when you push the source.
+To workaround this, you need to build it locally and push the static site files.
+Remove … in .gitignore as follows.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;.DS_Store
+
+# Compiled site
+#_site
+
+# Sass garbage
+.sass-cache
+
+# Bundler
+.bundle/
+vendor/&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;add-menu&quot;&gt;Add Menu&lt;/h2&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;.
+├── _config.yml
+├── _data
+|   └── members.yml
+├── _drafts
+|   ├── begin-with-the-crazy-ideas.md
+|   └── on-simplicity-in-technology.md
+├── _includes
+|   ├── footer.html
+|   └── header.html
+├── _layouts
+|   ├── default.html
+|   └── post.html
+├── _posts
+|   ├── 2007-10-29-why-every-programmer-should-play-nethack.md
+|   └── 2009-04-26-barcamp-boston-4-roundup.md
+├── _sass
+|   ├── _base.scss
+|   └── _layout.scss
+├── _site
+├── .jekyll-metadata
+└── index.html&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;mathjax&quot;&gt;MathJax&lt;/h2&gt;
+
+&lt;p&gt;Read [Using Math Expressions in Your Jekyll Blog][Using Math].
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;change-ruby-version&quot;&gt;Change Ruby Version&lt;/h2&gt;
+
+&lt;p&gt;Change version info in &lt;code class=&quot;highlighter-rouge&quot;&gt;/circle.yml&lt;/code&gt; per your setting.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;achine&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;ruby&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;version&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;mf&quot;&gt;2.5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;insert-google-map&quot;&gt;Insert Google Map&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;List item 1&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;List item 2&lt;/p&gt;
+
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ruby
+ def i_am_highlighted
+   puts &quot;Hello, I am highlighted!&quot;
+ end
+&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;List item 3&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;syntax-highlighting&quot;&gt;Syntax Highlighting&lt;/h2&gt;
+
+&lt;p&gt;Read &lt;a href=&quot;https://highlightjs.org/static/demo/&quot;&gt;HighlightJS demo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://disqus.com&quot;&gt;Disqus&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jekyllrb.com/docs/drafts/&quot;&gt;Jekyll&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/bencentra/centrarium#centrarium-&quot;&gt;Centrarium README&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ayastreb.me/jekyll-maps/&quot;&gt;Jekyll Maps&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 15 Mar 2018 01:22:59 +0900</pubDate>
+        <link>http://ryuci.github.io/jekyll/2018/03/15/tweaking-centrarium-theme.html</link>
+        <guid isPermaLink="true">http://ryuci.github.io/jekyll/2018/03/15/tweaking-centrarium-theme.html</guid>
+        
+        <category>jekyll</category>
+        
+        <category>centrarium</category>
+        
+        
+        <category>Jekyll</category>
+        
+      </item>
+    
+      <item>
+        <title>Using Math Expressions in Your Jekyll Blog</title>
+        <description>&lt;p&gt;My blog is using &lt;a href=&quot;https://kramdown.gettalong.org/syntax.html&quot;&gt;Kramdown&lt;/a&gt; markdown converter. Since Kramdown supports &lt;a href=&quot;https://www.mathjax.org&quot;&gt;MathJax&lt;/a&gt;, you can do PNG rendering using Latex syntax. In plain words, you can put fancy math expressions like this &lt;script type=&quot;math/tex&quot;&gt;x = {-b \pm \sqrt{b^2-4ac} \over 2a}&lt;/script&gt; in your blog using LaTex syntax.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-to-enable-mathjax&quot;&gt;How to enable MathJax&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Put following tag in your HTML file.&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;script type=&quot;text/javascript&quot; src=&quot;http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot;&amp;gt;&amp;lt;/script&amp;gt;&lt;/code&gt; In my case I put it in &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;_layouts/default.thml&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;In &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt;, change &lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;post.content&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;strip_html&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;truncatewords:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;50&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt; to &lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;post.content&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;truncatewords:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;50&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;This step might be necessary if it does not work yet: add &lt;code class=&quot;highlighter-rouge&quot;&gt;mathjax: true&lt;/code&gt; under &lt;code class=&quot;highlighter-rouge&quot;&gt;# Build settings&lt;/code&gt; in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; file.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;reference&quot;&gt;Reference&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.mathjax.org&quot;&gt;MathJax&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.mathjax.org/#samples&quot;&gt;MathJax Samples&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://kramdown.gettalong.org/syntax.html#math-blocks&quot;&gt;Kramdown Math Blocks&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://haixing-hu.github.io/programming/2013/09/20/how-to-use-mathjax-in-jekyll-generated-github-pages/&quot;&gt;Use Maruku instead of Kramdown&lt;/a&gt; - note that Kramdown replaced Maruku in the latest Jekyll version.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols&quot;&gt;List of Latex symbols&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;examples&quot;&gt;Examples&lt;/h2&gt;
+
+&lt;h3 id=&quot;symbols-frequently-used-in-proofs&quot;&gt;Symbols Frequently Used in Proofs&lt;/h3&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;A\,\alpha\,B\,\beta\,\Gamma\,\gamma\,E\,\epsilon\,\Pi\,\pi\,\Sigma\,\sigma&lt;/script&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;$$&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;alpha&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;B&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;beta&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Gamma&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;gamma&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;E&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;epsilon&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Pi&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;pi&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Sigma&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;sigma&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$$&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Note 1. Unlike conventional LaTex, we should use normal alphabet when possible, like &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;Note 2. &lt;code class=&quot;highlighter-rouge&quot;&gt;\,&lt;/code&gt; means a space.
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\exists,\forall,\neg,\lor,\land,\to,\leftrightarrow,\implies,\iff,\therefore,\because&lt;/script&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;$$&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;exists&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;forall&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;neg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;lor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;land&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;to&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;leftrightarrow&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;implies&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;iff&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;therefore&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;because&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$$&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;set-theory&quot;&gt;Set theory&lt;/h3&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\emptyset,\mathbb{N},\mathbb{Z},\mathbb{Q},\mathbb{R}&lt;/script&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;$$&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;emptyset&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;mathbb&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;N&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;mathbb&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Z&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;mathbb&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Q&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;mathbb&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;R&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$$&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\{2, 4, 6, 8\dots\}&lt;/script&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;$$&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;dots&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;$$&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\{x \mid x \text{ is positive and even}\}&lt;/script&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;$$&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;mid&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;positive&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;even&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;$$&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\subset, \supset, \not \subset, \not \supset, \subseteq,\supseteq,\nsubseteq,\nsupseteq&lt;/script&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;$$&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;subset&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;supset&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;subset&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;supset&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;subseteq&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;supseteq&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;nsubseteq&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;nsupseteq&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$$&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;(A \cup B) \cap C \in D \subset E&lt;/script&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;$$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;A&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;cup&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;B&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;cap&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;C&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;D&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;subset&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;E$$&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\bigcup_{i=1}^{\infty} F_{i}&lt;/script&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;$$&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;bigcup_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;infty&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;F_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;$$&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;(F\circ G)(x)\,means\,x \overset{F\circ G}{\mapsto} y&lt;/script&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;$$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;F&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;circ&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;G&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;means&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;overset&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;F&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;circ&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;G&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;mapsto&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$$&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;algebra&quot;&gt;Algebra&lt;/h3&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;x = {-b \pm \sqrt{b^2-4ac} \over 2a}&lt;/script&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;$$&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;pm&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;sqrt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ac&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;over&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$$&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\cos(θ+φ)=\cos(θ)\cos(φ)−\sin(θ)\sin(φ)&lt;/script&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;$$&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;cos&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;θ&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;φ&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;cos&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;θ&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;cos&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;φ&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;−\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;sin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;θ&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;sin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;φ&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$$&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\sigma = \sqrt{ \frac{1}{N} \sum_{i=1}^N (x_i -\mu)^2}&lt;/script&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;$$&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;sigma&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;sqrt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;frac&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;N&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;sum_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;N&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;x_i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;mu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$$&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbf{X} = \mathbf{Z} \mathbf{P^\mathsf{T}}&lt;/script&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;$$&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;mathbf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;mathbf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Z&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;mathbf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;P&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;mathsf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;T&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$$&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbf{X}\_{n,p} = \mathbf{A}\_{n,k} \mathbf{B}\_{k,p}&lt;/script&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;$$&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;mathbf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;mathbf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;k&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;mathbf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;B&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;k&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$$&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathsf{Data = PCs} \times \mathsf{Loadings}&lt;/script&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;$$&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;mathsf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Data&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;PCs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;times&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;mathsf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Loadings&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$$&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;E = \frac{mc^2}{\sqrt{1-\frac{v^2}{c^2}}}&lt;/script&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;$$&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;E&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;frac&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;mc&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;sqrt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;frac&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;v&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}}}&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$$&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{align*}
+  &amp; \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
+  = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
+  &amp; (x_1, \ldots, x_n) \left( \begin{array}{ccc}
+      \phi(e_1, e_1) &amp; \cdots &amp; \phi(e_1, e_n) \\
+      \vdots &amp; \ddots &amp; \vdots \\
+      \phi(e_n, e_1) &amp; \cdots &amp; \phi(e_n, e_n)
+    \end{array} \right)
+  \left( \begin{array}{c}
+      y_1 \\
+      \vdots \\
+      y_n
+    \end{array} \right)
+\end{align*} %]]&gt;&lt;/script&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;$$&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;begin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;align&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;phi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;phi&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;sum_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;x_ie_i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;sum_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;y_je_j&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;sum_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;sum_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;x_i&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;y_j&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;phi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;e_i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;e_j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;\&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;x_1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ldots&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;x_n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;begin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ccc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+      &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;phi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;e_1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;e_1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;cdots&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;phi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;e_1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;e_n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;\&lt;/span&gt;
+      &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;vdots&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ddots&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;vdots&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;\&lt;/span&gt;
+      &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;phi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;e_n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;e_1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;cdots&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;phi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;e_n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;e_n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;end&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;begin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+      &lt;span class=&quot;nx&quot;&gt;y_1&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;\&lt;/span&gt;
+      &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;vdots&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;\&lt;/span&gt;
+      &lt;span class=&quot;nx&quot;&gt;y_n&lt;/span&gt;
+    &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;end&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;end&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;align&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;$$&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;calculus&quot;&gt;Calculus&lt;/h3&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;f(a) = \frac{1}{2\pi i} \oint\frac{f(z)}{z-a}dz&lt;/script&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;$$&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;frac&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}{&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;pi&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;oint&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;frac&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;z&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)}{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;z&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;dz&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$$&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\int_D ({\nabla\cdot} F)dV=\int_{\partial D} F\cdot ndS&lt;/script&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;$$&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;int_D&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;nabla&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;cdot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;F&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;dV&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;int_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;partial&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;D&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;F&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;cdot&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;ndS&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$$&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\vec{\nabla} \times \vec{F} = \left( \frac{\partial F_z}{\partial y} - \frac{\partial F_y}{\partial z} \right) \mathbf{i} + \left( \frac{\partial F_x}{\partial z} - \frac{\partial F_z}{\partial x} \right) \mathbf{j} + \left( \frac{\partial F_y}{\partial x} - \frac{\partial F_x}{\partial y} \right) \mathbf{k}&lt;/script&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;$$&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;vec&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;nabla&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;times&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;vec&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;F&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;frac&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;partial&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;F_z&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;partial&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;frac&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;partial&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;F_y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;partial&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;z&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;mathbf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;frac&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;partial&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;F_x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;partial&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;z&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;frac&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;partial&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;F_z&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;partial&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;mathbf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;frac&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;partial&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;F_y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;partial&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;frac&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;partial&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;F_x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;partial&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;mathbf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;k&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$$&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;(\nabla_X Y)^k = X^i (\nabla_i Y)^k = X^i \left( \frac{\partial Y^k}{\partial x^i} + \Gamma_{im}^k Y^m \right)&lt;/script&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;$$&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;nabla_X&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;k&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;nabla_i&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;k&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;frac&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;partial&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Y&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;k&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;partial&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Gamma_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;im&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;k&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Y&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;m&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$$&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\int_D ({\nabla\cdot} F)dV=\int_{\partial D} F\cdot nd S&lt;/script&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;$$&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;int_D&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;nabla&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;cdot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;F&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;dV&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;int_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;partial&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;D&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;F&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;cdot&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;nd&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;S&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$$&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;embedded-in-sentence&quot;&gt;Embedded in sentence&lt;/h3&gt;
+
+&lt;p&gt;When &lt;script type=&quot;math/tex&quot;&gt;a \ne 0&lt;/script&gt;, there are two solutions to &lt;script type=&quot;math/tex&quot;&gt;ax^2 + bx + c = 0&lt;/script&gt; and they are &lt;script type=&quot;math/tex&quot;&gt;x = {-b \pm \sqrt{b^2-4ac} \over 2a}.&lt;/script&gt;&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;When&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$$a&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ne&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;$$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;there&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;are&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;two&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;solutions&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$$ax&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;bx&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;$$&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;they&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;are&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$$x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;pm&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;sqrt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ac&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;over&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;$$&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 12 Mar 2018 23:53:59 +0900</pubDate>
+        <link>http://ryuci.github.io/mathematics/2018/03/12/using-math-expressions-in-your-jekyll-blog.html</link>
+        <guid isPermaLink="true">http://ryuci.github.io/mathematics/2018/03/12/using-math-expressions-in-your-jekyll-blog.html</guid>
+        
+        <category>jekyll</category>
+        
+        <category>latex</category>
+        
+        <category>mathjax</category>
+        
+        
+        <category>Mathematics</category>
+        
+      </item>
+    
+      <item>
+        <title>Solution to 'Invitation to Discrete Mathematics'</title>
+        <description>&lt;p&gt;As of March 2018, I’m taking a Mook course regaring &lt;a href=&quot;https://www.coursera.org/learn/discrete-mathematics/&quot;&gt;discrete mathematics&lt;/a&gt; from Coursera. Unfortunately, the video lecture coverage is too narrow to understand the subject and to confidently solve assignments and quiz, which is why many students complain about the course. However, as beauty is in the eye of the beholder, I decided to see the bright side and to take this opportunity to study the given &lt;a href=&quot;http://home.iitj.ac.in/~vinod2292/discrete_math/Matousek%20%20Discrete%20Math.pdf&quot;&gt;textbook&lt;/a&gt; thoroughly.&lt;/p&gt;
+
+&lt;p&gt;Despite I will probably drop the course, I hope I won’t give up the textbook and make this solution page to keep growing.&lt;/p&gt;
+
+&lt;h2 id=&quot;section-12&quot;&gt;Section 1.2&lt;/h2&gt;
+&lt;h3 id=&quot;question-1a&quot;&gt;Question 1a&lt;/h3&gt;
+
+&lt;p&gt;If &lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt; is odd, let &lt;script type=&quot;math/tex&quot;&gt;n = 2m + 1&lt;/script&gt; where &lt;script type=&quot;math/tex&quot;&gt;n, m \in \mathbb{Z}&lt;/script&gt;.&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;(left) = \lfloor\frac{(n+1)^2}{2}\rfloor
+= \lfloor\frac{(2m+2)^2}{2}\rfloor
+= \lfloor{2(m+1)^2}\rfloor
+= 2(m+1)^2
+= 2m^2+4m+2.&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;(right)
+= \lfloor\frac{n^2}{2}\rfloor+n
+= \lfloor\frac{(2m+1)^2}{2}\rfloor+2m+1
+= \lfloor2m^2+2m+\frac{1}{2}\rfloor+2m+1
+= 2m^2+2m+\lfloor\frac{1}{2}\rfloor+2m+1
+= 2m^2+4m+1&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\therefore (left)\ne(right)&lt;/script&gt;
+
+&lt;p&gt;Although we found the solution, let’s do the similar math for even &lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt; where &lt;script type=&quot;math/tex&quot;&gt;n = 2m&lt;/script&gt;.&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;(left)
+= \lfloor\frac{(n+1)^2}{2}\rfloor
+= \lfloor\frac{(2m+1)^2}{2}\rfloor
+= \lfloor{2m^2+2m+\frac{1}{2}}\rfloor
+= 2m^2+2m+\lfloor\frac{1}{2}\rfloor
+= 2m^2+2m.&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;(right)
+= \lfloor\frac{n^2}{2}\rfloor+n
+= \lfloor\frac{(2m)^2}{2}\rfloor+2m
+= 2m^2+2m.&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\therefore (left) = (right)&lt;/script&gt;
+
+&lt;p&gt;Consequently, &lt;script type=&quot;math/tex&quot;&gt;(left) \ne (right)&lt;/script&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;question-1b&quot;&gt;Question 1b&lt;/h3&gt;
+
+&lt;p&gt;Let’s consider three cases of (n,k) is (even,even), (even,odd), or (odd,odd).&lt;/p&gt;
+
+&lt;p&gt;When (even,even), let &lt;script type=&quot;math/tex&quot;&gt;n = 2m, k = 2l&lt;/script&gt;, where &lt;script type=&quot;math/tex&quot;&gt;n, m, k, l \in \mathbb{Z}&lt;/script&gt;.&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\lfloor\frac{n+k}{2}\rfloor
+= \lfloor\frac{2m+2l}{2}\rfloor
+= m+l
+= \frac{2m}{2}+\frac{2l}{2}
+= \lfloor\frac{2m}{2}\rfloor+\lfloor\frac{2l}{2}\rfloor
+= \lfloor\frac{n}{2}\rfloor+\lfloor\frac{k}{2}\rfloor&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\therefore (left) = (right)&lt;/script&gt;
+
+&lt;p&gt;When (even,odd), let &lt;script type=&quot;math/tex&quot;&gt;n = 2m, k = 2l+1&lt;/script&gt;,&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;(left)
+= \lfloor\frac{n+k}{2}\rfloor
+= \lfloor\frac{2m+2l+1}{2}\rfloor
+= \lfloor{m+l+\frac{1}{2}}\rfloor
+= m+l&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;(right)
+= \lfloor\frac{n}{2}\rfloor+\lfloor\frac{k}{2}\rfloor
+= \lfloor\frac{2m}{2}\rfloor+\lfloor\frac{2l+1}{2}\rfloor
+= \lfloor{m}\rfloor+\lfloor{l+\frac{1}{2}}\rfloor
+= m+l&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\therefore (left) = (right)&lt;/script&gt;
+
+&lt;p&gt;When (odd,odd), let &lt;script type=&quot;math/tex&quot;&gt;n = 2m+1, k = 2l+1&lt;/script&gt;,&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;(left)
+= \lfloor\frac{n+k}{2}\rfloor
+= \lfloor\frac{2m+1+2l+1}{2}\rfloor
+= \lfloor{m+l+1}\rfloor
+= m+l+1&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;(right)
+= \lfloor\frac{n}{2}\rfloor+\lfloor\frac{k}{2}\rfloor
+= \lfloor\frac{2m+1}{2}\rfloor+\lfloor\frac{2l+1}{2}\rfloor
+= \lfloor{m+\frac{1}{2}}\rfloor+\lfloor{l+\frac{1}{2}}\rfloor
+= m+l&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\therefore (left) \ne (right)&lt;/script&gt;
+
+&lt;p&gt;Consequently, &lt;script type=&quot;math/tex&quot;&gt;(left) \ne (right)&lt;/script&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;question-1c&quot;&gt;Question 1c&lt;/h3&gt;
+
+&lt;p&gt;Let &lt;script type=&quot;math/tex&quot;&gt;x = m + p&lt;/script&gt;, where m &lt;script type=&quot;math/tex&quot;&gt;\in \mathbb{Z}&lt;/script&gt;, p &lt;script type=&quot;math/tex&quot;&gt;\in \mathbb{Q}&lt;/script&gt;,&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;(left)
+= \lceil{\lfloor{x}\rfloor}\rceil
+= \lceil{\lfloor{m + p}\rfloor}\rceil
+= \lceil{m}\rceil
+= m&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;(right)
+= \lceil{x}\rceil
+= \lceil{m + p}\rceil
+= \lceil{m}\rceil + \lceil{p}\rceil
+= m+1&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\therefore (left) \ne (right)&lt;/script&gt;
+
+&lt;h3 id=&quot;question-1d&quot;&gt;Question 1d&lt;/h3&gt;
+
+&lt;p&gt;Let &lt;script type=&quot;math/tex&quot;&gt;x = m + p&lt;/script&gt;, &lt;script type=&quot;math/tex&quot;&gt;y = n + q&lt;/script&gt;, where m, n &lt;script type=&quot;math/tex&quot;&gt;\in \mathbb{Z}&lt;/script&gt; and p, q &lt;script type=&quot;math/tex&quot;&gt;\in \mathbb{Q}&lt;/script&gt;,&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;(left)
+= \lceil{\lfloor{x}\rfloor+\lfloor{y}\rfloor}\rceil
+= \lceil{\lfloor{m+p}\rfloor+\lfloor{n+q}\rfloor}\rceil
+= \lceil{m+n}\rceil
+= m+n&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;(right)
+= \lfloor{x}\rfloor + \lfloor{y}\rfloor
+= \lfloor{m+p}\rfloor + \lfloor{n+q}\rfloor
+= \lfloor{m}\rfloor + \lfloor{p}\rfloor + \lfloor{n}\rfloor + \lfloor{q}\rfloor
+= m+n&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\therefore (left) = (right)&lt;/script&gt;
+
+&lt;h3 id=&quot;question-2-&quot;&gt;Question 2 ☆&lt;/h3&gt;
+
+&lt;p&gt;Let &lt;script type=&quot;math/tex&quot;&gt;\lfloor\sqrt{x}\rfloor = m&lt;/script&gt;,&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+m \leq \sqrt{x} &lt; m+1, %]]&gt;&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+m^2 \leq x &lt; (m+1)^2, %]]&gt;&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+m^2 \leq \lfloor{x}\rfloor &lt; (m+1)^2, %]]&gt;&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+m \leq \sqrt{\lfloor{x}\rfloor} &lt; (m+1) %]]&gt;&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\therefore \lfloor{\sqrt{\lfloor{x}\rfloor}}\rfloor = m&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\therefore \lfloor\sqrt{x}\rfloor =  \lfloor{\sqrt{\lfloor{x}\rfloor}}\rfloor&lt;/script&gt;
+
+&lt;h3 id=&quot;question-3a&quot;&gt;Question 3a&lt;/h3&gt;
+
+&lt;h3 id=&quot;question-3b&quot;&gt;Question 3b&lt;/h3&gt;
+
+&lt;h3 id=&quot;question-3c&quot;&gt;Question 3c&lt;/h3&gt;
+
+&lt;p&gt;5 ways:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;(A \cup B) \cup (C \cup D),&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;((A \cup B) \cup C) \cup D,&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;(A \cup (B \cup C)) \cup D,&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;A \cup (B \cup (C \cup D)),&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;A \cup ((B \cup C) \cup D)&lt;/script&gt;
+
+&lt;h3 id=&quot;question-3d-&quot;&gt;Question 3d ☆☆&lt;/h3&gt;
+
+&lt;h3 id=&quot;question-4&quot;&gt;Question 4&lt;/h3&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;2^X = 2^Y  \iff \{x | x \subset X\} = \{y | y \subset Y\} \implies X = Y&lt;/script&gt;
+
+&lt;h3 id=&quot;question-5&quot;&gt;Question 5&lt;/h3&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;(x,y) = (x,z) \implies y = z&lt;/script&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;y = z&lt;/script&gt; does not imply &lt;script type=&quot;math/tex&quot;&gt;Y = Z&lt;/script&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;question-6&quot;&gt;Question 6&lt;/h3&gt;
+
+&lt;h3 id=&quot;question-7&quot;&gt;Question 7&lt;/h3&gt;
+
+&lt;p&gt;Represent each number as &lt;script type=&quot;math/tex&quot;&gt;2^k(2m+1)&lt;/script&gt;, where  &lt;script type=&quot;math/tex&quot;&gt;0 \leq k, m \in \mathbb{Z}&lt;/script&gt;. Since &lt;script type=&quot;math/tex&quot;&gt;m&lt;/script&gt; can attain at most 500 distinct values from &lt;script type=&quot;math/tex&quot;&gt;\{0,1,2,...,499\}&lt;/script&gt;, the considered set contains two numbers of form &lt;script type=&quot;math/tex&quot;&gt;2^k(2m+1)&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;2^{k'}(2m+1)&lt;/script&gt; TBD..&lt;/p&gt;
+</description>
+        <pubDate>Mon, 12 Mar 2018 22:52:59 +0900</pubDate>
+        <link>http://ryuci.github.io/mathematics/2018/03/12/solution-to-invitation-to-discrete-mathematics.html</link>
+        <guid isPermaLink="true">http://ryuci.github.io/mathematics/2018/03/12/solution-to-invitation-to-discrete-mathematics.html</guid>
+        
+        <category>discrete_math</category>
+        
+        
+        <category>Mathematics</category>
+        
+      </item>
+    
+      <item>
+        <title>Jekyll Installation on macOS</title>
+        <description>&lt;p&gt;Whenever installing open source based software, I frequently lose confidence whether I’m on the right track in the course of doing it. It’s mainly because I’m not sure if the instructions on the net is suitable for my setting, if I fully understand them, and if I follow them correctly. If I miss something, things go wrong and I have trouble in reverting back, easily get lost. Therefore it’s natural and safe to have my first post on Jekyll platform to be about how to install it.&lt;/p&gt;
+
+&lt;p&gt;Jekyll is based on ruby and the installation process heavily uses ruby companion tools. macOS is coming with factory installed ruby, which I was not aware of until now, but it’s not suitable version to install Jekyll. So, we need to start from there.&lt;/p&gt;
+
+&lt;h2 id=&quot;ruby-version-on-macos-10126-sierra&quot;&gt;Ruby Version on macOS 10.12.6 Sierra&lt;/h2&gt;
+
+&lt;p&gt;In my setting, I have ruby 2.0.0p648 and gem 2.0.14.1 as follows.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;~ &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;ruby -v
+ruby 2.0.0p648 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;2015-12-16 revision 53162&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;universal.x86_64-darwin16]
+~ &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;gem -v
+2.0.14.1&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Also, I have following ruby based components already installed. You don’t need this info to install Jekyll, it’s just for my record.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;~ &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;gem list
+
+&lt;span class=&quot;k&quot;&gt;***&lt;/span&gt; LOCAL GEMS &lt;span class=&quot;k&quot;&gt;***&lt;/span&gt;
+
+bigdecimal &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;1.2.0&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+bundler &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;1.16.1&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+CFPropertyList &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;2.2.8&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+io-console &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;0.4.2&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+json &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;1.7.7&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+libxml-ruby &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;2.6.0&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+minitest &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;4.3.2&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+nokogiri &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;1.5.6&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+psych &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;2.0.0&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+rake &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;0.9.6&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+rdoc &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;4.0.0&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+ruby &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;0.1.0&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+sqlite3 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;1.3.7&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;test&lt;/span&gt;-unit &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;2.0.0.0&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;install-jekyll-first-trial&quot;&gt;Install Jekyll, First Trial&lt;/h2&gt;
+
+&lt;p&gt;When I tried to install Jekyll in the setting above I got following error.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;o&quot;&gt;~&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;jekyll&lt;/span&gt;
+&lt;span class=&quot;nl&quot;&gt;ERROR&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;  &lt;span class=&quot;nx&quot;&gt;While&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;executing&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;...&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Gem&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;FilePermissionError&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;You&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;don&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;t&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;have&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;write&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;permissions&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Library&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Ruby&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Gems&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;2.0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;directory&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Since it says I have no permission for &lt;code class=&quot;highlighter-rouge&quot;&gt;/Library/Ruby/Gems/2.0.0&lt;/code&gt;, I tried &lt;code class=&quot;highlighter-rouge&quot;&gt;sudo&lt;/code&gt;.
+Now, I realized I needed ruby version equal to or higher than 2.1.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;o&quot;&gt;~&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;jekyll&lt;/span&gt;
+&lt;span class=&quot;nl&quot;&gt;Password&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+&lt;span class=&quot;nl&quot;&gt;ERROR&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;  &lt;span class=&quot;nb&quot;&gt;Error&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;installing&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;jekyll&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt;
+	&lt;span class=&quot;nx&quot;&gt;public_suffix&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;requires&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Ruby&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;version&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;=&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;2.1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;upgrade-ruby&quot;&gt;Upgrade Ruby&lt;/h2&gt;
+
+&lt;p&gt;According to internet, there are many ways to install ruby on macOS with some of them obsolete. I chose to use &lt;a href=&quot;https://github.com/rbenv/rbenv&quot;&gt;rbenv&lt;/a&gt; to install ruby and, in turn, I need &lt;a href=&quot;https://brew.sh/index_ko&quot;&gt;Homebrew&lt;/a&gt; to install &lt;a href=&quot;https://github.com/rbenv/rbenv&quot;&gt;rbenv&lt;/a&gt;. Just check current brew version for the record.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;o&quot;&gt;~&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;brew&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;version&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;Homebrew&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;1.5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;Homebrew&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;homebrew&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;core&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;revision&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;537&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;a8&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;last&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;commit&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2018&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;03&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;11&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Install &lt;a href=&quot;https://github.com/rbenv/rbenv&quot;&gt;rbenv&lt;/a&gt; using brew. Great… I have another error, about Xcode this time.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;o&quot;&gt;~&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;brew&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;rbenv&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;Updating&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Homebrew&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;...&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;==&amp;gt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Auto&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;updated&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Homebrew&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;Updated&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;tap&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;homebrew&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;core&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;==&amp;gt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;New&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Formulae&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;arm&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;linux&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;gnueabihf&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;binutils&lt;/span&gt;             &lt;span class=&quot;nx&quot;&gt;libbitcoin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;network&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;draco&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;==&amp;gt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Updated&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Formulae&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;anjuta&lt;/span&gt;                     &lt;span class=&quot;nx&quot;&gt;libbitcoin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;blockchain&lt;/span&gt;      &lt;span class=&quot;nx&quot;&gt;peco&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;asdf&lt;/span&gt;                       &lt;span class=&quot;nx&quot;&gt;libbitcoin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;explorer&lt;/span&gt;        &lt;span class=&quot;nx&quot;&gt;pipenv&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;automake&lt;/span&gt;                   &lt;span class=&quot;nx&quot;&gt;libbitcoin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;node&lt;/span&gt;            &lt;span class=&quot;nx&quot;&gt;rtv&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;coffeescript&lt;/span&gt;               &lt;span class=&quot;nx&quot;&gt;libbitcoin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;server&lt;/span&gt;          &lt;span class=&quot;nx&quot;&gt;vala&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;darksky&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;weather&lt;/span&gt;            &lt;span class=&quot;nx&quot;&gt;libbladerf&lt;/span&gt;                 &lt;span class=&quot;nx&quot;&gt;znc&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;dehydrated&lt;/span&gt;                 &lt;span class=&quot;nx&quot;&gt;nim&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;gdl&lt;/span&gt;                        &lt;span class=&quot;nx&quot;&gt;nopoll&lt;/span&gt;
+
+&lt;span class=&quot;nl&quot;&gt;Error&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Xcode&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;alone&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;sufficient&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;on&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Sierra&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;Install&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Command&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Line&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Tools&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;xcode&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;select&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Try to install xcode-select. Looks good.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;o&quot;&gt;~&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;xcode&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;select&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;install&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;xcode&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;select&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;note&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;requested&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;command&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;line&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;developer&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;tools&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Try again to install &lt;a href=&quot;https://github.com/rbenv/rbenv&quot;&gt;rbenv&lt;/a&gt;.
+This time I come across &lt;code class=&quot;highlighter-rouge&quot;&gt;Error: The 'brew link' step did not complete successfully&lt;/code&gt;&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;o&quot;&gt;~&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;brew&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;rbenv&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;==&amp;gt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Installing&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;dependencies&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;rbenv&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;autoconf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;pkg&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;openssl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;ruby&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;build&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;==&amp;gt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Installing&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;rbenv&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;dependency&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;autoconf&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;==&amp;gt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Downloading&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;//homebrew.bintray.com/bottles/autoconf-2.69.sierra.bottle&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;########################################################################&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;100.0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;==&amp;gt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Pouring&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;autoconf&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;2.69&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;sierra&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;bottle&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;tar&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;gz&lt;/span&gt;
+&lt;span class=&quot;nl&quot;&gt;Error&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;The&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;brew&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;link&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;`&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;step&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;did&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;complete&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;successfully&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;The&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;formula&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;built&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;but&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;symlinked&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;into&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;usr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;local&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;Could&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;symlink&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;share&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;info&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;autoconf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;info&lt;/span&gt;
+&lt;span class=&quot;sr&quot;&gt;/usr/&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;local&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;share&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;info&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;writable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;You&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;can&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;try&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;again&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;using&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;brew&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;link&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;autoconf&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;==&amp;gt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Installation&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;continues&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;As the error message suggested, I ran &lt;code class=&quot;highlighter-rouge&quot;&gt;brew link autoconf&lt;/code&gt;.
+Oh, I don’t have write permission on &lt;code class=&quot;highlighter-rouge&quot;&gt;/usr/local/share/info&lt;/code&gt;. I changed the permission and tried again to success.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;o&quot;&gt;~&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;brew&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;link&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;autoconf&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;Linking&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;usr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;local&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Cellar&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;autoconf&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;2.69&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;...&lt;/span&gt;
+&lt;span class=&quot;nl&quot;&gt;Error&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Could&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;symlink&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;share&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;info&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;autoconf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;info&lt;/span&gt;
+&lt;span class=&quot;sr&quot;&gt;/usr/&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;local&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;share&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;info&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;writable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now I am ready to install ruby. (Not Jekyll!)
+Using following command, I can see numbers of available ruby versions.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;o&quot;&gt;~&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;rbenv&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;l&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;As of today, the latest stable version looks 2.5.0. Get it.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;o&quot;&gt;~&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;rbenv&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;2.5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;ruby&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;build&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;use&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;openssl&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;homebrew&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;Downloading&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;ruby&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;2.5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;tar&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;bz2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;...&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;//cache.ruby-lang.org/pub/ruby/2.5/ruby-2.5.0.tar.bz2&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;Installing&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;ruby&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;2.5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;...&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;Installed&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;ruby&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;2.5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Users&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ryuci&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;rbenv&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;versions&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;2.5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;make-macos-aware-of-ruby-25&quot;&gt;Make macOS Aware of Ruby 2.5&lt;/h2&gt;
+
+&lt;p&gt;Now I have two versions of ruby, the factory installed 2.0 and the upgraded 2.5.
+When I run &lt;code class=&quot;highlighter-rouge&quot;&gt;ruby -v&lt;/code&gt; in the terminal, I can see 2.0 running.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;o&quot;&gt;~&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;ruby&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;v&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;ruby&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;2.0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;p648&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2015&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;12&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;16&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;revision&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;53162&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;universal&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;x86_64&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;darwin16&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;To make 2.5 to run, I need to dig in &lt;a href=&quot;https://github.com/rbenv/rbenv&quot;&gt;rbenv&lt;/a&gt; configuration.&lt;br /&gt;
+As shown below, I have hidden folder &lt;code class=&quot;highlighter-rouge&quot;&gt;.rbenv&lt;/code&gt; under my home folder. Note that there is no &lt;code class=&quot;highlighter-rouge&quot;&gt;version&lt;/code&gt; file in it yet while I got &lt;code class=&quot;highlighter-rouge&quot;&gt;versions&lt;/code&gt; folder.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;o&quot;&gt;~&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;ls&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;al&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;rbenv&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;total&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;drwxr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;xr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt;   &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;ryuci&lt;/span&gt;  &lt;span class=&quot;nx&quot;&gt;staff&lt;/span&gt;   &lt;span class=&quot;mi&quot;&gt;136&lt;/span&gt;  &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;12&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;13&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;22&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;drwxr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;xr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;66&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;ryuci&lt;/span&gt;  &lt;span class=&quot;nx&quot;&gt;staff&lt;/span&gt;  &lt;span class=&quot;mi&quot;&gt;2244&lt;/span&gt;  &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;12&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;13&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;19&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;..&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;drwxr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;xr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt;   &lt;span class=&quot;mi&quot;&gt;9&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;ryuci&lt;/span&gt;  &lt;span class=&quot;nx&quot;&gt;staff&lt;/span&gt;   &lt;span class=&quot;mi&quot;&gt;306&lt;/span&gt;  &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;12&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;13&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;22&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;shims&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;drwxr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;xr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt;   &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;ryuci&lt;/span&gt;  &lt;span class=&quot;nx&quot;&gt;staff&lt;/span&gt;   &lt;span class=&quot;mi&quot;&gt;102&lt;/span&gt;  &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;12&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;13&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;19&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;versions&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Run &lt;code class=&quot;highlighter-rouge&quot;&gt;rbenv global 2.5.0&lt;/code&gt; and check &lt;code class=&quot;highlighter-rouge&quot;&gt;.rbenv/&lt;/code&gt; to find &lt;code class=&quot;highlighter-rouge&quot;&gt;version&lt;/code&gt; file, which tells ruby version number I want to use.
+There are three way to let macOS aware of ruby version, &lt;code class=&quot;highlighter-rouge&quot;&gt;global, local, shell&lt;/code&gt;. For more info, read &lt;a href=&quot;https://github.com/rbenv/rbenv#command-reference&quot;&gt;this&lt;/a&gt;.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;o&quot;&gt;~&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;rbenv&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;global&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;2.5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;~&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;ls&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;rbenv&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;shims&lt;/span&gt;		&lt;span class=&quot;nx&quot;&gt;version&lt;/span&gt;		&lt;span class=&quot;nx&quot;&gt;versions&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;~&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;cat&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;rbenv&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;version&lt;/span&gt;
+&lt;span class=&quot;mf&quot;&gt;2.5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Unfortunately we am not there yet. In &lt;code class=&quot;highlighter-rouge&quot;&gt;.rbenv/shims&lt;/code&gt;, we have a collection of scripts to run ruby.
+This folder should be in &lt;code class=&quot;highlighter-rouge&quot;&gt;PATH&lt;/code&gt; environment variable so that macOS know where to search for ruby 2.5.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;o&quot;&gt;~&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;ls&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;rbenv&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;shims&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;erb&lt;/span&gt;	&lt;span class=&quot;nx&quot;&gt;gem&lt;/span&gt;	&lt;span class=&quot;nx&quot;&gt;irb&lt;/span&gt;	&lt;span class=&quot;nx&quot;&gt;rake&lt;/span&gt;	&lt;span class=&quot;nx&quot;&gt;rdoc&lt;/span&gt;	&lt;span class=&quot;nx&quot;&gt;ri&lt;/span&gt;	&lt;span class=&quot;nx&quot;&gt;ruby&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Add following line in your bash config file, which is &lt;code class=&quot;highlighter-rouge&quot;&gt;~/.bash_profile&lt;/code&gt; in my case, and restart the terminal.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;kr&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;PATH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;~/.rbenv/shims:$PATH&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Run ruby, then you will see it’s running version 2.5.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;o&quot;&gt;~&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;ruby&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;v&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;ruby&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;2.5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;p0&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2017&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;12&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;25&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;revision&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;61468&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;x86_64&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;darwin16&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;install-jekyll-second-trial&quot;&gt;Install Jekyll, Second Trial&lt;/h2&gt;
+
+&lt;p&gt;At last, we are ready to install Jekyll.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;o&quot;&gt;~&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;jekyll&lt;/span&gt;
+&lt;span class=&quot;nl&quot;&gt;Fetching&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;public_suffix&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;3.0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;Successfully&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;installed&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;public_suffix&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;3.0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;...&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;Done&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;installing&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;documentation&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;public_suffix&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;addressable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;colorator&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;http_parser&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;rb&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;eventmachine&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;em&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;websocket&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;concurrent&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ruby&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i18n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;rb&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;fsevent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;ffi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;rb&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;inotify&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;sass&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;listen&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;sass&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;jekyll&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;sass&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;converter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;ruby_dep&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;listen&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;jekyll&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;watch&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;kramdown&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;liquid&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;mercenary&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;forwardable&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;extended&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;pathutil&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;rouge&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;safe_yaml&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;jekyll&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;after&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;57&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;seconds&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;25&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;gems&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;installed&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Oh, we need to install bundler too.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;o&quot;&gt;~&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;bundler&lt;/span&gt;
+&lt;span class=&quot;nl&quot;&gt;Fetching&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;bundler&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;1.16&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;Successfully&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;installed&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;bundler&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;1.16&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;Parsing&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;documentation&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;bundler&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;1.16&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;Installing&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;ri&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;documentation&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;bundler&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;1.16&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;Done&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;installing&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;documentation&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;bundler&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;after&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;seconds&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;installed&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;make-your-blog-folder&quot;&gt;Make Your Blog Folder&lt;/h2&gt;
+
+&lt;p&gt;Run following commands and open http://localhost:4000 from your browser, then you can see Jekyll blog is running.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;o&quot;&gt;~&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;jekyll&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;my&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;awesome&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;site&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;~&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;my&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;awesome&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;site&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;my&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;awesome&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;site&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;bundle&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;exec&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;jekyll&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;serve&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;However, you still have it loaded to GitHub and probably want to change its theme. So, let’s continue.&lt;/p&gt;
+
+&lt;h2 id=&quot;make-github-repository&quot;&gt;Make GitHub Repository&lt;/h2&gt;
+
+&lt;p&gt;If you are sure you don’t need to change Jekyll’s default theme, you just have to make GitHub repository, and run following commands in &lt;code class=&quot;highlighter-rouge&quot;&gt;my-awesome-site&lt;/code&gt; folder. Otherwise, just go to next section.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;my&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;awesome&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;site&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;init&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;my&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;awesome&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;site&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;commit&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;m&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;first commit&quot;&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;my&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;awesome&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;site&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;remote&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;add&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;origin&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;//github.com/{Your GitHub ID}/{Your GitHub ID}.github.io.git&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;my&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;awesome&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;site&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;push&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;u&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;origin&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;master&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;change-the-theme-to-centrarium&quot;&gt;Change the Theme to Centrarium&lt;/h2&gt;
+
+&lt;p&gt;If you want to change the theme as I do, it may be easier to do as follows. I will use &lt;a href=&quot;https://github.com/bencentra/centrarium&quot;&gt;Centrarium&lt;/a&gt; theme.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Forget &lt;code class=&quot;highlighter-rouge&quot;&gt;my-awesome-site&lt;/code&gt; folder.&lt;/li&gt;
+  &lt;li&gt;Make another folder, which is &lt;code class=&quot;highlighter-rouge&quot;&gt;ryuci.github.io&lt;/code&gt; in my case.&lt;/li&gt;
+  &lt;li&gt;Download &lt;a href=&quot;https://github.com/bencentra/centrarium&quot;&gt;Centrarium files&lt;/a&gt; to the folder.&lt;/li&gt;
+  &lt;li&gt;Tweak it according to your need. &lt;a href=&quot;/jekyll/2018/03/15/tweaking-centrarium-theme.html&quot;&gt;Tweaking Centrarium Theme&lt;/a&gt; might be of help.&lt;/li&gt;
+  &lt;li&gt;Run following commands.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;o&quot;&gt;~&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;ryuci&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;io&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;ryuci&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;io&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;bundle&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;install&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;#&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;This&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;will&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Jekyll&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;archives&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;jekyll&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;sitemap&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;jekyll&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;paginate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;ryuci&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;io&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;rm&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ruby&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;version&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;#&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Because&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;I&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;already&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;ran&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'rbenv global 2.5.0'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;don&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'t need '&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ruby&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;version&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;ryuci&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;io&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;init&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;ryuci&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;io&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;commit&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;m&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;first commit&quot;&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;ryuci&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;io&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;remote&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;add&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;origin&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;//github.com/ryuci/ryuci.github.io.git&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;#&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Repository&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;link&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;should&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;be&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;yours&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;ryuci&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;io&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;push&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;u&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;origin&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;master&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;activate-your-blog&quot;&gt;Activate Your Blog&lt;/h2&gt;
+
+&lt;h3 id=&quot;using-local-folder&quot;&gt;Using Local Folder&lt;/h3&gt;
+
+&lt;p&gt;Run following commands and open http://localhost:4000 from your browser.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;o&quot;&gt;~&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;ryuci&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;io&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;ryuci&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;io&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;bundle&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;exec&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;jekyll&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;serve&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;using-github&quot;&gt;Using GitHub&lt;/h3&gt;
+
+&lt;p&gt;Open http://ryuci.github.io from your browser.&lt;/p&gt;
+
+&lt;p&gt;That’s all, folks!&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 12 Mar 2018 22:45:59 +0900</pubDate>
+        <link>http://ryuci.github.io/jekyll/2018/03/12/jekyll-installation-on-macos.html</link>
+        <guid isPermaLink="true">http://ryuci.github.io/jekyll/2018/03/12/jekyll-installation-on-macos.html</guid>
+        
+        <category>jekyll</category>
+        
+        <category>macos</category>
+        
+        <category>centrarium</category>
+        
+        
+        <category>Jekyll</category>
+        
+      </item>
+    
+      <item>
+        <title>도대체 얼마나 오래 코딩을 배워야 하나요?</title>
+        <description>&lt;p&gt;많은 학부모님들께서 궁금해하시는 사항이기도 하고 저도 늘 고민하고 있는 문제입니다. 제가 고민하는 이유는 다음과 같습니다.
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;ol&gt;
+    &lt;li&gt;코딩 공부에 끝이 없다는 것을 학부모님에게 이해시키기가 쉽지 않다. (오해 사기 딱 좋다!)&lt;/li&gt;
+    &lt;li&gt;훌륭한 소프트웨어 개발자의 잠재력을 가진 학생들은 실제로 매우 빨리 배우며, 어느 수준 이상이 되면 혼자서 컴퓨터, 책, 인터넷 자료와 싸우며 공부할 수 있다. 그리고 그렇게 공부해야만 한다. (사실, 이런 학생들은 코딩 학원 다닐 필요 없다. 빌 게이츠, 스티브 잡스, 마크 저커버그가 코딩 학원을 다녔을까?)&lt;/li&gt;
+    &lt;li&gt;전문 소프트웨어 개발자들 간에도 실력 차이가 열 배 이상 (다른 산업의 전문가 집단 사이에서는 쉽게 볼 수 없는 비율임이 여러 연구에서 검증됨) 나는 것과 마찬가지로 코딩을 배우는 학생들의 수학 능력 차이도 열 배 이상 차이가 날 수 있다. 이에 따라 획일적으로 특정 커리큘럼이 끝났다고 하산시킬 수는 없다.&lt;/li&gt;
+    &lt;li&gt;코딩 교육의 궁극적 목표는 (computational thinking 에 기반한) 문제 해결 능력인데 세상에 문제는 끝없이 많고 그 복잡성도 각기 다 다르다. 과연 어느 정도 복잡도의 문제 해결 능력을 습득해야만 하산시킬 수 있을까?&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;
+위와 같은 고민에 의거하여, 정모 아빠의 코딩 교실에는 딱부러진 일정이 없습니다. 지금까지 수업을 진행해본 경험에 근거해 보아도 딱부러진 일정이 없는 것이 맞는 것 같습니다. 예를 들어, 제 나름대로 커리큘럼과 이정표를 준비해서 그것에 따라 수업을 진행해 보았지만 학생들의 개별 수준과 당일 학생들이 보여준 호기심 정도에 따라 진도가 차이가 납니다. 진도가 빨라지는 경우는 없고 대부분 진도가 느려집니다. 진도가 느려지는 이유는 다음과 같이 정리됩니다.
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;ol&gt;
+    &lt;li&gt;다른 수업과 달리 준비한 내용을 무조건 주입시킬 수 없다. - 학생들이 따라 오든 말든 무조건 선생님이 할 말을 하고 마치는 방식은 코딩 수업에는 통하지 않습니다. 코딩은 무언가 동작하는 코드를 성공적으로 만듦으로써 완료되는 것인데, 따라 오지 못하는 학생은 동작하는 코드를 완성할 수 없고, 그럴 경우 학생이 이해하여 완성할 때까지 지도가 필요합니다. 또한 무조건적인 주입은 제가 코딩교실을 시작한 동기와 목표에 부합하지도 않습니다.&lt;/li&gt;
+    &lt;li&gt;학생들이 정말로 컴퓨터 과학의 이모저모에 대해 호기심이 많다 - 수업을 진행하다 보면 특정 주제에 대해 학생들의 끊임없는 질문이 이어지는 경우가 많습니다. 컴퓨터는 정말 멋진 물건이라는 것과 코딩을 통해 무언가 기가 막힌 일을 할 수 있다는 것을 학생들이 본능적으로 아는 것 같습니다. 따라서 질문이 많아질 수 밖에 없는가 봅니다.&lt;/li&gt;
+    &lt;li&gt;수업 중에 코딩만 가르치지 않는다. - 홈페이지에 밝혔듯이 코딩 기능을 가르치기 위한 수업이 아니기 때문입니다. 컴퓨터 과학, 수학, 문제 해결 등등을 코딩을 도구 삼아 가르치는 것 뿐입니다. 그래서 수업의 진행도 코딩을 하는 것, 컴퓨터 과학의 다양한 주제를 배우는 것, 컴퓨터 과학과 수학이 우리 생활에 미치는 영향을 생각하고 토론하는 것 등이 순환식으로 혼재되어 이루어집니다. 코딩 교실의 내용이 특정한 책과 언어를 끝내는 것이라고 오해하시는 학부모님들의 생각과는 많이 다른 부분입니다.&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;
+하지만 이렇게 딱부러진 일정이 없이 간다고 하더라도 구체적인 이정표는 어느 정도 있어야 하고, 특히 고학년 학생의 경우에는 더욱 더 그러하기에 아래와 같은 정도로만 정리할까 합니다.
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;ol&gt;
+    &lt;li&gt;저학년의 경우 고학년 수준이 될 때까지 계속 스크래치 + CS Unplugged + 수학 + 타이핑을 중심으로 진행한다.&lt;/li&gt;
+    &lt;li&gt;고학년의 경우 스크래치 + CS Unplugged + 수학 + 타이핑을 학생의 수준에 따라 약 3~6 개월 정도 학습하고, 이후로는 Python + 스크래치 고급 프로젝트 + CS Unplugged + 수학을 계속 공부한다. 이 과정에서 Python 프로젝트의 난이도를 점차 올려간다.&lt;/li&gt;
+    &lt;li&gt;고학년의 경우 다른 코딩 기술 학습의 일환으로 C/C++과 HTML5+CSS+Java Script를 부가적으로 기초 수준에서 공부한다.&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;
+고급 프로그래밍 언어로서 Python을 선택한 이유는 코딩 기술을 체계적으로 가르치기에 적합하고, 실제로 재미있는 프로젝트를 만들기도 다른 언어에 비해 매우 쉬우며, 전문 개발자 사용자층이 엄청나게 두터워서 장래에 학생이 사용할 가능성이 아주 높은 언어이기 때문입니다.
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;그럼 과연 언제 코딩 교실을 그만 두어야 할까요? 이에 대해서는 요즘 주로 사용하는 소프트웨어 개발 프로세스 중의 하나인 애자일 방법론의 예를 들어 설명하겠습니다. (아래 그림을 참고하세요.)&lt;/p&gt;
+
+&lt;p&gt;애자일 방법론은, 간단히 말해서, 실제 기능을 하는 소프트웨어(Sprint 1 - 쉬운 말로 버전이라고 생각하셔도 됩니다.)를 소규모로 만들어 출시한 후, 이후에는 여기에 조금씩 살을 더 붙여가면서 단계적으로 좀 더 많은 기능을 하는 소프트웨어들(Sprint 2, 3, …)을 지속적이고 연속적으로 출시하는 방식을 말합니다. 소프트웨어 사용자들은 Sprint 1 부터 가져다가 사용을 시작하되, 본인이 원하는 충분한 기능을 포함한 Sprint 2 가 나오면 더 이상 후속 소프트웨어를 채용하지 않을 수 있습니다. 또 다른 사용자는 Sprint 3 의 보다 많은 기능이 필요하기 때문에 Sprint 2 를 거쳐서 Sprint 3 까지 채용한 후, Spring 4 이후도 계속 채용할 것인가 여부를 결정할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;따라서 코딩 교실을 그만 두는 시점은 마치 소프트웨어 사용자들이 몇 번 Sprint 까지의 소프트웨어를 채용할 것인가를 결정하는 것과 유사합니다. 정모 아빠의 코딩 교실은 끝없이 Sprint 를 지속할 것이고, 최종 사용자인 학생과 학부모님께서 “자, 이만하면 되었다.” 라는 생각이 드실 때 하차하시면 됩니다.&lt;/p&gt;
+
+&lt;p&gt;물론, 간혹 정모 아빠가 먼저 나서서 “너는 이 정도면 혼자서 공부할 수 있거나 다른 더 좋은 사부님을 찾아나서야 할 때이다.” 라고 이야기하는 상황도 나올 수 있겠지요. ^^&lt;/p&gt;
+
+&lt;p&gt;감사합니다.
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/agile-methodolody_695x260.jpg&quot; alt=&quot;&quot; title=&quot;출처: 위키피디아&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 27 Jul 2016 01:22:59 +0900</pubDate>
+        <link>http://ryuci.github.io/%EC%BD%94%EB%94%A9%EA%B5%90%EC%9C%A1/2016/07/27/coding-how-long.html</link>
+        <guid isPermaLink="true">http://ryuci.github.io/%EC%BD%94%EB%94%A9%EA%B5%90%EC%9C%A1/2016/07/27/coding-how-long.html</guid>
+        
+        <category>코딩교육</category>
+        
+        
+        <category>코딩교육</category>
+        
+      </item>
+    
+  </channel>
+</rss>

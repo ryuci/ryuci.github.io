@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html>
+  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script>  
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Engineer's Ego</title>
+  <meta name="description" content="다른 업종에서도 비슷한 말이 있을테지만 소프트웨어 개발자들 사이에는 engineer's ego 란 말이 있습니다.">
+  
+  <meta name="author" content="Choong-il Ryu">
+  <meta name="copyright" content="&copy; Choong-il Ryu 2018">
+  
+
+  <!-- External libraries -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/monokai-sublime.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css">
+
+  <!-- Favicon and other icons (made with http://www.favicon-generator.org/) -->
+  <link rel="shortcut icon" href="/assets/icons/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/assets/icons/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/icons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/icons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/icons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/icons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/icons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/icons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/icons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/assets/icons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/assets/icons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+  <link rel="manifest" href="/assets/icons/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/assets/icons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  
+  <!-- Facebook OGP cards -->
+  <meta property="og:description" content="다른 업종에서도 비슷한 말이 있을테지만 소프트웨어 개발자들 사이에는 engineer's ego 란 말이 있습니다." />
+  <meta property="og:url" content="http://ryuci.github.io" />
+  <meta property="og:site_name" content="정모 아빠의 Code to Learn" />
+  <meta property="og:title" content="Engineer's Ego" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="http://ryuci.github.io/assets/ego.jpg" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="612" />
+  <meta property="og:image:height" content="605" />
+  
+
+  
+  <!-- Twitter: card tags -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Engineer's Ego">
+  <meta name="twitter:description" content="다른 업종에서도 비슷한 말이 있을테지만 소프트웨어 개발자들 사이에는 engineer's ego 란 말이 있습니다.">
+  <meta name="twitter:image" content="http://ryuci.github.io/assets/ego.jpg">
+  <meta name="twitter:url" content="http://ryuci.github.io">
+  
+
+  
+
+  <!-- Site styles -->
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://ryuci.github.io/%EC%BD%94%EB%94%A9%EA%B5%90%EC%9C%A1/2018/03/22/Engineer's-Ego.html">
+  <link rel="alternate" type="application/rss+xml" title="정모 아빠의 Code to Learn" href="http://ryuci.github.io/feed.xml" />
+</head>
+
+
+  <body>
+
+    <header class="navigation" role="banner">
+  <div class="navigation-wrapper">
+    <a href="/" class="logo">
+      
+      <img src="/assets/logo2.png" alt="정모 아빠의 Code to Learn">
+      
+    </a>
+    <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <nav role="navigation">
+      <ul id="js-navigation-menu" class="navigation-menu show">
+        
+          
+          <li class="nav-link"><a href="/posts/">포스팅</a>
+          
+        
+          
+          <li class="nav-link"><a href="/coding_edu/">코딩교육이란?</a>
+          
+        
+          
+          <li class="nav-link"><a href="/class/">수업 소개</a>
+          
+        
+          
+          <li class="nav-link"><a href="/intro/">정모아빠 소개</a>
+          
+        
+          
+          <li class="nav-link"><a href="/contacts/">연락처</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+    <div class="page-content">
+        <div class="post">
+
+<div class="post-header-container has-cover" style="background-image: url(/assets/ego.jpg);">
+  <div class="scrim has-cover">
+    <header class="post-header">
+      <h1 class="title">Engineer's Ego</h1>
+      <p class="info">by <strong>정모아빠</strong></p>
+    </header>
+  </div>
+</div>
+
+<div class="wrapper">
+
+
+
+<section class="post-meta">
+  <div class="post-date">March 22, 2018</div>
+  <div class="post-categories">
+  in 
+    
+    <a href="/category/코딩교육">코딩교육</a>
+    
+  
+  </div>
+</section>
+
+<article class="post-content">
+  <p>다른 업종에서도 비슷한 말이 있을테지만 소프트웨어 개발자들 사이에는 <code class="highlighter-rouge">engineer's ego</code> 란 말이 있습니다.</p>
+
+<p>실무에서는 다양한 개발자들이 작성한 코드들을 하나로 합쳐서 전체 소프트웨어를 구성하는데, 이때 원하는 대로 동작이 되지 않을 경우 어느 코드에서 문제가 발생했는지를 찾아내는 데에 많은 노력이 들어가곤 합니다. 원인을 찾다보면 누가 만든 코드에 문제가 있는지를 논할 수 밖에 없는데, 이때가 바로 engineer’s ego가 마각을 드러내는 순간입니다. “나는 똑똑하다. 따라서 내가 만든 코드는 잘못되었을 리가 없다. 오히려 네가 만든 코드에 문제가 있을 것이다.” 라며 협업해야 할 팀원들끼리 서로 감정적으로 싸우는 결과를 초래합니다.</p>
+
+<p>이렇게 에고가 강한 엔지니어들이 출현하는 이유는 대략 다음과 같습니다.</p>
+
+<ol>
+  <li>그동안의 성공의 경험으로 인해 철저한 자만에 빠져있거나,</li>
+  <li>문제를 객관적으로 파악하는 능력/지식이 부족하거나,</li>
+  <li>내재적으로 실패를 부끄러워하거나 두려워하는 심리를 가지고 있거나,</li>
+  <li>외재적으로 조직에서 실패를 용인하지 않는 분위기</li>
+</ol>
+
+<p>저의 현업 시절 가장 중요한 임무 중의 하나가 바로 엔지니어들 스스로 에고를 제어하는 능력을 키우고 상대방의 입장을 살피며, 객관적인 데이터를 가지고 문제를 파악하도록 돕는 일이었습니다.</p>
+
+<p>어른들도 이러할진대, 아이들은 두 말 할 나위 없겠지요.</p>
+
+<p>수업 시간에 많이 마주치게 되는 상황은 다음과 같습니다.</p>
+
+<ul>
+  <li>타이핑 연습을 할 때 - “제가 제대로 쳤는데 글자가 이상하게 나와요.” (이후에 컴퓨터에 대한 짜증이나 화를 동반)</li>
+  <li>코딩을 할 때 - “분명히 선생님이 하라는 대로 했는데 이상하게 나와요.” (여기에서는 화를 내는 경우보다는 짜증과 좌절감을 표출하는 경우가 많음. 때때로 자기 머리를 때리거나 볼을 때리는 자해(?)행동 수반.)</li>
+</ul>
+
+<p>이 경우 제가 학생에게 내리는 해결책은 일단 컴퓨터나 선생님이 잘못했을 것이라는 생각은 접어두고 <strong>내가 무엇을 잘못 했을까를 먼저 생각하게 하는 것</strong>입니다. 물론 많은 경우 죽어도 자기는 제대로 했다고 주장하기는 합니다. 하지만 문제점을 외부에서 찾기보다는 먼저 스스로에게서 찾아보고, 열심히 생각하고 따져보았음에도 불구하고 스스로에게 문제가 없을 때 비로소 외부를 점검하는 훈련을 지속하고 있습니다. 이러한 훈련이 부족할 경우에는 문제에 봉착했을 때 감정이 이성을 억압하여 문제를 명확히 볼 수 없게 됩니다. 따라서 해결책도 찾아내기 힘들어지게 되지요.</p>
+
+<p>제 경험으로 볼 때 이러한 훈련의 성과는 두 가지로 요약됩니다.</p>
+
+<ul>
+  <li>시간적으로 보았을 때 말귀 잘 알아듣는 고학년일수록 일찍 결실을 보고, 저학년일수록 시간이 더 걸립니다.</li>
+  <li>성공 비율로 보았을 때 저학년은 거의 100% 훈련에 성공하는 반면, 고학년은 꽤 오랫동안 훈련을 해도 자아의 껍질이 이미 꽤 두껍게 형성되어 성공하지 못하는 경우도 있습니다. (즉, 시간이 더 필요하다는 뜻)</li>
+</ul>
+
+<p>얼마전 G2 클래스 수업 중에 아주 흐뭇한 광경이 있었습니다. 수업 중에 한 번에 코드가 제대로 동작하지 않는 경우는 비일비재한데, 어린 G2 학생임에도 불구하고 “컴퓨터가 잘못 됐을 리는 없을테니 내가 어딘가 잘못 했을거야” 라고 혼잣말을 하면서 문제를 바로 찾아서 고쳐내는 모습이었습니다. 옆에서 다른 친구는 “그래그래 컴퓨터는 잘못이 없어, 사람이 시키는대로 하니까.”, 또 다른 친구는, “컴퓨터야 잘했어~” 라고 하더군요.</p>
+
+<p>문제의 원인을 감정과 자아에 치우침 없이 객관적으로 살피고 해결책을 찾아내는 것. 그것이 코딩수업을 통해 배우게 되는 진짜 지식이라고 생각하고 있습니다.</p>
+
+<p>감사합니다.</p>
+
+</article>
+
+
+
+<section class="tags">
+  <strong>Tags:</strong> <a href="/tag/코딩교육">코딩교육</a>
+</section>
+
+
+
+<section class="rss">
+  <p class="rss-subscribe text"><strong>Subscribe <a href="/feed.xml">via RSS</a></strong></p>
+</section>
+
+<section class="share">
+  <span>Share: </span>
+  
+    
+    
+      <a href="//twitter.com/share?text=Engineer%27s+Ego&url=http%3A%2F%2Fryuci.github.io%2F%25EC%25BD%2594%25EB%2594%25A9%25EA%25B5%2590%25EC%259C%25A1%2F2018%2F03%2F22%2FEngineer%27s-Ego.html&via="
+        onclick="window.open(this.href, 'twitter-share', 'width=550,height=255');return false;">
+        <i class="fa fa-twitter-square fa-lg"></i>
+      </a>
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+      <a href="//www.facebook.com/sharer.php?t=Engineer%27s+Ego&u=http%3A%2F%2Fryuci.github.io%2F%25EC%25BD%2594%25EB%2594%25A9%25EA%25B5%2590%25EC%259C%25A1%2F2018%2F03%2F22%2FEngineer%27s-Ego.html"
+        onclick="window.open(this.href, 'facebook-share', 'width=550,height=255');return false;">
+        <i class="fa fa-facebook-square fa-lg"></i>
+      </a>
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+      <a href="//www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fryuci.github.io%2F%25EC%25BD%2594%25EB%2594%25A9%25EA%25B5%2590%25EC%259C%25A1%2F2018%2F03%2F22%2FEngineer%27s-Ego.html"
+        onclick="window.open(this.href, 'linkedin-share', 'width=550,height=255');return false;">
+        <i class="fa fa-linkedin-square fa-lg"></i>
+      </a>
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      <a href="//plus.google.com/share?title=Engineer%27s+Ego&url=http%3A%2F%2Fryuci.github.io%2F%25EC%25BD%2594%25EB%2594%25A9%25EA%25B5%2590%25EC%259C%25A1%2F2018%2F03%2F22%2FEngineer%27s-Ego.html"
+        onclick="window.open(this.href, 'google-plus-share', 'width=550,height=255');return false;">
+        <i class="fa fa-google-plus-square fa-lg"></i>
+      </a>
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+      <a href="//www.pinterest.com/pin/create/button/?description=Engineer%27s+Ego&url=http%3A%2F%2Fryuci.github.io%2F%25EC%25BD%2594%25EB%2594%25A9%25EA%25B5%2590%25EC%259C%25A1%2F2018%2F03%2F22%2FEngineer%27s-Ego.html&media=http://ryuci.github.io/assets/ego.jpg"
+        onclick="window.open(this.href, 'pinterest-share', 'width=550,height=255');return false;">
+        <i class="fa fa-pinterest-square fa-lg"></i>
+      </a>
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+      <a href="//www.reddit.com/submit" onclick="window.location = '//www.reddit.com/submit?url=' + encodeURIComponent('http://ryuci.github.io/%EC%BD%94%EB%94%A9%EA%B5%90%EC%9C%A1/2018/03/22/Engineer's-Ego.html') + '&title=Engineer's Ego'; return false">
+        <i class="fa fa-reddit-square fa-lg"></i>
+      </a>
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+</section>
+
+	<section class="post-navigation">
+		<span class="prev-post">
+			
+				<a href="/jekyll/2018/03/15/tweaking-centrarium-theme.html">
+					<span class="fa-stack fa-lg">
+						<i class="fa fa-square fa-stack-2x"></i>
+						<i class="fa fa-angle-double-left fa-stack-1x fa-inverse"></i>
+					</span>
+					<span class="page-number">Tweaking Centrarium Theme</span>
+				</a>
+			
+		</span>
+		<span class="next-post">
+			
+				<a href="/%EC%BD%94%EB%94%A9%EA%B5%90%EC%9C%A1/2018/03/27/physical-computing.html">
+					<span class="page-number">피지컬 컴퓨팅에 대한 정모아빠의 생각</span>
+					<span class="fa-stack fa-lg">
+						<i class="fa fa-square fa-stack-2x"></i>
+						<i class="fa fa-angle-double-right fa-stack-1x fa-inverse"></i>
+					</span>
+				</a>
+			
+		</span>
+	</section>
+
+
+
+
+</div>
+</div>
+
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h3 class="footer-heading">정모 아빠의 Code to Learn</h3>
+
+    <div class="site-navigation">
+
+      <p><strong>Site Map</strong></p>
+      <ul class="pages">
+        
+        
+          <li class="nav-link"><a href="/posts/">포스팅</a>
+        
+        
+        
+          <li class="nav-link"><a href="/coding_edu/">코딩교육이란?</a>
+        
+        
+        
+          <li class="nav-link"><a href="/class/">수업 소개</a>
+        
+        
+        
+          <li class="nav-link"><a href="/intro/">정모아빠 소개</a>
+        
+        
+        
+          <li class="nav-link"><a href="/contacts/">연락처</a>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      </ul>
+    </div>
+
+    <div class="site-contact">
+
+      <p><strong>Contact</strong></p>
+      <ul class="social-media-list">
+        <li>
+          <a href="mailto:jeju.codetolearn@gmail.com">
+            <i class="fa fa-envelope-o"></i>
+            <span class="username">jeju.codetolearn@gmail.com</span>
+          </a>
+        </li>
+
+        
+          
+        
+          
+          <li>
+            <a href="https://ko-kr.facebook.com/people/Choong-il-Ryu/100006785620652" title="Friend me on Facebook">
+              <i class="fa fa-facebook"></i>
+              <span class="username">ryuci0225</span>
+            </a>
+          </li>
+          
+        
+          
+          <li>
+            <a href="https://github.com/ryuci" title="Fork me on GitHub">
+              <i class="fa fa-github"></i>
+              <span class="username">ryuci</span>
+            </a>
+          </li>
+          
+        
+          
+          <li>
+            <a href="https://www.linkedin.com/in/choong-il-ryu-82157161" title="Connect with me on LinkedIn">
+              <i class="fa fa-linkedin"></i>
+              <span class="username">Choong-il Ryu</span>
+            </a>
+          </li>
+          
+        
+          
+        
+          
+        
+          
+          <li>
+            <a href="https://instagram.com/jeju.codetolearn" title="Follow me on Instagram">
+              <i class="fa fa-instagram"></i>
+              <span class="username">jeju.codetolearn</span>
+            </a>
+          </li>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+
+      </ul>
+    </div>
+
+    <div class="site-signature">
+      <p class="rss-subscribe text"><strong>Subscribe <a href="/feed.xml">via RSS</a></strong></p>
+      <p class="text">Do not just learn to code, but code to learn how the world is working!
+</p>
+    </div>
+
+  </div>
+
+</footer>
+
+<!-- Scripts -->
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/highlight.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+  // Default syntax highlighting
+  hljs.initHighlightingOnLoad();
+
+  // Header
+  var menuToggle = $('#js-mobile-menu').unbind();
+  $('#js-navigation-menu').removeClass("show");
+  menuToggle.on('click', function(e) {
+    e.preventDefault();
+    $('#js-navigation-menu').slideToggle(function(){
+      if($('#js-navigation-menu').is(':hidden')) {
+        $('#js-navigation-menu').removeAttr('style');
+      }
+    });
+  });
+});
+
+</script>
+
+
+<!-- Custom page specific js files -->
+  
+    <script src='/js/tofigure.js' type="text/javascript"></script>
+  
+
+
+
+
+
+  </body>
+
+</html>

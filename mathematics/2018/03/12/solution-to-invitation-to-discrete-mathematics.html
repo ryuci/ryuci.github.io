@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html>
+  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script>  
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Solution to 'Invitation to Discrete Mathematics'</title>
+  <meta name="description" content="As of March 2018, I’m taking a Mook course regaring discrete mathematics from Coursera. Unfortunately, the video lecture coverage is too narrow to understand...">
+  
+  <meta name="author" content="Choong-il Ryu">
+  <meta name="copyright" content="&copy; Choong-il Ryu 2018">
+  
+
+  <!-- External libraries -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/monokai-sublime.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css">
+
+  <!-- Favicon and other icons (made with http://www.favicon-generator.org/) -->
+  <link rel="shortcut icon" href="/assets/icons/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/assets/icons/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/icons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/icons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/icons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/icons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/icons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/icons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/icons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/assets/icons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/assets/icons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+  <link rel="manifest" href="/assets/icons/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/assets/icons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  
+  <!-- Facebook OGP cards -->
+  <meta property="og:description" content="As of March 2018, I’m taking a Mook course regaring discrete mathematics from Coursera. Unfortunately, the video lecture coverage is too narrow to understand..." />
+  <meta property="og:url" content="http://ryuci.github.io" />
+  <meta property="og:site_name" content="정모 아빠의 Code to Learn" />
+  <meta property="og:title" content="Solution to 'Invitation to Discrete Mathematics'" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="http://ryuci.github.io/assets/Graph-Theory.jpg" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="612" />
+  <meta property="og:image:height" content="605" />
+  
+
+  
+  <!-- Twitter: card tags -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Solution to 'Invitation to Discrete Mathematics'">
+  <meta name="twitter:description" content="As of March 2018, I’m taking a Mook course regaring discrete mathematics from Coursera. Unfortunately, the video lecture coverage is too narrow to understand...">
+  <meta name="twitter:image" content="http://ryuci.github.io/assets/Graph-Theory.jpg">
+  <meta name="twitter:url" content="http://ryuci.github.io">
+  
+
+  
+
+  <!-- Site styles -->
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://ryuci.github.io/mathematics/2018/03/12/solution-to-invitation-to-discrete-mathematics.html">
+  <link rel="alternate" type="application/rss+xml" title="정모 아빠의 Code to Learn" href="http://ryuci.github.io/feed.xml" />
+</head>
+
+
+  <body>
+
+    <header class="navigation" role="banner">
+  <div class="navigation-wrapper">
+    <a href="/" class="logo">
+      
+      <img src="/assets/logo2.png" alt="정모 아빠의 Code to Learn">
+      
+    </a>
+    <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <nav role="navigation">
+      <ul id="js-navigation-menu" class="navigation-menu show">
+        
+          
+          <li class="nav-link"><a href="/posts/">포스팅</a>
+          
+        
+          
+          <li class="nav-link"><a href="/coding_edu/">코딩교육이란?</a>
+          
+        
+          
+          <li class="nav-link"><a href="/class/">수업 소개</a>
+          
+        
+          
+          <li class="nav-link"><a href="/intro/">정모아빠 소개</a>
+          
+        
+          
+          <li class="nav-link"><a href="/contacts/">연락처</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+    <div class="page-content">
+        <div class="post">
+
+<div class="post-header-container has-cover" style="background-image: url(/assets/Graph-Theory.jpg);">
+  <div class="scrim has-cover">
+    <header class="post-header">
+      <h1 class="title">Solution to 'Invitation to Discrete Mathematics'</h1>
+      <p class="info">by <strong>Choong-il Ryu</strong></p>
+    </header>
+  </div>
+</div>
+
+<div class="wrapper">
+
+
+
+<section class="post-meta">
+  <div class="post-date">March 12, 2018</div>
+  <div class="post-categories">
+  in 
+    
+    <a href="/category/Mathematics">Mathematics</a>
+    
+  
+  </div>
+</section>
+
+<article class="post-content">
+  <p>As of March 2018, I’m taking a Mook course regaring <a href="https://www.coursera.org/learn/discrete-mathematics/">discrete mathematics</a> from Coursera. Unfortunately, the video lecture coverage is too narrow to understand the subject and to confidently solve assignments and quiz, which is why many students complain about the course. However, as beauty is in the eye of the beholder, I decided to see the bright side and to take this opportunity to study the given <a href="http://home.iitj.ac.in/~vinod2292/discrete_math/Matousek%20%20Discrete%20Math.pdf">textbook</a> thoroughly.</p>
+
+<p>Despite I will probably drop the course, I hope I won’t give up the textbook and make this solution page to keep growing.</p>
+
+<h2 id="section-12">Section 1.2</h2>
+<h3 id="question-1a">Question 1a</h3>
+
+<p>If <script type="math/tex">n</script> is odd, let <script type="math/tex">n = 2m + 1</script> where <script type="math/tex">n, m \in \mathbb{Z}</script>.</p>
+
+<script type="math/tex; mode=display">(left) = \lfloor\frac{(n+1)^2}{2}\rfloor
+= \lfloor\frac{(2m+2)^2}{2}\rfloor
+= \lfloor{2(m+1)^2}\rfloor
+= 2(m+1)^2
+= 2m^2+4m+2.</script>
+
+<script type="math/tex; mode=display">(right)
+= \lfloor\frac{n^2}{2}\rfloor+n
+= \lfloor\frac{(2m+1)^2}{2}\rfloor+2m+1
+= \lfloor2m^2+2m+\frac{1}{2}\rfloor+2m+1
+= 2m^2+2m+\lfloor\frac{1}{2}\rfloor+2m+1
+= 2m^2+4m+1</script>
+
+<script type="math/tex; mode=display">\therefore (left)\ne(right)</script>
+
+<p>Although we found the solution, let’s do the similar math for even <script type="math/tex">n</script> where <script type="math/tex">n = 2m</script>.</p>
+
+<script type="math/tex; mode=display">(left)
+= \lfloor\frac{(n+1)^2}{2}\rfloor
+= \lfloor\frac{(2m+1)^2}{2}\rfloor
+= \lfloor{2m^2+2m+\frac{1}{2}}\rfloor
+= 2m^2+2m+\lfloor\frac{1}{2}\rfloor
+= 2m^2+2m.</script>
+
+<script type="math/tex; mode=display">(right)
+= \lfloor\frac{n^2}{2}\rfloor+n
+= \lfloor\frac{(2m)^2}{2}\rfloor+2m
+= 2m^2+2m.</script>
+
+<script type="math/tex; mode=display">\therefore (left) = (right)</script>
+
+<p>Consequently, <script type="math/tex">(left) \ne (right)</script>.</p>
+
+<h3 id="question-1b">Question 1b</h3>
+
+<p>Let’s consider three cases of (n,k) is (even,even), (even,odd), or (odd,odd).</p>
+
+<p>When (even,even), let <script type="math/tex">n = 2m, k = 2l</script>, where <script type="math/tex">n, m, k, l \in \mathbb{Z}</script>.</p>
+
+<script type="math/tex; mode=display">\lfloor\frac{n+k}{2}\rfloor
+= \lfloor\frac{2m+2l}{2}\rfloor
+= m+l
+= \frac{2m}{2}+\frac{2l}{2}
+= \lfloor\frac{2m}{2}\rfloor+\lfloor\frac{2l}{2}\rfloor
+= \lfloor\frac{n}{2}\rfloor+\lfloor\frac{k}{2}\rfloor</script>
+
+<script type="math/tex; mode=display">\therefore (left) = (right)</script>
+
+<p>When (even,odd), let <script type="math/tex">n = 2m, k = 2l+1</script>,</p>
+
+<script type="math/tex; mode=display">(left)
+= \lfloor\frac{n+k}{2}\rfloor
+= \lfloor\frac{2m+2l+1}{2}\rfloor
+= \lfloor{m+l+\frac{1}{2}}\rfloor
+= m+l</script>
+
+<script type="math/tex; mode=display">(right)
+= \lfloor\frac{n}{2}\rfloor+\lfloor\frac{k}{2}\rfloor
+= \lfloor\frac{2m}{2}\rfloor+\lfloor\frac{2l+1}{2}\rfloor
+= \lfloor{m}\rfloor+\lfloor{l+\frac{1}{2}}\rfloor
+= m+l</script>
+
+<script type="math/tex; mode=display">\therefore (left) = (right)</script>
+
+<p>When (odd,odd), let <script type="math/tex">n = 2m+1, k = 2l+1</script>,</p>
+
+<script type="math/tex; mode=display">(left)
+= \lfloor\frac{n+k}{2}\rfloor
+= \lfloor\frac{2m+1+2l+1}{2}\rfloor
+= \lfloor{m+l+1}\rfloor
+= m+l+1</script>
+
+<script type="math/tex; mode=display">(right)
+= \lfloor\frac{n}{2}\rfloor+\lfloor\frac{k}{2}\rfloor
+= \lfloor\frac{2m+1}{2}\rfloor+\lfloor\frac{2l+1}{2}\rfloor
+= \lfloor{m+\frac{1}{2}}\rfloor+\lfloor{l+\frac{1}{2}}\rfloor
+= m+l</script>
+
+<script type="math/tex; mode=display">\therefore (left) \ne (right)</script>
+
+<p>Consequently, <script type="math/tex">(left) \ne (right)</script>.</p>
+
+<h3 id="question-1c">Question 1c</h3>
+
+<p>Let <script type="math/tex">x = m + p</script>, where m <script type="math/tex">\in \mathbb{Z}</script>, p <script type="math/tex">\in \mathbb{Q}</script>,</p>
+
+<script type="math/tex; mode=display">(left)
+= \lceil{\lfloor{x}\rfloor}\rceil
+= \lceil{\lfloor{m + p}\rfloor}\rceil
+= \lceil{m}\rceil
+= m</script>
+
+<script type="math/tex; mode=display">(right)
+= \lceil{x}\rceil
+= \lceil{m + p}\rceil
+= \lceil{m}\rceil + \lceil{p}\rceil
+= m+1</script>
+
+<script type="math/tex; mode=display">\therefore (left) \ne (right)</script>
+
+<h3 id="question-1d">Question 1d</h3>
+
+<p>Let <script type="math/tex">x = m + p</script>, <script type="math/tex">y = n + q</script>, where m, n <script type="math/tex">\in \mathbb{Z}</script> and p, q <script type="math/tex">\in \mathbb{Q}</script>,</p>
+
+<script type="math/tex; mode=display">(left)
+= \lceil{\lfloor{x}\rfloor+\lfloor{y}\rfloor}\rceil
+= \lceil{\lfloor{m+p}\rfloor+\lfloor{n+q}\rfloor}\rceil
+= \lceil{m+n}\rceil
+= m+n</script>
+
+<script type="math/tex; mode=display">(right)
+= \lfloor{x}\rfloor + \lfloor{y}\rfloor
+= \lfloor{m+p}\rfloor + \lfloor{n+q}\rfloor
+= \lfloor{m}\rfloor + \lfloor{p}\rfloor + \lfloor{n}\rfloor + \lfloor{q}\rfloor
+= m+n</script>
+
+<script type="math/tex; mode=display">\therefore (left) = (right)</script>
+
+<h3 id="question-2-">Question 2 ☆</h3>
+
+<p>Let <script type="math/tex">\lfloor\sqrt{x}\rfloor = m</script>,</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+m \leq \sqrt{x} < m+1, %]]></script>
+
+<script type="math/tex; mode=display">% <![CDATA[
+m^2 \leq x < (m+1)^2, %]]></script>
+
+<script type="math/tex; mode=display">% <![CDATA[
+m^2 \leq \lfloor{x}\rfloor < (m+1)^2, %]]></script>
+
+<script type="math/tex; mode=display">% <![CDATA[
+m \leq \sqrt{\lfloor{x}\rfloor} < (m+1) %]]></script>
+
+<script type="math/tex; mode=display">\therefore \lfloor{\sqrt{\lfloor{x}\rfloor}}\rfloor = m</script>
+
+<script type="math/tex; mode=display">\therefore \lfloor\sqrt{x}\rfloor =  \lfloor{\sqrt{\lfloor{x}\rfloor}}\rfloor</script>
+
+<h3 id="question-3a">Question 3a</h3>
+
+<h3 id="question-3b">Question 3b</h3>
+
+<h3 id="question-3c">Question 3c</h3>
+
+<p>5 ways:</p>
+
+<script type="math/tex; mode=display">(A \cup B) \cup (C \cup D),</script>
+
+<script type="math/tex; mode=display">((A \cup B) \cup C) \cup D,</script>
+
+<script type="math/tex; mode=display">(A \cup (B \cup C)) \cup D,</script>
+
+<script type="math/tex; mode=display">A \cup (B \cup (C \cup D)),</script>
+
+<script type="math/tex; mode=display">A \cup ((B \cup C) \cup D)</script>
+
+<h3 id="question-3d-">Question 3d ☆☆</h3>
+
+<h3 id="question-4">Question 4</h3>
+
+<script type="math/tex; mode=display">2^X = 2^Y  \iff \{x | x \subset X\} = \{y | y \subset Y\} \implies X = Y</script>
+
+<h3 id="question-5">Question 5</h3>
+
+<script type="math/tex; mode=display">(x,y) = (x,z) \implies y = z</script>
+
+<p><script type="math/tex">y = z</script> does not imply <script type="math/tex">Y = Z</script>.</p>
+
+<h3 id="question-6">Question 6</h3>
+
+<h3 id="question-7">Question 7</h3>
+
+<p>Represent each number as <script type="math/tex">2^k(2m+1)</script>, where  <script type="math/tex">0 \leq k, m \in \mathbb{Z}</script>. Since <script type="math/tex">m</script> can attain at most 500 distinct values from <script type="math/tex">\{0,1,2,...,499\}</script>, the considered set contains two numbers of form <script type="math/tex">2^k(2m+1)</script> and <script type="math/tex">2^{k'}(2m+1)</script> TBD..</p>
+
+</article>
+
+
+
+<section class="tags">
+  <strong>Tags:</strong> <a href="/tag/discrete_math">discrete_math</a>
+</section>
+
+
+
+<section class="rss">
+  <p class="rss-subscribe text"><strong>Subscribe <a href="/feed.xml">via RSS</a></strong></p>
+</section>
+
+<section class="share">
+  <span>Share: </span>
+  
+    
+    
+      <a href="//twitter.com/share?text=Solution+to+%27Invitation+to+Discrete+Mathematics%27&url=http%3A%2F%2Fryuci.github.io%2Fmathematics%2F2018%2F03%2F12%2Fsolution-to-invitation-to-discrete-mathematics.html&via="
+        onclick="window.open(this.href, 'twitter-share', 'width=550,height=255');return false;">
+        <i class="fa fa-twitter-square fa-lg"></i>
+      </a>
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+      <a href="//www.facebook.com/sharer.php?t=Solution+to+%27Invitation+to+Discrete+Mathematics%27&u=http%3A%2F%2Fryuci.github.io%2Fmathematics%2F2018%2F03%2F12%2Fsolution-to-invitation-to-discrete-mathematics.html"
+        onclick="window.open(this.href, 'facebook-share', 'width=550,height=255');return false;">
+        <i class="fa fa-facebook-square fa-lg"></i>
+      </a>
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+      <a href="//www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fryuci.github.io%2Fmathematics%2F2018%2F03%2F12%2Fsolution-to-invitation-to-discrete-mathematics.html"
+        onclick="window.open(this.href, 'linkedin-share', 'width=550,height=255');return false;">
+        <i class="fa fa-linkedin-square fa-lg"></i>
+      </a>
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      <a href="//plus.google.com/share?title=Solution+to+%27Invitation+to+Discrete+Mathematics%27&url=http%3A%2F%2Fryuci.github.io%2Fmathematics%2F2018%2F03%2F12%2Fsolution-to-invitation-to-discrete-mathematics.html"
+        onclick="window.open(this.href, 'google-plus-share', 'width=550,height=255');return false;">
+        <i class="fa fa-google-plus-square fa-lg"></i>
+      </a>
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+      <a href="//www.pinterest.com/pin/create/button/?description=Solution+to+%27Invitation+to+Discrete+Mathematics%27&url=http%3A%2F%2Fryuci.github.io%2Fmathematics%2F2018%2F03%2F12%2Fsolution-to-invitation-to-discrete-mathematics.html&media=http://ryuci.github.io/assets/Graph-Theory.jpg"
+        onclick="window.open(this.href, 'pinterest-share', 'width=550,height=255');return false;">
+        <i class="fa fa-pinterest-square fa-lg"></i>
+      </a>
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+      <a href="//www.reddit.com/submit" onclick="window.location = '//www.reddit.com/submit?url=' + encodeURIComponent('http://ryuci.github.io/mathematics/2018/03/12/solution-to-invitation-to-discrete-mathematics.html') + '&title=Solution to 'Invitation to Discrete Mathematics''; return false">
+        <i class="fa fa-reddit-square fa-lg"></i>
+      </a>
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+</section>
+
+	<section class="post-navigation">
+		<span class="prev-post">
+			
+				<a href="/jekyll/2018/03/12/jekyll-installation-on-macos.html">
+					<span class="fa-stack fa-lg">
+						<i class="fa fa-square fa-stack-2x"></i>
+						<i class="fa fa-angle-double-left fa-stack-1x fa-inverse"></i>
+					</span>
+					<span class="page-number">Jekyll Installation on macOS</span>
+				</a>
+			
+		</span>
+		<span class="next-post">
+			
+				<a href="/mathematics/2018/03/12/using-math-expressions-in-your-jekyll-blog.html">
+					<span class="page-number">Using Math Expressions in Your Jekyll Blog</span>
+					<span class="fa-stack fa-lg">
+						<i class="fa fa-square fa-stack-2x"></i>
+						<i class="fa fa-angle-double-right fa-stack-1x fa-inverse"></i>
+					</span>
+				</a>
+			
+		</span>
+	</section>
+
+
+
+
+</div>
+</div>
+
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h3 class="footer-heading">정모 아빠의 Code to Learn</h3>
+
+    <div class="site-navigation">
+
+      <p><strong>Site Map</strong></p>
+      <ul class="pages">
+        
+        
+          <li class="nav-link"><a href="/posts/">포스팅</a>
+        
+        
+        
+          <li class="nav-link"><a href="/coding_edu/">코딩교육이란?</a>
+        
+        
+        
+          <li class="nav-link"><a href="/class/">수업 소개</a>
+        
+        
+        
+          <li class="nav-link"><a href="/intro/">정모아빠 소개</a>
+        
+        
+        
+          <li class="nav-link"><a href="/contacts/">연락처</a>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      </ul>
+    </div>
+
+    <div class="site-contact">
+
+      <p><strong>Contact</strong></p>
+      <ul class="social-media-list">
+        <li>
+          <a href="mailto:jeju.codetolearn@gmail.com">
+            <i class="fa fa-envelope-o"></i>
+            <span class="username">jeju.codetolearn@gmail.com</span>
+          </a>
+        </li>
+
+        
+          
+        
+          
+          <li>
+            <a href="https://ko-kr.facebook.com/people/Choong-il-Ryu/100006785620652" title="Friend me on Facebook">
+              <i class="fa fa-facebook"></i>
+              <span class="username">ryuci0225</span>
+            </a>
+          </li>
+          
+        
+          
+          <li>
+            <a href="https://github.com/ryuci" title="Fork me on GitHub">
+              <i class="fa fa-github"></i>
+              <span class="username">ryuci</span>
+            </a>
+          </li>
+          
+        
+          
+          <li>
+            <a href="https://www.linkedin.com/in/choong-il-ryu-82157161" title="Connect with me on LinkedIn">
+              <i class="fa fa-linkedin"></i>
+              <span class="username">Choong-il Ryu</span>
+            </a>
+          </li>
+          
+        
+          
+        
+          
+        
+          
+          <li>
+            <a href="https://instagram.com/jeju.codetolearn" title="Follow me on Instagram">
+              <i class="fa fa-instagram"></i>
+              <span class="username">jeju.codetolearn</span>
+            </a>
+          </li>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+
+      </ul>
+    </div>
+
+    <div class="site-signature">
+      <p class="rss-subscribe text"><strong>Subscribe <a href="/feed.xml">via RSS</a></strong></p>
+      <p class="text">Do not just learn to code, but code to learn how the world is working!
+</p>
+    </div>
+
+  </div>
+
+</footer>
+
+<!-- Scripts -->
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/highlight.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+  // Default syntax highlighting
+  hljs.initHighlightingOnLoad();
+
+  // Header
+  var menuToggle = $('#js-mobile-menu').unbind();
+  $('#js-navigation-menu').removeClass("show");
+  menuToggle.on('click', function(e) {
+    e.preventDefault();
+    $('#js-navigation-menu').slideToggle(function(){
+      if($('#js-navigation-menu').is(':hidden')) {
+        $('#js-navigation-menu').removeAttr('style');
+      }
+    });
+  });
+});
+
+</script>
+
+
+
+
+
+
+  </body>
+
+</html>
